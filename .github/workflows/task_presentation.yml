@@ -28,5 +28,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
+    - name: Setup Firefox
+      run: |
+        sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
+        sudo apt-get update
+        sudo apt-get install firefox-trunk
     - name: Run UI Task
       run: mvn clean test -DisHeadless=true --file ui-task/pom.xml
