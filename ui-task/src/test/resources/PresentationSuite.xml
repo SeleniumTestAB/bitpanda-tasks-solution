@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PresentationTestSuite">
+
+
+    <listeners>
+        <listener class-name="com.example.bitpanda.ui.task.solution.config.ProjectTestListener"/>
+    </listeners>
+
+    <test name="Poprawne dodanie produktu do koszyka">
+
+        <classes>
+            <class name="com.example.bitpanda.ui.task.solution.MainPageTest">
+                <methods>
+                    <include name="addProductToCard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+</suite>

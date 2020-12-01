@@ -1,0 +1,7 @@
+/.idea/
+
+
+/*/target/
+*.iml
+./*/*.iml
+/ui-task/ui-task.iml
