@@ -14,7 +14,7 @@ public class ProjectTestListener implements ISuiteListener {
     @Override
     public void onStart(ISuite suite) {
         Configuration.browser = System.getProperty("selenide.browser", "firefox");
-        if(StringUtils.equals(System.getenv("isHeadless"), "true")) {
+        if(StringUtils.equals(System.getProperty("isHeadless"), "true")) {
             Configuration.headless = true;
         }
         Map.of("firefox", WebDriverManager.firefoxdriver(),
