@@ -22,6 +22,7 @@
         <allure.version>2.13.6</allure.version>
         <webdriver.manager.version>4.2.0</webdriver.manager.version>
         <assertj.version>3.17.1</assertj.version>
+        <testng.version>7.1.0</testng.version>
         <slf4j.version>1.7.29</slf4j.version>
         <lombok.version>1.18.16</lombok.version>
     </properties>
@@ -55,22 +56,22 @@
             <dependency>
                 <groupId>io.github.bonigarcia</groupId>
                 <artifactId>webdrivermanager</artifactId>
-                <version>4.2.0</version>
+                <version>${webdriver.manager.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-core</artifactId>
-                <version>3.17.1</version>
+                <version>${assertj.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>7.1.0</version>
+                <version>${testng.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-simple</artifactId>
-                <version>1.7.29</version>
+                <version>${slf4j.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

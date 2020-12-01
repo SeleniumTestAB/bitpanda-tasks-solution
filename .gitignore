@@ -5,3 +5,5 @@
 *.iml
 ./*/*.iml
 /ui-task/ui-task.iml
+
+/ui-task/build/
