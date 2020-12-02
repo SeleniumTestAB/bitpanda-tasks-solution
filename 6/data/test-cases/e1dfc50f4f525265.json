@@ -1,0 +1,132 @@
+{
+  "uid" : "e1dfc50f4f525265",
+  "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "historyId" : "fd080649b9550f0407fc56789a3d4d1d",
+  "time" : {
+    "start" : 1606938167141,
+    "stop" : 1606938167232,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should(exist)",
+      "time" : {
+        "start" : 1606938167141,
+        "stop" : 1606938167167,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //div[@id='layer_cart']\") find(By.xpath: .//descendant::i/parent::h2)",
+      "time" : {
+        "start" : 1606938167167,
+        "stop" : 1606938167167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: .//descendant::i/parent::h2\") should be(Element is readable/visible on page)",
+      "time" : {
+        "start" : 1606938167168,
+        "stop" : 1606938167218,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: .//descendant::i/parent::h2\") should have(own text 'Product successfully added to your shopping cart')",
+      "time" : {
+        "start" : 1606938167218,
+        "stop" : 1606938167232,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PresentationTestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-993"
+  }, {
+    "name" : "thread",
+    "value" : "10542@fv-az82-993.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1dfc50f4f525265.json",
+  "parameterValues" : [ ]
+}

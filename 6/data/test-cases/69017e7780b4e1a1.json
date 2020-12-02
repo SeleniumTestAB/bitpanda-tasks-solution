@@ -1,0 +1,297 @@
+{
+  "uid" : "69017e7780b4e1a1",
+  "name" : "assureThatShoppingModalAppearsOnHomePage",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.assureThatShoppingModalAppearsOnHomePage",
+  "historyId" : "7fcc5e27c150127283a7f8d03e85099c",
+  "time" : {
+    "start" : 1606938148856,
+    "stop" : 1606938151275,
+    "duration" : 2419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+      "time" : {
+        "start" : 1606938148928,
+        "stop" : 1606938149086,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") scroll to()",
+      "time" : {
+        "start" : 1606938149087,
+        "stop" : 1606938149114,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+      "time" : {
+        "start" : 1606938149115,
+        "stop" : 1606938149219,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image'])",
+      "time" : {
+        "start" : 1606938149226,
+        "stop" : 1606938149226,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image']\") should be(Element is readable/visible on page)",
+      "time" : {
+        "start" : 1606938149227,
+        "stop" : 1606938149428,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image']\") hover()",
+      "time" : {
+        "start" : 1606938149428,
+        "stop" : 1606938149581,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+      "time" : {
+        "start" : 1606938149581,
+        "stop" : 1606938149667,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse'])",
+      "time" : {
+        "start" : 1606938149669,
+        "stop" : 1606938149669,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse']\") should(exist)",
+      "time" : {
+        "start" : 1606938149669,
+        "stop" : 1606938149795,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse']\") find(By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart'])",
+      "time" : {
+        "start" : 1606938149795,
+        "stop" : 1606938149795,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is interactable on page)",
+      "time" : {
+        "start" : 1606938149795,
+        "stop" : 1606938149986,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is active on page)",
+      "time" : {
+        "start" : 1606938149988,
+        "stop" : 1606938150049,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") click()",
+      "time" : {
+        "start" : 1606938150050,
+        "stop" : 1606938150333,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should(exist)",
+      "time" : {
+        "start" : 1606938150335,
+        "stop" : 1606938150366,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should be(visible)",
+      "time" : {
+        "start" : 1606938150366,
+        "stop" : 1606938151269,
+        "duration" : 903
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "assureThatShoppingModalAppearsOnHomePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PresentationTestSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-993"
+  }, {
+    "name" : "thread",
+    "value" : "10542@fv-az82-993.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69017e7780b4e1a1.json",
+  "parameterValues" : [ ]
+}

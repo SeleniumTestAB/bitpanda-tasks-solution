@@ -1,0 +1,204 @@
+{
+  "fd080649b9550f0407fc56789a3d4d1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1dfc50f4f525265",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/e1dfc50f4f525265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938167141,
+        "stop" : 1606938167232,
+        "duration" : 91
+      }
+    } ]
+  },
+  "9d094812cb944d0cfc89c250e5a05aae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9bff406996f2f7e",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/e9bff406996f2f7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938167056,
+        "stop" : 1606938167138,
+        "duration" : 82
+      }
+    } ]
+  },
+  "c52dd52e6ea834bd08823534afdca55" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e120d3f808543fcf",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/e120d3f808543fcf",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: /span[@class='ajax_block_cart_total']}\nExpected: exist\nScreenshot: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938182899.1.png\nPage source: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938182899.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: Unable to locate element: /span[@class='ajax_block_cart_total']",
+      "time" : {
+        "start" : 1606938167420,
+        "stop" : 1606938183145,
+        "duration" : 15725
+      }
+    } ]
+  },
+  "f7fd8975379aa2ebd121e6f3c8ad02e5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebcd25c57b7d2253",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/ebcd25c57b7d2253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938183178,
+        "stop" : 1606938183751,
+        "duration" : 573
+      }
+    } ]
+  },
+  "755f8e0be64a503504403121961af9f1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d547f4ebc7faad7",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/8d547f4ebc7faad7",
+      "status" : "failed",
+      "statusDetails" : "Element should have own text 'Black, S' {By.id: layer_cart_product_title}\nElement: '<span class=\"product-name\" id=\"layer_cart_product_title\">Blouse</span>'\nScreenshot: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.png\nPage source: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.html\nTimeout: 15 s.",
+      "time" : {
+        "start" : 1606938151506,
+        "stop" : 1606938167026,
+        "duration" : 15520
+      }
+    } ]
+  },
+  "fb9641fe48d18d18a72ea28942073c66" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c849b026132cc62",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/2c849b026132cc62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938167235,
+        "stop" : 1606938167417,
+        "duration" : 182
+      }
+    } ]
+  },
+  "7fcc5e27c150127283a7f8d03e85099c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69017e7780b4e1a1",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/69017e7780b4e1a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938148856,
+        "stop" : 1606938151275,
+        "duration" : 2419
+      }
+    } ]
+  },
+  "1d3b032ede7d59cc497407a358c3e9e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97e58c4abf5808b5",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/97e58c4abf5808b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938151447,
+        "stop" : 1606938151503,
+        "duration" : 56
+      }
+    } ]
+  },
+  "998d3b977382d97f55afb5e2e714c8d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a54168ab24a4b1e6",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/a54168ab24a4b1e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938184233,
+        "stop" : 1606938186927,
+        "duration" : 2694
+      }
+    } ]
+  },
+  "a6564e8b69753b7f3ea02720db3a7770" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89b796f00cd20024",
+      "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/89b796f00cd20024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606938183753,
+        "stop" : 1606938184166,
+        "duration" : 413
+      }
+    } ]
+  }
+}

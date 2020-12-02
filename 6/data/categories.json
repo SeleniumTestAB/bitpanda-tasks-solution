@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have own text 'Black, S' {By.id: layer_cart_product_title}\nElement: '<span class=\"product-name\" id=\"layer_cart_product_title\">Blouse</span>'\nScreenshot: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.png\nPage source: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.html\nTimeout: 15 s.",
+      "children" : [ {
+        "name" : "modalShouldContainProperProductAttributes",
+        "uid" : "8d547f4ebc7faad7",
+        "parentUid" : "53ed7ae4756c830eebb6b7606217c241",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606938151506,
+          "stop" : 1606938167026,
+          "duration" : 15520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53ed7ae4756c830eebb6b7606217c241"
+    }, {
+      "name" : "Element not found {By.xpath: /span[@class='ajax_block_cart_total']}\nExpected: exist\nScreenshot: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938182899.1.png\nPage source: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938182899.1.html\nTimeout: 15 s.\nCaused by: NoSuchElementException: Unable to locate element: /span[@class='ajax_block_cart_total']",
+      "children" : [ {
+        "name" : "modalShouldHaveVisibleCurrentCartInformation",
+        "uid" : "e120d3f808543fcf",
+        "parentUid" : "42297b6a964c57c4c1ea8e75e348fa18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606938167420,
+          "stop" : 1606938183145,
+          "duration" : 15725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42297b6a964c57c4c1ea8e75e348fa18"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

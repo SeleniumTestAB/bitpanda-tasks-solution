@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f7f8a58b5bb6306db3686727bb4ca9a5",
+    "name" : "PresentationTestSuite",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

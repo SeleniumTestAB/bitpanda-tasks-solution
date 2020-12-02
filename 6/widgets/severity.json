@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2c849b026132cc62",
+  "name" : "modalShouldHaveProperLabelsForProductInformation",
+  "time" : {
+    "start" : 1606938167235,
+    "stop" : 1606938167417,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d547f4ebc7faad7",
+  "name" : "modalShouldContainProperProductAttributes",
+  "time" : {
+    "start" : 1606938151506,
+    "stop" : 1606938167026,
+    "duration" : 15520
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9bff406996f2f7e",
+  "name" : "modalShouldContainProperProductName",
+  "time" : {
+    "start" : 1606938167056,
+    "stop" : 1606938167138,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89b796f00cd20024",
+  "name" : "clientShouldBeAbleToContinueShopping",
+  "time" : {
+    "start" : 1606938183753,
+    "stop" : 1606938184166,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebcd25c57b7d2253",
+  "name" : "modalShouldHaveVisibleProductInformation",
+  "time" : {
+    "start" : 1606938183178,
+    "stop" : 1606938183751,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1dfc50f4f525265",
+  "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "time" : {
+    "start" : 1606938167141,
+    "stop" : 1606938167232,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a54168ab24a4b1e6",
+  "name" : "addProductToCard",
+  "time" : {
+    "start" : 1606938184233,
+    "stop" : 1606938186927,
+    "duration" : 2694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97e58c4abf5808b5",
+  "name" : "modalShouldContainProperAddedQuantityOfProduct",
+  "time" : {
+    "start" : 1606938151447,
+    "stop" : 1606938151503,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69017e7780b4e1a1",
+  "name" : "assureThatShoppingModalAppearsOnHomePage",
+  "time" : {
+    "start" : 1606938148856,
+    "stop" : 1606938151275,
+    "duration" : 2419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e120d3f808543fcf",
+  "name" : "modalShouldHaveVisibleCurrentCartInformation",
+  "time" : {
+    "start" : 1606938167420,
+    "stop" : 1606938183145,
+    "duration" : 15725
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

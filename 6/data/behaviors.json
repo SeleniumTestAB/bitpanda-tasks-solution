@@ -1,0 +1,135 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "assureThatShoppingModalAppearsOnHomePage",
+    "uid" : "69017e7780b4e1a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938148856,
+      "stop" : 1606938151275,
+      "duration" : 2419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperAddedQuantityOfProduct",
+    "uid" : "97e58c4abf5808b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938151447,
+      "stop" : 1606938151503,
+      "duration" : 56
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperProductAttributes",
+    "uid" : "8d547f4ebc7faad7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1606938151506,
+      "stop" : 1606938167026,
+      "duration" : 15520
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperProductName",
+    "uid" : "e9bff406996f2f7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938167056,
+      "stop" : 1606938167138,
+      "duration" : 82
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+    "uid" : "e1dfc50f4f525265",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938167141,
+      "stop" : 1606938167232,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveProperLabelsForProductInformation",
+    "uid" : "2c849b026132cc62",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938167235,
+      "stop" : 1606938167417,
+      "duration" : 182
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveVisibleCurrentCartInformation",
+    "uid" : "e120d3f808543fcf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1606938167420,
+      "stop" : 1606938183145,
+      "duration" : 15725
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveVisibleProductInformation",
+    "uid" : "ebcd25c57b7d2253",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938183178,
+      "stop" : 1606938183751,
+      "duration" : 573
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToContinueShopping",
+    "uid" : "89b796f00cd20024",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938183753,
+      "stop" : 1606938184166,
+      "duration" : 413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "addProductToCard",
+    "uid" : "a54168ab24a4b1e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1606938184233,
+      "stop" : 1606938186927,
+      "duration" : 2694
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
