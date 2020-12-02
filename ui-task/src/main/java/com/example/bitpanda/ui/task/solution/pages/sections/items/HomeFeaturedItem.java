@@ -2,7 +2,7 @@ package com.example.bitpanda.ui.task.solution.pages.sections.items;
 
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
-import com.example.bitpanda.ui.task.solution.pages.modals.ShoppingCardModal;
+import com.example.bitpanda.ui.task.solution.pages.modals.ShoppingCartModal;
 import com.example.bitpanda.ui.task.solution.utils.ElementActions;
 import com.example.bitpanda.ui.task.solution.utils.ElementFinder;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 public class HomeFeaturedItem {
     private final By homeFeaturedRoot;
     private final String itemName;
-    private final By addToCardButtonPath = Selectors.byXpath("./ancestor::div/descendant::a[@title='Add to cart']");
+    private final By addToCardButtonPath = Selectors.byXpath("./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']");
 
     public HomeFeaturedItem(By homeFeaturedRoot, String itemName) {
         this.homeFeaturedRoot = homeFeaturedRoot;
@@ -24,14 +24,14 @@ public class HomeFeaturedItem {
         return this;
     }
 
-    public ShoppingCardModal addItemToCard() {
+    public ShoppingCartModal addItemToCard() {
         ElementActions.clickOnClickableElement(findAddToCardButton());
-        return new ShoppingCardModal();
+        return new ShoppingCartModal();
     }
 
     private SelenideElement findAddToCardButton() {
         return ElementFinder.findNestedInteractableElement
-                .apply(findSectionRoot(), addToCardButtonPath);
+                .apply(findItemName(), addToCardButtonPath);
     }
 
     private SelenideElement findItemImage() {

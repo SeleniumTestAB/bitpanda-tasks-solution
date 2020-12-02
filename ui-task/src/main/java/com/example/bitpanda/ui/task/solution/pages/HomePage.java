@@ -9,7 +9,8 @@ public class HomePage {
     @Getter
     private final HomeFeaturedSection homeFeaturedSection = new HomeFeaturedSection();
 
-    public void openPage() {
+    public HomePage openPage() {
         Selenide.open("http://automationpractice.com/index.php");
+        return this;
     }
 }

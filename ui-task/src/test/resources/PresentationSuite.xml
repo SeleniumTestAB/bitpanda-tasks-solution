@@ -7,7 +7,20 @@
         <listener class-name="com.example.bitpanda.ui.task.solution.config.ProjectTestListener"/>
     </listeners>
 
-    <test name="Poprawne dodanie produktu do koszyka">
+    <test name="Shopping cart modal Tests">
+        <groups>
+            <run>
+                <include name="modalTests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.bitpanda.ui.task.solution.ShoppingCartModalTests">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Product should be added to shopping cart Test">
 
         <classes>
             <class name="com.example.bitpanda.ui.task.solution.MainPageTest">
@@ -17,7 +30,6 @@
             </class>
         </classes>
     </test>
-
 
 
 </suite>

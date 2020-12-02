@@ -3,10 +3,10 @@ package com.example.bitpanda.ui.task.solution;
 import com.example.bitpanda.ui.task.solution.pages.HomePage;
 import org.testng.annotations.Test;
 
-public class MainPageTest {
+public class MainPageTest extends BaseTest{
     @Test
     public void addProductToCard() {
-        HomePage homePage = new HomePage();
+
         homePage.openPage();
         homePage.getHomeFeaturedSection()
                 .scrollToSection()
