@@ -2,7 +2,7 @@ package com.example.bitpanda.ui.task.solution;
 
 import com.codeborne.selenide.Condition;
 import com.example.bitpanda.ui.task.solution.pages.modals.ShoppingCartModal;
-import org.testng.annotations.BeforeGroups;
+import org.testng.annotations.AfterGroups;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Selenide.$x;
@@ -10,16 +10,14 @@ import static com.codeborne.selenide.Selenide.$x;
 public class ShoppingCartModalTests extends BaseTest {
     private ShoppingCartModal shoppingCartModal;
 
-    @BeforeGroups("modalTests")
-    public void setupTests() {
-        homePage.openPage();
-    }
+
+
 
     @Test(priority = 1, groups = {"modalTests"})
     public void assureThatShoppingModalAppearsOnHomePage() {
         shoppingCartModal = homePage.getHomeFeaturedSection()
                 .scrollToSection()
-                .getItem("Blouse")
+                .getItem(blouseProduct.getName())
                 .hoverOnImage()
                 .addItemToCard().modalShouldBeVisible();
     }
@@ -57,14 +55,14 @@ public class ShoppingCartModalTests extends BaseTest {
     @Test(groups = {"modalTests"}, dependsOnMethods = {"assureThatShoppingModalAppearsOnHomePage"})
     public void modalShouldContainProperProductName() {
         shoppingCartModal.getProductSection()
-                .checkAddedProductName("Blouse");
+                .checkAddedProductName(blouseProduct.getName());
 
     }
 
     @Test(groups = {"modalTests"}, dependsOnMethods = {"assureThatShoppingModalAppearsOnHomePage"})
     public void modalShouldContainProperProductAttributes() {
         shoppingCartModal.getProductSection()
-                .checkAddedProductAttributes("Black", "S");
+                .checkAddedProductAttributes(blouseProduct.getColor(), blouseProduct.getSize());
 
     }
 
@@ -72,7 +70,7 @@ public class ShoppingCartModalTests extends BaseTest {
     @Test(groups = {"modalTests"}, dependsOnMethods = {"assureThatShoppingModalAppearsOnHomePage"})
     public void modalShouldContainProperAddedQuantityOfProduct() {
         shoppingCartModal.getProductSection()
-                .checkQuantityOfAddedProducts("1");
+                .checkQuantityOfAddedProducts(blouseProduct.getQuantity());
 
     }
 
@@ -80,6 +78,12 @@ public class ShoppingCartModalTests extends BaseTest {
     public void clientShouldBeAbleToContinueShopping() {
         shoppingCartModal.continueShopping();
         $x("//body[@id='order']").shouldNot(Condition.exist);
+    }
+
+    @AfterGroups("modalTests")
+    public void cleanShoppingCart() {
+        homePage.getShoppingCart().viewShoppingCart()
+                .removeProductFromTheCart(blouseProduct.getName());
     }
 
 }

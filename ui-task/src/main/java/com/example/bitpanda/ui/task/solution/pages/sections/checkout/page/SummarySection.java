@@ -1,0 +1,57 @@
+package com.example.bitpanda.ui.task.solution.pages.sections.checkout.page;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selectors;
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
+import com.example.bitpanda.ui.task.solution.pages.LoginPage;
+import com.example.bitpanda.ui.task.solution.utils.ElementActions;
+import com.example.bitpanda.ui.task.solution.utils.ElementFinder;
+import org.openqa.selenium.By;
+
+public class SummarySection {
+    private final By productAvailabilityPath = Selectors.byXpath("./following-sibling::td[@class='cart_avail']/span");
+    private final By proceedToCheckoutButtonPath = Selectors.byXpath("//p[@class='cart_navigation clearfix']/child::a[@title='Proceed to checkout']");
+
+    public SummarySection checkIfProductImageIsVisible(String productName) {
+        findProductImage(productName).shouldBe(Condition.visible);
+        return this;
+    }
+
+
+    public SummarySection checkAvailabilityOfAProduct(String productName, String expectedAvailability) {
+        findProductAvailability(productName).shouldBe(Condition.visible)
+                .shouldHave(Condition.ownText(expectedAvailability));
+        return this;
+    }
+
+    public LoginPage proceedFurtherToCheckout() {
+        ElementActions.clickOnClickableElement(findProceedToCheckoutButton());
+        return new LoginPage();
+    }
+
+    private SelenideElement findProceedToCheckoutButton() {
+        return ElementFinder.findActiveElement.apply(proceedToCheckoutButtonPath);
+    }
+
+    private SelenideElement findProductAvailability(String productName) {
+        return ElementFinder.findNestedReadableElement.apply(findProductDescription(productName), productAvailabilityPath);
+    }
+
+    private SelenideElement findProductDescription(String productName) {
+        return ElementFinder.findExistingElement.apply(buildPathToProductDescription(productName));
+    }
+
+    private SelenideElement findProductImage(String productName) {
+        return ElementFinder.findExistingElement.apply(buildPathToProductImage(productName));
+    }
+
+    private By buildPathToProductImage(String productName) {
+        return Selectors.byXpath("//td[@class='cart_product']/descendant::img[@alt='" + productName + "']");
+    }
+
+    private By buildPathToProductDescription(String productName) {
+        return Selectors.byXpath("//td[@class='cart_description' and contains(string(), '"+productName+"')]");
+    }
+
+}

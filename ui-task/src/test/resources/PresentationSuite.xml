@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="PresentationTestSuite">
+<suite name="Presentation Test Suite">
 
 
     <listeners>
@@ -20,13 +20,15 @@
         </classes>
     </test>
 
-    <test name="Product should be added to shopping cart Test">
-
+    <test name="Checkout process works correctly">
+        <groups>
+            <run>
+                <include name="checkout"/>
+            </run>
+        </groups>
         <classes>
-            <class name="com.example.bitpanda.ui.task.solution.MainPageTest">
-                <methods>
-                    <include name="addProductToCard"/>
-                </methods>
+            <class name="com.example.bitpanda.ui.task.solution.CheckoutProcessTest">
+
             </class>
         </classes>
     </test>

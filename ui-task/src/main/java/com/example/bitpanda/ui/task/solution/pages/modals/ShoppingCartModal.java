@@ -3,6 +3,7 @@ package com.example.bitpanda.ui.task.solution.pages.modals;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selectors;
 import com.codeborne.selenide.SelenideElement;
+import com.example.bitpanda.ui.task.solution.pages.CheckoutPage;
 import com.example.bitpanda.ui.task.solution.pages.sections.shopping.cart.modal.ProductSection;
 import com.example.bitpanda.ui.task.solution.pages.sections.shopping.cart.modal.ShoppingCartSection;
 import com.example.bitpanda.ui.task.solution.utils.ElementActions;
@@ -37,8 +38,9 @@ public class ShoppingCartModal {
         ElementActions.clickOnClickableElement(findContinueShoppingButton());
     }
 
-    public void proceedToCheckout() {
+    public CheckoutPage proceedToCheckout() {
         ElementActions.clickOnClickableElement(findProceedToCheckoutButton());
+        return new CheckoutPage();
     }
 
     public ShoppingCartModal checkModalTitle(String expectedTitle) {

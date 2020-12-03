@@ -14,6 +14,8 @@ public class ProjectTestListener implements ISuiteListener {
     @Override
     public void onStart(ISuite suite) {
         Configuration.browser = System.getProperty("selenide.browser", "firefox");
+        Configuration.startMaximized = true;
+        Configuration.fastSetValue = true;
         if(StringUtils.equals(System.getProperty("isHeadless"), "true")) {
             Configuration.headless = true;
         }
@@ -24,7 +26,7 @@ public class ProjectTestListener implements ISuiteListener {
                 .get(Configuration.browser)
                 .setup();
 
-        Configuration.timeout = 15000;
+        Configuration.timeout = 8000;
         SelenideLogger.addListener("Allure", new AllureSelenide().screenshots(true)
                 .savePageSource(false).includeSelenideSteps(true));
     }

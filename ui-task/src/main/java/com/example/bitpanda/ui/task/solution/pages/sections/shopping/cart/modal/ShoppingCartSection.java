@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 public class ShoppingCartSection extends BaseSection {
     private final By totalProductsPriceInCardPath = Selectors.byXpath("//span[@class='ajax_block_products_total']");
     private final By totalShippingCostPath = Selectors.byXpath("//span[@class='ajax_cart_shipping_cost']");
-    private final By totalShoppingCostPath = Selectors.byXpath("/span[@class='ajax_block_cart_total']");
+    private final By totalShoppingCostPath = Selectors.byXpath("//span[@class='ajax_block_cart_total']");
     private final By shoppingCardStatusInfoPath = Selectors.byXpath("//span[@class='ajax_cart_product_txt' or contains(@class, 'ajax_cart_product_txt')]");
     private final By quantityOfProductsInShoppingCartPath = Selectors.byXpath("//span[@class='ajax_cart_quantity']");
 

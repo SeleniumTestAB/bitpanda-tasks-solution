@@ -25,6 +25,8 @@
         <testng.version>7.1.0</testng.version>
         <slf4j.version>1.7.29</slf4j.version>
         <lombok.version>1.18.16</lombok.version>
+        <java.faker.version>1.0.2</java.faker.version>
+        <jackson.version>2.11.3</jackson.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -73,6 +75,17 @@
                 <artifactId>slf4j-simple</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.javafaker</groupId>
+                <artifactId>javafaker</artifactId>
+                <version>${java.faker.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

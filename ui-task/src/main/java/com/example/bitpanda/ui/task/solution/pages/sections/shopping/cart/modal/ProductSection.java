@@ -10,7 +10,7 @@ public class ProductSection extends BaseSection {
     private final By addedProductPricePath = Selectors.byId("layer_cart_product_price");
     private final By addedProductQuantityPath = Selectors.byId("layer_cart_product_quantity");
     private final By addedProductNamePath = Selectors.byId("layer_cart_product_title");
-    private final By addedProductAttributesPath = Selectors.byId("layer_cart_product_title");
+    private final By addedProductAttributesPath = Selectors.byId("layer_cart_product_attributes");
 
 
     public ProductSection checkAddedProductPriceIsVisible(){
