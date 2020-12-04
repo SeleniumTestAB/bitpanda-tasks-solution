@@ -1,0 +1,156 @@
+{
+  "uid" : "ca1bb320799c619c",
+  "name" : "modalShouldContainProperProductAttributes",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldContainProperProductAttributes",
+  "historyId" : "755f8e0be64a503504403121961af9f1",
+  "time" : {
+    "start" : 1607101885450,
+    "stop" : 1607101885530,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking added product attributes",
+      "time" : {
+        "start" : 1607101885451,
+        "stop" : 1607101885530,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product attributes",
+        "time" : {
+          "start" : 1607101885451,
+          "stop" : 1607101885517,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_attributes\") should(exist)",
+          "time" : {
+            "start" : 1607101885451,
+            "stop" : 1607101885517,
+            "duration" : 66
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_attributes\") should have(own text 'Black, S')",
+        "time" : {
+          "start" : 1607101885518,
+          "stop" : 1607101885529,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedAttributes",
+        "value" : "[Black, S]"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldContainProperProductAttributes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8d547f4ebc7faad7",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/8d547f4ebc7faad7",
+        "status" : "failed",
+        "statusDetails" : "Element should have own text 'Black, S' {By.id: layer_cart_product_title}\nElement: '<span class=\"product-name\" id=\"layer_cart_product_title\">Blouse</span>'\nScreenshot: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.png\nPage source: file:/home/runner/work/bitpanda-tasks-solution/bitpanda-tasks-solution/ui-task/build/reports/tests/1606938166643.0.html\nTimeout: 15 s.",
+        "time" : {
+          "start" : 1606938151506,
+          "stop" : 1606938167026,
+          "duration" : 15520
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ca1bb320799c619c.json",
+  "parameterValues" : [ ]
+}

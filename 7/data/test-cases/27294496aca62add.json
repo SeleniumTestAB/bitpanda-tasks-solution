@@ -1,0 +1,465 @@
+{
+  "uid" : "27294496aca62add",
+  "name" : "clientShouldBeAbleToAddProductToCard",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToAddProductToCard",
+  "historyId" : "452ca8f0671e49638883ba2527d1ed7d",
+  "time" : {
+    "start" : 1607101890506,
+    "stop" : 1607101892401,
+    "duration" : 1895
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Scrolling to featured products section",
+      "time" : {
+        "start" : 1607101890509,
+        "stop" : 1607101890587,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+        "time" : {
+          "start" : 1607101890509,
+          "stop" : 1607101890567,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") scroll to()",
+        "time" : {
+          "start" : 1607101890567,
+          "stop" : 1607101890587,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Hovering over product image",
+      "time" : {
+        "start" : 1607101890587,
+        "stop" : 1607101890835,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding product image",
+        "time" : {
+          "start" : 1607101890587,
+          "stop" : 1607101890713,
+          "duration" : 126
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding section where product is",
+          "time" : {
+            "start" : 1607101890587,
+            "stop" : 1607101890660,
+            "duration" : 73
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+            "time" : {
+              "start" : 1607101890587,
+              "stop" : 1607101890660,
+              "duration" : 73
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Faded Short Sleeve T-shirts' and @itemprop='image'])",
+          "time" : {
+            "start" : 1607101890661,
+            "stop" : 1607101890661,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Faded Short Sleeve T-shirts' and @itemprop='image']\") should be(Element is readable/visible on page)",
+          "time" : {
+            "start" : 1607101890661,
+            "stop" : 1607101890713,
+            "duration" : 52
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Faded Short Sleeve T-shirts' and @itemprop='image']\") hover()",
+        "time" : {
+          "start" : 1607101890713,
+          "stop" : 1607101890835,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clicking on add to cart button",
+      "time" : {
+        "start" : 1607101890835,
+        "stop" : 1607101891382,
+        "duration" : 547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding add to cart button",
+        "time" : {
+          "start" : 1607101890835,
+          "stop" : 1607101890968,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding product name",
+          "time" : {
+            "start" : 1607101890835,
+            "stop" : 1607101890895,
+            "duration" : 60
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding section where product is",
+            "time" : {
+              "start" : 1607101890835,
+              "stop" : 1607101890865,
+              "duration" : 30
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+              "time" : {
+                "start" : 1607101890835,
+                "stop" : 1607101890865,
+                "duration" : 30
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Faded Short Sleeve T-shirts'])",
+            "time" : {
+              "start" : 1607101890865,
+              "stop" : 1607101890865,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Faded Short Sleeve T-shirts']\") should(exist)",
+            "time" : {
+              "start" : 1607101890865,
+              "stop" : 1607101890895,
+              "duration" : 30
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Faded Short Sleeve T-shirts']\") find(By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart'])",
+          "time" : {
+            "start" : 1607101890895,
+            "stop" : 1607101890896,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607101890896,
+            "stop" : 1607101890968,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607101891077,
+          "stop" : 1607101891382,
+          "duration" : 305
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607101891077,
+            "stop" : 1607101891112,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") click()",
+          "time" : {
+            "start" : 1607101891112,
+            "stop" : 1607101891382,
+            "duration" : 270
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"button ajax_add_to_cart_button btn btn-default\" data-id-product=\"1\" href=\"http://automationpractice.com/index.php?controller=cart&add=1&id_product=1&token=e817bb0705dd58da8db074c69f729fd8\" rel=\"nofollow\" title=\"Add to cart\" type>Add to cart</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that shopping cart modal is visible",
+      "time" : {
+        "start" : 1607101891382,
+        "stop" : 1607101892400,
+        "duration" : 1018
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding modal",
+        "time" : {
+          "start" : 1607101891382,
+          "stop" : 1607101891455,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should(exist)",
+          "time" : {
+            "start" : 1607101891382,
+            "stop" : 1607101891455,
+            "duration" : 73
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should be(visible)",
+        "time" : {
+          "start" : 1607101891455,
+          "stop" : 1607101892400,
+          "duration" : 945
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToAddProductToCard"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27294496aca62add.json",
+  "parameterValues" : [ ]
+}

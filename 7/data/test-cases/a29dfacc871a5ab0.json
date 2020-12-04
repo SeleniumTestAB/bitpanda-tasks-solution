@@ -1,0 +1,155 @@
+{
+  "uid" : "a29dfacc871a5ab0",
+  "name" : "modalShouldContainProperProductName",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldContainProperProductName",
+  "historyId" : "9d094812cb944d0cfc89c250e5a05aae",
+  "time" : {
+    "start" : 1607101885536,
+    "stop" : 1607101885585,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking added product name",
+      "time" : {
+        "start" : 1607101885538,
+        "stop" : 1607101885584,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product name",
+        "time" : {
+          "start" : 1607101885538,
+          "stop" : 1607101885573,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_title\") should(exist)",
+          "time" : {
+            "start" : 1607101885539,
+            "stop" : 1607101885573,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_title\") should have(own text 'Blouse')",
+        "time" : {
+          "start" : 1607101885573,
+          "stop" : 1607101885584,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedName",
+        "value" : "Blouse"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldContainProperProductName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e9bff406996f2f7e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/e9bff406996f2f7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606938167056,
+          "stop" : 1606938167138,
+          "duration" : 82
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a29dfacc871a5ab0.json",
+  "parameterValues" : [ ]
+}

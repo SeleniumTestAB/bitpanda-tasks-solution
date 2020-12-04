@@ -1,0 +1,314 @@
+{
+  "uid" : "163f82a2a707b659",
+  "name" : "modalShouldHaveProperLabelsForProductInformation",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldHaveProperLabelsForProductInformation",
+  "historyId" : "fb9641fe48d18d18a72ea28942073c66",
+  "time" : {
+    "start" : 1607101885692,
+    "stop" : 1607101886080,
+    "duration" : 388
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking label for added product price",
+      "time" : {
+        "start" : 1607101885692,
+        "stop" : 1607101885930,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product price",
+        "time" : {
+          "start" : 1607101885692,
+          "stop" : 1607101885761,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_price\") should(exist)",
+          "time" : {
+            "start" : 1607101885693,
+            "stop" : 1607101885761,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607101885843,
+          "stop" : 1607101885913,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_price\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607101885843,
+            "stop" : 1607101885843,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607101885843,
+            "stop" : 1607101885913,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span id=\"layer_cart_product_price\">$27.00</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should have(own text 'Total')",
+        "time" : {
+          "start" : 1607101885914,
+          "stop" : 1607101885930,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedLabel",
+        "value" : "Total"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking label for added product quantity",
+      "time" : {
+        "start" : 1607101885931,
+        "stop" : 1607101886080,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product quantity",
+        "time" : {
+          "start" : 1607101885931,
+          "stop" : 1607101885957,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") should(exist)",
+          "time" : {
+            "start" : 1607101885931,
+            "stop" : 1607101885957,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607101886029,
+          "stop" : 1607101886063,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607101886029,
+            "stop" : 1607101886030,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607101886030,
+            "stop" : 1607101886063,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span id=\"layer_cart_product_quantity\">1</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should have(own text 'Quantity')",
+        "time" : {
+          "start" : 1607101886064,
+          "stop" : 1607101886080,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedLabel",
+        "value" : "Quantity"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldHaveProperLabelsForProductInformation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2c849b026132cc62",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/2c849b026132cc62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606938167235,
+          "stop" : 1606938167417,
+          "duration" : 182
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "163f82a2a707b659.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,485 @@
+{
+  "uid" : "53d44502c71d72c0",
+  "name" : "assureThatShoppingModalAppearsOnHomePage",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.assureThatShoppingModalAppearsOnHomePage",
+  "historyId" : "7fcc5e27c150127283a7f8d03e85099c",
+  "time" : {
+    "start" : 1607101883168,
+    "stop" : 1607101885285,
+    "duration" : 2117
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Scrolling to featured products section",
+      "time" : {
+        "start" : 1607101883186,
+        "stop" : 1607101883479,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+        "time" : {
+          "start" : 1607101883283,
+          "stop" : 1607101883444,
+          "duration" : 161
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") scroll to()",
+        "time" : {
+          "start" : 1607101883446,
+          "stop" : 1607101883479,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Hovering over product image",
+      "time" : {
+        "start" : 1607101883479,
+        "stop" : 1607101883833,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding product image",
+        "time" : {
+          "start" : 1607101883479,
+          "stop" : 1607101883693,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding section where product is",
+          "time" : {
+            "start" : 1607101883479,
+            "stop" : 1607101883561,
+            "duration" : 82
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+            "time" : {
+              "start" : 1607101883480,
+              "stop" : 1607101883561,
+              "duration" : 81
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image'])",
+          "time" : {
+            "start" : 1607101883572,
+            "stop" : 1607101883572,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image']\") should be(Element is readable/visible on page)",
+          "time" : {
+            "start" : 1607101883573,
+            "stop" : 1607101883693,
+            "duration" : 120
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./descendant::div[@class='product-image-container']/descendant::img[@title='Blouse' and @itemprop='image']\") hover()",
+        "time" : {
+          "start" : 1607101883693,
+          "stop" : 1607101883833,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clicking on add to cart button",
+      "time" : {
+        "start" : 1607101883833,
+        "stop" : 1607101884736,
+        "duration" : 903
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding add to cart button",
+        "time" : {
+          "start" : 1607101883833,
+          "stop" : 1607101884165,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding product name",
+          "time" : {
+            "start" : 1607101883833,
+            "stop" : 1607101883977,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding section where product is",
+            "time" : {
+              "start" : 1607101883833,
+              "stop" : 1607101883905,
+              "duration" : 72
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") should(exist)",
+              "time" : {
+                "start" : 1607101883833,
+                "stop" : 1607101883905,
+                "duration" : 72
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='homefeatured']\") find(By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse'])",
+            "time" : {
+              "start" : 1607101883905,
+              "stop" : 1607101883905,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse']\") should(exist)",
+            "time" : {
+              "start" : 1607101883906,
+              "stop" : 1607101883977,
+              "duration" : 71
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::h5[@itemprop='name']/a[@title='Blouse']\") find(By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart'])",
+          "time" : {
+            "start" : 1607101883977,
+            "stop" : 1607101883977,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607101883977,
+            "stop" : 1607101884165,
+            "duration" : 188
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607101884317,
+          "stop" : 1607101884691,
+          "duration" : 374
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607101884317,
+            "stop" : 1607101884374,
+            "duration" : 57
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./ancestor::div[@class='right-block']/descendant::a[@title='Add to cart']\") click()",
+          "time" : {
+            "start" : 1607101884375,
+            "stop" : 1607101884691,
+            "duration" : 316
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"button ajax_add_to_cart_button btn btn-default\" data-id-product=\"2\" href=\"http://automationpractice.com/index.php?controller=cart&add=1&id_product=2&token=e817bb0705dd58da8db074c69f729fd8\" rel=\"nofollow\" title=\"Add to cart\" type>Add to cart</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that shopping cart modal is visible",
+      "time" : {
+        "start" : 1607101884736,
+        "stop" : 1607101885281,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding modal",
+        "time" : {
+          "start" : 1607101884736,
+          "stop" : 1607101884766,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should(exist)",
+          "time" : {
+            "start" : 1607101884736,
+            "stop" : 1607101884766,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should be(visible)",
+        "time" : {
+          "start" : 1607101884766,
+          "stop" : 1607101885281,
+          "duration" : 515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "assureThatShoppingModalAppearsOnHomePage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "69017e7780b4e1a1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/69017e7780b4e1a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606938148856,
+          "stop" : 1606938151275,
+          "duration" : 2419
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "53d44502c71d72c0.json",
+  "parameterValues" : [ ]
+}

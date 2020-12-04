@@ -1,0 +1,195 @@
+{
+  "uid" : "9ad0f8b626ffa2ab",
+  "name" : "clientShouldBeAbleToProceedToCheckout",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToProceedToCheckout",
+  "historyId" : "cfb372537fe45d9edf69f609d0f94d5c",
+  "time" : {
+    "start" : 1607101892404,
+    "stop" : 1607101893830,
+    "duration" : 1426
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicking on proceed to checkout button",
+      "time" : {
+        "start" : 1607101892404,
+        "stop" : 1607101893799,
+        "duration" : 1395
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding proceed to checkout button",
+        "time" : {
+          "start" : 1607101892404,
+          "stop" : 1607101892477,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607101892404,
+            "stop" : 1607101892477,
+            "duration" : 73
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607101892555,
+          "stop" : 1607101893719,
+          "duration" : 1164
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607101892555,
+            "stop" : 1607101892583,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") click()",
+          "time" : {
+            "start" : 1607101892583,
+            "stop" : 1607101893719,
+            "duration" : 1136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"btn btn-default button button-medium\" href=\"http://automationpractice.com/index.php?controller=order\" rel=\"nofollow\" title=\"Proceed to checkout\" type>Proceed to checkout</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verifying that Client is on Checkout Page",
+      "time" : {
+        "start" : 1607101893799,
+        "stop" : 1607101893830,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //body[@id='order']\") should(exist)",
+        "time" : {
+          "start" : 1607101893799,
+          "stop" : 1607101893830,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToProceedToCheckout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ad0f8b626ffa2ab.json",
+  "parameterValues" : [ ]
+}

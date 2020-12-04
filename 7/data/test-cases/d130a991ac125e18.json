@@ -1,0 +1,155 @@
+{
+  "uid" : "d130a991ac125e18",
+  "name" : "modalShouldContainProperAddedQuantityOfProduct",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldContainProperAddedQuantityOfProduct",
+  "historyId" : "1d3b032ede7d59cc497407a358c3e9e0",
+  "time" : {
+    "start" : 1607101885359,
+    "stop" : 1607101885446,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking added product quantity",
+      "time" : {
+        "start" : 1607101885360,
+        "stop" : 1607101885446,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product quantity",
+        "time" : {
+          "start" : 1607101885360,
+          "stop" : 1607101885432,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") should(exist)",
+          "time" : {
+            "start" : 1607101885360,
+            "stop" : 1607101885432,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_quantity\") should have(own text '1')",
+        "time" : {
+          "start" : 1607101885432,
+          "stop" : 1607101885446,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedQuantity",
+        "value" : "1"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldContainProperAddedQuantityOfProduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10552@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "97e58c4abf5808b5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6//#testresult/97e58c4abf5808b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606938151447,
+          "stop" : 1606938151503,
+          "duration" : 56
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d130a991ac125e18.json",
+  "parameterValues" : [ ]
+}
