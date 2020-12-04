@@ -6,6 +6,7 @@ import com.example.bitpanda.ui.task.solution.pages.sections.checkout.page.Paymen
 import com.example.bitpanda.ui.task.solution.pages.sections.checkout.page.ShippingSection;
 import com.example.bitpanda.ui.task.solution.pages.sections.checkout.page.SummarySection;
 import com.example.bitpanda.ui.task.solution.utils.ElementFinder;
+import io.qameta.allure.Step;
 import lombok.Getter;
 import org.openqa.selenium.By;
 
@@ -20,7 +21,7 @@ public class CheckoutPage {
     @Getter
     private final PaymentSection paymentSection = new PaymentSection();
 
-
+    @Step("Verifying that Client is on Checkout Page")
     public CheckoutPage verifyIfClientIsOnCheckoutPage() {
         ElementFinder.findExistingElement.apply(checkoutPageBodyPath);
         return this;

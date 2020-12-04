@@ -8,6 +8,7 @@ import com.example.bitpanda.ui.task.solution.pages.sections.create.account.Addre
 import com.example.bitpanda.ui.task.solution.pages.sections.create.account.PersonalInformationSection;
 import com.example.bitpanda.ui.task.solution.utils.ElementActions;
 import com.example.bitpanda.ui.task.solution.utils.ElementFinder;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class CreateAccountFormPage {
@@ -15,6 +16,7 @@ public class CreateAccountFormPage {
     private final AddressSection addressSection = new AddressSection();
     private final By registerAccountButtonPath = Selectors.byId("submitAccount");
 
+    @Step("Filling personal information")
     public CreateAccountFormPage fillPersonalInformation(ClientAccount clientAccount) {
         personalInformationSection.chooseGender(clientAccount.gender())
                 .fillFirstName(clientAccount.firstName())
@@ -28,6 +30,7 @@ public class CreateAccountFormPage {
         return this;
     }
 
+    @Step("Filling address information")
     public CreateAccountFormPage fillAddress(ClientAccount clientAccount) {
         addressSection.fillFirstName(clientAccount.firstName())
                 .fillLastName(clientAccount.lastName())
@@ -39,11 +42,14 @@ public class CreateAccountFormPage {
         return this;
     }
 
+
+    @Step("Clicking on register button")
     public AddressSummarySection registerNewAccountDuringCheckout() {
         ElementActions.clickOnClickableElement(findRegisterAccountButton());
         return new AddressSummarySection();
     }
 
+    @Step("Finding register button")
     private SelenideElement findRegisterAccountButton() {
         return ElementFinder.findInteractableElement.apply(registerAccountButtonPath);
     }

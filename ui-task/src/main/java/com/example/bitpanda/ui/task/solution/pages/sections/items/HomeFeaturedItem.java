@@ -5,6 +5,7 @@ import com.codeborne.selenide.SelenideElement;
 import com.example.bitpanda.ui.task.solution.pages.modals.ShoppingCartModal;
 import com.example.bitpanda.ui.task.solution.utils.ElementActions;
 import com.example.bitpanda.ui.task.solution.utils.ElementFinder;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class HomeFeaturedItem {
@@ -18,32 +19,33 @@ public class HomeFeaturedItem {
     }
 
 
-
+    @Step("Hovering over product image")
     public HomeFeaturedItem hoverOnImage() {
         findItemImage().hover();
         return this;
     }
 
+    @Step("Clicking on add to cart button")
     public ShoppingCartModal addItemToCard() {
         ElementActions.clickOnClickableElement(findAddToCardButton());
         return new ShoppingCartModal();
     }
-
+    @Step("Finding add to cart button")
     private SelenideElement findAddToCardButton() {
         return ElementFinder.findNestedInteractableElement
                 .apply(findItemName(), addToCardButtonPath);
     }
-
+    @Step("Finding product image")
     private SelenideElement findItemImage() {
         return ElementFinder.findNestedReadableElement
                 .apply(findSectionRoot(), buildPathToItemsImage());
     }
-
+    @Step("Finding product name")
     private SelenideElement findItemName() {
         return ElementFinder.findNestedExistingElement
                 .apply(findSectionRoot(), buildPathToItemsName());
     }
-
+    @Step("Finding section where product is")
     private SelenideElement findSectionRoot() {
         return ElementFinder.findExistingElement.apply(homeFeaturedRoot);
     }
