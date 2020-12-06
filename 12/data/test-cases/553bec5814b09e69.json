@@ -1,0 +1,57 @@
+{
+  "uid" : "553bec5814b09e69",
+  "name" : "testTheLoad()",
+  "fullName" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest.testTheLoad",
+  "historyId" : "df4d613ffcf8763700f19ac2ffa8475c",
+  "time" : {
+    "start" : 1607277611139,
+    "stop" : 1607277627468,
+    "duration" : 16329
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10704@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTheLoad"
+  }, {
+    "name" : "suite",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "553bec5814b09e69.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,258 @@
+{
+  "uid" : "df5a6df148773b",
+  "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToChoosePaymentByBankWire",
+  "historyId" : "8c2d4dff6b55461258bad6cabdf66c47",
+  "time" : {
+    "start" : 1607277586865,
+    "stop" : 1607277590631,
+    "duration" : 3766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Processing further to payment tab",
+      "time" : {
+        "start" : 1607277586866,
+        "stop" : 1607277588692,
+        "duration" : 1826
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding button to navigate to payment tab",
+        "time" : {
+          "start" : 1607277586866,
+          "stop" : 1607277586959,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processCarrier\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607277586866,
+            "stop" : 1607277586959,
+            "duration" : 93
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607277587001,
+          "stop" : 1607277588692,
+          "duration" : 1691
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processCarrier\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607277587001,
+            "stop" : 1607277587023,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.name: processCarrier\") click()",
+          "time" : {
+            "start" : 1607277587023,
+            "stop" : 1607277588692,
+            "duration" : 1669
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<button class=\"button btn btn-default standard-checkout button-medium\" name=\"processCarrier\" type=\"submit\" value>Proceed to checkout</button>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Choosing payment by bank wire option",
+      "time" : {
+        "start" : 1607277588692,
+        "stop" : 1607277590631,
+        "duration" : 1939
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding pay by bank wire option",
+        "time" : {
+          "start" : 1607277588692,
+          "stop" : 1607277588800,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607277588692,
+            "stop" : 1607277588799,
+            "duration" : 107
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607277588847,
+          "stop" : 1607277590631,
+          "duration" : 1784
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607277588847,
+            "stop" : 1607277588916,
+            "duration" : 69
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") click()",
+          "time" : {
+            "start" : 1607277588916,
+            "stop" : 1607277590631,
+            "duration" : 1715
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"bankwire\" href=\"http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment\" title=\"Pay by bank wire\" type>Pay by bank wire (order processing will be longer)</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToChoosePaymentByBankWire"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10211@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df5a6df148773b.json",
+  "parameterValues" : [ ]
+}
