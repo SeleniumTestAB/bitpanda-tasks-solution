@@ -1,0 +1,266 @@
+{
+  "uid" : "d23bf3eb7aeec9cf",
+  "name" : "clientShouldBeAbleToCompleteOrder",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToCompleteOrder",
+  "historyId" : "394134171148731512e4befc18a01696",
+  "time" : {
+    "start" : 1607283123099,
+    "stop" : 1607283125081,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Confirming order",
+      "time" : {
+        "start" : 1607283123099,
+        "stop" : 1607283125081,
+        "duration" : 1982
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding confirm order button",
+        "time" : {
+          "start" : 1607283123099,
+          "stop" : 1607283123272,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //p[@id='cart_navigation']/child::button[@type='submit']\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607283123099,
+            "stop" : 1607283123272,
+            "duration" : 173
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607283123319,
+          "stop" : 1607283124971,
+          "duration" : 1652
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //p[@id='cart_navigation']/child::button[@type='submit']\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607283123319,
+            "stop" : 1607283123354,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: //p[@id='cart_navigation']/child::button[@type='submit']\") click()",
+          "time" : {
+            "start" : 1607283123354,
+            "stop" : 1607283124971,
+            "duration" : 1617
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<button class=\"button btn btn-default button-medium\" type=\"submit\" value>I confirm my order</button>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding order completion header note",
+        "time" : {
+          "start" : 1607283124971,
+          "stop" : 1607283125073,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //p[@class='cheque-indent']/strong[@class='dark']\") should be(Element is readable/visible on page)",
+          "time" : {
+            "start" : 1607283124972,
+            "stop" : 1607283125073,
+            "duration" : 101
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //p[@class='cheque-indent']/strong[@class='dark']\") should have(own text 'Your order on My Store is complete.')",
+        "time" : {
+          "start" : 1607283125073,
+          "stop" : 1607283125081,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToCompleteOrder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10546@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6757bff91fdaf9c0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/6757bff91fdaf9c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281429680,
+          "stop" : 1607281431344,
+          "duration" : 1664
+        }
+      }, {
+        "uid" : "3fa38ed8417cae9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/3fa38ed8417cae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280853409,
+          "stop" : 1607280857955,
+          "duration" : 4546
+        }
+      }, {
+        "uid" : "bdba9c1173884563",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/bdba9c1173884563",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280243809,
+          "stop" : 1607280245989,
+          "duration" : 2180
+        }
+      }, {
+        "uid" : "b80e9c2d3d996ee6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/b80e9c2d3d996ee6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279325383,
+          "stop" : 1607279327573,
+          "duration" : 2190
+        }
+      }, {
+        "uid" : "7b418544ca1aeb41",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/7b418544ca1aeb41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277590636,
+          "stop" : 1607277592581,
+          "duration" : 1945
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d23bf3eb7aeec9cf.json",
+  "parameterValues" : [ ]
+}
