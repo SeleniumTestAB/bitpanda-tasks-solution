@@ -1,0 +1,2351 @@
+{
+  "uid" : "fd4f68b16ae9132d",
+  "name" : "clientShouldBeAbleToCreateAccount",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToCreateAccount",
+  "historyId" : "b6e64e2f053b8a88b69afdb4ce585cfa",
+  "time" : {
+    "start" : 1607286274727,
+    "stop" : 1607286282733,
+    "duration" : 8006
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Filling new account email field",
+      "time" : {
+        "start" : 1607286274728,
+        "stop" : 1607286275059,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding creat email input",
+        "time" : {
+          "start" : 1607286274728,
+          "stop" : 1607286274843,
+          "duration" : 115
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: email_create\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607286274728,
+            "stop" : 1607286274843,
+            "duration" : 115
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling field",
+        "time" : {
+          "start" : 1607286274974,
+          "stop" : 1607286275059,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: email_create\") append(colton.maggio@yahoo.com)",
+          "time" : {
+            "start" : 1607286274974,
+            "stop" : 1607286275027,
+            "duration" : 53
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.id: email_create\") should not be(empty)",
+          "time" : {
+            "start" : 1607286275027,
+            "stop" : 1607286275044,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.id: email_create\") should have(value 'colton.maggio@yahoo.com')",
+          "time" : {
+            "start" : 1607286275044,
+            "stop" : 1607286275059,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "field",
+          "value" : "<input class=\"is_required validate account_input form-control\" data-validate=\"isEmail\" id=\"email_create\" name=\"email_create\" type=\"text\" value></input>"
+        }, {
+          "name" : "givenValue",
+          "value" : "colton.maggio@yahoo.com"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "newEmailAddress",
+        "value" : "colton.maggio@yahoo.com"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Starting account creation process",
+      "time" : {
+        "start" : 1607286275059,
+        "stop" : 1607286275229,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding create account button",
+        "time" : {
+          "start" : 1607286275059,
+          "stop" : 1607286275182,
+          "duration" : 123
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: SubmitCreate\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607286275059,
+            "stop" : 1607286275182,
+            "duration" : 123
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: SubmitCreate\") submit()",
+        "time" : {
+          "start" : 1607286275187,
+          "stop" : 1607286275203,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Filling personal information",
+      "time" : {
+        "start" : 1607286275229,
+        "stop" : 1607286279448,
+        "duration" : 4219
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Choosing gender",
+        "time" : {
+          "start" : 1607286275229,
+          "stop" : 1607286277072,
+          "duration" : 1843
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding male gender radiobutton",
+          "time" : {
+            "start" : 1607286275229,
+            "stop" : 1607286276568,
+            "duration" : 1339
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //input[@id='id_gender1']\") should be(Element is active on page)",
+            "time" : {
+              "start" : 1607286275229,
+              "stop" : 1607286276568,
+              "duration" : 1339
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: //input[@id='id_gender1']\") click()",
+          "time" : {
+            "start" : 1607286276568,
+            "stop" : 1607286276816,
+            "duration" : 248
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Finding male gender radiobutton",
+          "time" : {
+            "start" : 1607286276816,
+            "stop" : 1607286276860,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //input[@id='id_gender1']\") should be(Element is active on page)",
+            "time" : {
+              "start" : 1607286276816,
+              "stop" : 1607286276860,
+              "duration" : 44
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Checking that correct gender was chosen",
+          "time" : {
+            "start" : 1607286277022,
+            "stop" : 1607286277072,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //input[@id='id_gender1']\") find(By.xpath: ./parent::span)",
+            "time" : {
+              "start" : 1607286277022,
+              "stop" : 1607286277022,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./parent::span\") should(exist)",
+            "time" : {
+              "start" : 1607286277022,
+              "stop" : 1607286277053,
+              "duration" : 31
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./parent::span\") should have(attribute class=\"checked\")",
+            "time" : {
+              "start" : 1607286277053,
+              "stop" : 1607286277072,
+              "duration" : 19
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "radio",
+            "value" : "<input id=\"id_gender1\" name=\"id_gender\" type=\"radio\" value=\"1\" selected:true></input>"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenGender",
+          "value" : "Mr."
+        } ],
+        "stepsCount" : 9,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling first name",
+        "time" : {
+          "start" : 1607286277072,
+          "stop" : 1607286277287,
+          "duration" : 215
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding first name",
+          "time" : {
+            "start" : 1607286277072,
+            "stop" : 1607286277136,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_firstname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286277072,
+              "stop" : 1607286277136,
+              "duration" : 64
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286277237,
+            "stop" : 1607286277287,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_firstname\") append(Keri)",
+            "time" : {
+              "start" : 1607286277237,
+              "stop" : 1607286277253,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: customer_firstname\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286277253,
+              "stop" : 1607286277273,
+              "duration" : 20
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: customer_firstname\") should have(value 'Keri')",
+            "time" : {
+              "start" : 1607286277273,
+              "stop" : 1607286277287,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_firstname\" name=\"customer_firstname\" onkeyup=\"$('#firstname').val(this.value);\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "Keri"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenFirstName",
+          "value" : "Keri"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling last name",
+        "time" : {
+          "start" : 1607286277287,
+          "stop" : 1607286277549,
+          "duration" : 262
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding last name",
+          "time" : {
+            "start" : 1607286277287,
+            "stop" : 1607286277447,
+            "duration" : 160
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_lastname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286277287,
+              "stop" : 1607286277447,
+              "duration" : 160
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286277493,
+            "stop" : 1607286277549,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_lastname\") append(Kshlerin)",
+            "time" : {
+              "start" : 1607286277493,
+              "stop" : 1607286277524,
+              "duration" : 31
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: customer_lastname\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286277524,
+              "stop" : 1607286277537,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: customer_lastname\") should have(value 'Kshlerin')",
+            "time" : {
+              "start" : 1607286277537,
+              "stop" : 1607286277549,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_lastname\" name=\"customer_lastname\" onkeyup=\"$('#lastname').val(this.value);\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "Kshlerin"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenLastName",
+          "value" : "Kshlerin"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling password",
+        "time" : {
+          "start" : 1607286277550,
+          "stop" : 1607286277716,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding password",
+          "time" : {
+            "start" : 1607286277550,
+            "stop" : 1607286277620,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: passwd\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286277550,
+              "stop" : 1607286277620,
+              "duration" : 70
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286277667,
+            "stop" : 1607286277716,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: passwd\") append(xkqy7)",
+            "time" : {
+              "start" : 1607286277667,
+              "stop" : 1607286277685,
+              "duration" : 18
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: passwd\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286277685,
+              "stop" : 1607286277702,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: passwd\") should have(value 'xkqy7')",
+            "time" : {
+              "start" : 1607286277702,
+              "stop" : 1607286277715,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isPasswd\" id=\"passwd\" name=\"passwd\" type=\"password\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "xkqy7"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenPassword",
+          "value" : "xkqy7"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Checking if email was already pre filled",
+        "time" : {
+          "start" : 1607286277716,
+          "stop" : 1607286278157,
+          "duration" : 441
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding email",
+          "time" : {
+            "start" : 1607286277716,
+            "stop" : 1607286277797,
+            "duration" : 81
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: email\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286277716,
+              "stop" : 1607286277797,
+              "duration" : 81
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.id: email\") click()",
+          "time" : {
+            "start" : 1607286277797,
+            "stop" : 1607286278036,
+            "duration" : 239
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Finding email",
+          "time" : {
+            "start" : 1607286278036,
+            "stop" : 1607286278095,
+            "duration" : 59
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: email\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286278036,
+              "stop" : 1607286278095,
+              "duration" : 59
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.id: email\") press tab()",
+          "time" : {
+            "start" : 1607286278095,
+            "stop" : 1607286278144,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.id: email\") should have(value 'colton.maggio@yahoo.com')",
+          "time" : {
+            "start" : 1607286278144,
+            "stop" : 1607286278157,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenEmail",
+          "value" : "colton.maggio@yahoo.com"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Checking validation status for email",
+        "time" : {
+          "start" : 1607286278158,
+          "stop" : 1607286278639,
+          "duration" : 481
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding email",
+          "time" : {
+            "start" : 1607286278158,
+            "stop" : 1607286278267,
+            "duration" : 109
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: email\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286278158,
+              "stop" : 1607286278267,
+              "duration" : 109
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Checking for positive validation",
+          "time" : {
+            "start" : 1607286278364,
+            "stop" : 1607286278639,
+            "duration" : 275
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Getting validation attribute",
+            "time" : {
+              "start" : 1607286278455,
+              "stop" : 1607286278506,
+              "duration" : 51
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: email\") find(By.xpath: ./parent::div)",
+              "time" : {
+                "start" : 1607286278456,
+                "stop" : 1607286278456,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") should(exist)",
+              "time" : {
+                "start" : 1607286278456,
+                "stop" : 1607286278488,
+                "duration" : 32
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") get attribute(class)",
+              "time" : {
+                "start" : 1607286278488,
+                "stop" : 1607286278506,
+                "duration" : 18
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "givenInput",
+              "value" : "<input class=\"is_required validate form-control\" data-validate=\"isEmail\" id=\"email\" name=\"email\" type=\"text\" value=\"colton.maggio@yahoo.com\"></input>"
+            } ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "givenInput",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isEmail\" id=\"email\" name=\"email\" type=\"text\" value=\"colton.maggio@yahoo.com\"></input>"
+          } ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "positive",
+          "value" : "true"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Checking validation status for first name",
+        "time" : {
+          "start" : 1607286278640,
+          "stop" : 1607286279062,
+          "duration" : 422
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding first name",
+          "time" : {
+            "start" : 1607286278640,
+            "stop" : 1607286278799,
+            "duration" : 159
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_firstname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286278640,
+              "stop" : 1607286278799,
+              "duration" : 159
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Checking for positive validation",
+          "time" : {
+            "start" : 1607286278888,
+            "stop" : 1607286279062,
+            "duration" : 174
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Getting validation attribute",
+            "time" : {
+              "start" : 1607286278977,
+              "stop" : 1607286279062,
+              "duration" : 85
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: customer_firstname\") find(By.xpath: ./parent::div)",
+              "time" : {
+                "start" : 1607286278977,
+                "stop" : 1607286278977,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") should(exist)",
+              "time" : {
+                "start" : 1607286278977,
+                "stop" : 1607286279046,
+                "duration" : 69
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") get attribute(class)",
+              "time" : {
+                "start" : 1607286279047,
+                "stop" : 1607286279062,
+                "duration" : 15
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "givenInput",
+              "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_firstname\" name=\"customer_firstname\" onkeyup=\"$('#firstname').val(this.value);\" type=\"text\" value=\"Keri\"></input>"
+            } ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "givenInput",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_firstname\" name=\"customer_firstname\" onkeyup=\"$('#firstname').val(this.value);\" type=\"text\" value=\"Keri\"></input>"
+          } ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "positive",
+          "value" : "true"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Checking validation status for last name",
+        "time" : {
+          "start" : 1607286279062,
+          "stop" : 1607286279258,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding last name",
+          "time" : {
+            "start" : 1607286279062,
+            "stop" : 1607286279123,
+            "duration" : 61
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: customer_lastname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286279062,
+              "stop" : 1607286279123,
+              "duration" : 61
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Checking for positive validation",
+          "time" : {
+            "start" : 1607286279175,
+            "stop" : 1607286279258,
+            "duration" : 83
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Getting validation attribute",
+            "time" : {
+              "start" : 1607286279219,
+              "stop" : 1607286279258,
+              "duration" : 39
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: customer_lastname\") find(By.xpath: ./parent::div)",
+              "time" : {
+                "start" : 1607286279219,
+                "stop" : 1607286279219,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") should(exist)",
+              "time" : {
+                "start" : 1607286279219,
+                "stop" : 1607286279244,
+                "duration" : 25
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") get attribute(class)",
+              "time" : {
+                "start" : 1607286279244,
+                "stop" : 1607286279258,
+                "duration" : 14
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "givenInput",
+              "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_lastname\" name=\"customer_lastname\" onkeyup=\"$('#lastname').val(this.value);\" type=\"text\" value=\"Kshlerin\"></input>"
+            } ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "givenInput",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isName\" id=\"customer_lastname\" name=\"customer_lastname\" onkeyup=\"$('#lastname').val(this.value);\" type=\"text\" value=\"Kshlerin\"></input>"
+          } ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "positive",
+          "value" : "true"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Checking validation status for password",
+        "time" : {
+          "start" : 1607286279258,
+          "stop" : 1607286279448,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding password",
+          "time" : {
+            "start" : 1607286279258,
+            "stop" : 1607286279320,
+            "duration" : 62
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: passwd\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286279258,
+              "stop" : 1607286279320,
+              "duration" : 62
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Checking for positive validation",
+          "time" : {
+            "start" : 1607286279365,
+            "stop" : 1607286279448,
+            "duration" : 83
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Getting validation attribute",
+            "time" : {
+              "start" : 1607286279406,
+              "stop" : 1607286279448,
+              "duration" : 42
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.id: passwd\") find(By.xpath: ./parent::div)",
+              "time" : {
+                "start" : 1607286279406,
+                "stop" : 1607286279406,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") should(exist)",
+              "time" : {
+                "start" : 1607286279406,
+                "stop" : 1607286279434,
+                "duration" : 28
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "$(\"By.xpath: ./parent::div\") get attribute(class)",
+              "time" : {
+                "start" : 1607286279434,
+                "stop" : 1607286279448,
+                "duration" : 14
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "givenInput",
+              "value" : "<input class=\"is_required validate form-control\" data-validate=\"isPasswd\" id=\"passwd\" name=\"passwd\" type=\"password\" value=\"xkqy7\"></input>"
+            } ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "givenInput",
+            "value" : "<input class=\"is_required validate form-control\" data-validate=\"isPasswd\" id=\"passwd\" name=\"passwd\" type=\"password\" value=\"xkqy7\"></input>"
+          } ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "positive",
+          "value" : "true"
+        } ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clientAccount",
+        "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@7c93ed40"
+      } ],
+      "stepsCount" : 71,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Filling address information",
+      "time" : {
+        "start" : 1607286279448,
+        "stop" : 1607286281091,
+        "duration" : 1643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Filling first name",
+        "time" : {
+          "start" : 1607286279466,
+          "stop" : 1607286279783,
+          "duration" : 317
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding first name",
+          "time" : {
+            "start" : 1607286279466,
+            "stop" : 1607286279698,
+            "duration" : 232
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: firstname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286279466,
+              "stop" : 1607286279698,
+              "duration" : 232
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286279744,
+            "stop" : 1607286279783,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: firstname\") append(Keri)",
+            "time" : {
+              "start" : 1607286279744,
+              "stop" : 1607286279759,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: firstname\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286279759,
+              "stop" : 1607286279771,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: firstname\") should have(value 'Keri')",
+            "time" : {
+              "start" : 1607286279771,
+              "stop" : 1607286279783,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control\" id=\"firstname\" name=\"firstname\" type=\"text\" value=\"Keri\"></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "Keri"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenFirstName",
+          "value" : "Keri"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling last name",
+        "time" : {
+          "start" : 1607286279783,
+          "stop" : 1607286279974,
+          "duration" : 191
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding last name",
+          "time" : {
+            "start" : 1607286279783,
+            "stop" : 1607286279845,
+            "duration" : 62
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: lastname\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286279783,
+              "stop" : 1607286279845,
+              "duration" : 62
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286279932,
+            "stop" : 1607286279974,
+            "duration" : 42
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: lastname\") append(Kshlerin)",
+            "time" : {
+              "start" : 1607286279933,
+              "stop" : 1607286279952,
+              "duration" : 19
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: lastname\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286279952,
+              "stop" : 1607286279963,
+              "duration" : 11
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: lastname\") should have(value 'Kshlerin')",
+            "time" : {
+              "start" : 1607286279963,
+              "stop" : 1607286279974,
+              "duration" : 11
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control\" id=\"lastname\" name=\"lastname\" type=\"text\" value=\"Kshlerin\"></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "Kshlerin"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenLastName",
+          "value" : "Kshlerin"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "filling Address",
+        "time" : {
+          "start" : 1607286279974,
+          "stop" : 1607286280166,
+          "duration" : 192
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding address",
+          "time" : {
+            "start" : 1607286279974,
+            "stop" : 1607286280052,
+            "duration" : 78
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: address1\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286279974,
+              "stop" : 1607286280052,
+              "duration" : 78
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286280103,
+            "stop" : 1607286280166,
+            "duration" : 63
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: address1\") append(459 Joella Neck, Kriston, NM 93986)",
+            "time" : {
+              "start" : 1607286280103,
+              "stop" : 1607286280142,
+              "duration" : 39
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: address1\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286280142,
+              "stop" : 1607286280155,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: address1\") should have(value '459 Joella Neck, Kriston, NM 93986')",
+            "time" : {
+              "start" : 1607286280155,
+              "stop" : 1607286280166,
+              "duration" : 11
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control\" id=\"address1\" name=\"address1\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "459 Joella Neck, Kriston, NM 93986"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenAddress",
+          "value" : "459 Joella Neck, Kriston, NM 93986"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling city",
+        "time" : {
+          "start" : 1607286280166,
+          "stop" : 1607286280425,
+          "duration" : 259
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding city",
+          "time" : {
+            "start" : 1607286280166,
+            "stop" : 1607286280229,
+            "duration" : 63
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: city\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286280167,
+              "stop" : 1607286280229,
+              "duration" : 62
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286280355,
+            "stop" : 1607286280425,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: city\") append(Port Gavinfurt)",
+            "time" : {
+              "start" : 1607286280355,
+              "stop" : 1607286280390,
+              "duration" : 35
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: city\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286280390,
+              "stop" : 1607286280403,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: city\") should have(value 'Port Gavinfurt')",
+            "time" : {
+              "start" : 1607286280403,
+              "stop" : 1607286280425,
+              "duration" : 22
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control\" id=\"city\" name=\"city\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "Port Gavinfurt"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenCity",
+          "value" : "Port Gavinfurt"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Selecting state",
+        "time" : {
+          "start" : 1607286280425,
+          "stop" : 1607286280760,
+          "duration" : 335
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding state list",
+          "time" : {
+            "start" : 1607286280425,
+            "stop" : 1607286280499,
+            "duration" : 74
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: id_state\") should be(Element is active on page)",
+            "time" : {
+              "start" : 1607286280425,
+              "stop" : 1607286280499,
+              "duration" : 74
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.id: id_state\") select option(Alabama)",
+          "time" : {
+            "start" : 1607286280499,
+            "stop" : 1607286280760,
+            "duration" : 261
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenState",
+          "value" : "Alabama"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling postal code",
+        "time" : {
+          "start" : 1607286280760,
+          "stop" : 1607286280919,
+          "duration" : 159
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding postal code",
+          "time" : {
+            "start" : 1607286280760,
+            "stop" : 1607286280824,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: postcode\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286280760,
+              "stop" : 1607286280824,
+              "duration" : 64
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286280873,
+            "stop" : 1607286280919,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: postcode\") append(14024)",
+            "time" : {
+              "start" : 1607286280873,
+              "stop" : 1607286280893,
+              "duration" : 20
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: postcode\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286280896,
+              "stop" : 1607286280908,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: postcode\") should have(value '14024')",
+            "time" : {
+              "start" : 1607286280908,
+              "stop" : 1607286280919,
+              "duration" : 11
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control uniform-input text\" id=\"postcode\" name=\"postcode\" onkeyup=\"$('#postcode').val($('#postcode').val().toUpperCase());\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "14024"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenPostCode",
+          "value" : "14024"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Filling mobile phone",
+        "time" : {
+          "start" : 1607286280919,
+          "stop" : 1607286281091,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding mobile phone",
+          "time" : {
+            "start" : 1607286280919,
+            "stop" : 1607286280989,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: phone_mobile\") should be(Element is interactable on page)",
+            "time" : {
+              "start" : 1607286280919,
+              "stop" : 1607286280989,
+              "duration" : 70
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Filling field",
+          "time" : {
+            "start" : 1607286281034,
+            "stop" : 1607286281091,
+            "duration" : 57
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.id: phone_mobile\") append(1-409-641-7450)",
+            "time" : {
+              "start" : 1607286281034,
+              "stop" : 1607286281063,
+              "duration" : 29
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: phone_mobile\") should not be(attribute value=\"\")",
+            "time" : {
+              "start" : 1607286281063,
+              "stop" : 1607286281080,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.id: phone_mobile\") should have(value '1-409-641-7450')",
+            "time" : {
+              "start" : 1607286281080,
+              "stop" : 1607286281091,
+              "duration" : 11
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "field",
+            "value" : "<input class=\"form-control\" id=\"phone_mobile\" name=\"phone_mobile\" type=\"text\" value></input>"
+          }, {
+            "name" : "givenValue",
+            "value" : "1-409-641-7450"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenMobilePhone",
+          "value" : "1-409-641-7450"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clientAccount",
+        "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@7c93ed40"
+      } ],
+      "stepsCount" : 46,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Clicking on register button",
+      "time" : {
+        "start" : 1607286281091,
+        "stop" : 1607286282733,
+        "duration" : 1642
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding register button",
+        "time" : {
+          "start" : 1607286281092,
+          "stop" : 1607286281242,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: submitAccount\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607286281092,
+            "stop" : 1607286281242,
+            "duration" : 150
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607286281294,
+          "stop" : 1607286282733,
+          "duration" : 1439
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: submitAccount\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607286281294,
+            "stop" : 1607286281372,
+            "duration" : 78
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.id: submitAccount\") click()",
+          "time" : {
+            "start" : 1607286281372,
+            "stop" : 1607286282733,
+            "duration" : 1361
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<button class=\"btn btn-default button button-medium\" id=\"submitAccount\" name=\"submitAccount\" type=\"submit\" value>Register</button>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 136,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToCreateAccount"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10299@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "e99b992deb8af4dd",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/e99b992deb8af4dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285281567,
+          "stop" : 1607285290239,
+          "duration" : 8672
+        }
+      }, {
+        "uid" : "16220fe6b150f131",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/16220fe6b150f131",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284850616,
+          "stop" : 1607284858463,
+          "duration" : 7847
+        }
+      }, {
+        "uid" : "92e9e0eec82d991d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/92e9e0eec82d991d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284374085,
+          "stop" : 1607284381880,
+          "duration" : 7795
+        }
+      }, {
+        "uid" : "bfa565d476321352",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/bfa565d476321352",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283110674,
+          "stop" : 1607283118530,
+          "duration" : 7856
+        }
+      }, {
+        "uid" : "a958904e37b08a2a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/a958904e37b08a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281416836,
+          "stop" : 1607281425171,
+          "duration" : 8335
+        }
+      }, {
+        "uid" : "31a7c1f87ef93c9e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/31a7c1f87ef93c9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280836552,
+          "stop" : 1607280846720,
+          "duration" : 10168
+        }
+      }, {
+        "uid" : "4f13d51906abadf0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/4f13d51906abadf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280230944,
+          "stop" : 1607280237872,
+          "duration" : 6928
+        }
+      }, {
+        "uid" : "f797eb0a607b3be3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/f797eb0a607b3be3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279312102,
+          "stop" : 1607279320670,
+          "duration" : 8568
+        }
+      }, {
+        "uid" : "c05a23f8041e74a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/c05a23f8041e74a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277574852,
+          "stop" : 1607277584654,
+          "duration" : 9802
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd4f68b16ae9132d.json",
+  "parameterValues" : [ ]
+}
