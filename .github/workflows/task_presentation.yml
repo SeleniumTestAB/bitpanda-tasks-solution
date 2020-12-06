@@ -21,7 +21,7 @@ jobs:
     env:
       UI_TASK_RESULTS_PATH: ui-task/target/allure-results
       LOAD_TASK_RESULTS_PATH: load-task/target/allure-results
-      JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/load_task.jmx
+      JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/
       ZEROCODE_RESULTS_FILE: load-task/target/zerocode-junit-granular-report.csv
       TEST_RESULTS_FOLDER: test-results
     runs-on: ubuntu-latest
@@ -55,12 +55,20 @@ jobs:
       run: mvn clean test --file load-task/pom.xml
       continue-on-error: true
 
+    - name: Move to Jmeter test plan folder
+      if: always()
+      run: sudo cd $JMETER_TEST_PLAN_PATH
+
     - name: Run Load Task with JMeter
       uses: rbhadti94/apache-jmeter-action@v0.3.0
       with:
-        testFilePath: ${{ env.JMETER_TEST_PLAN_PATH }}
+        testFilePath: load_task.jmx
         outputReportsFolder: jmeter-reports/
       continue-on-error: true
+
+    - name: Return to workspace root folder
+      if: always()
+      run: sudo cd $GITHUB_WORKSPACE
 
     - name: Merge allure test results to one folder
       if: always()
