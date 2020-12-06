@@ -1,0 +1,201 @@
+[ {
+  "uid" : "a3f8e630fe6457cf",
+  "name" : "getToHomePageTest1()",
+  "time" : {
+    "start" : 1607285360193,
+    "stop" : 1607285370749,
+    "duration" : 10556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aab974bc2387242",
+  "name" : "modalShouldContainProperProductName",
+  "time" : {
+    "start" : 1607285271694,
+    "stop" : 1607285271789,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aed186f61a7b5ca",
+  "name" : "checkoutSummaryShouldHaveProperProductInfo",
+  "time" : {
+    "start" : 1607285279713,
+    "stop" : 1607285279962,
+    "duration" : 249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da688e0af2a04237",
+  "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "time" : {
+    "start" : 1607285271792,
+    "stop" : 1607285272056,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dda5541dfdff21b2",
+  "name" : "testTheLoad()",
+  "time" : {
+    "start" : 1607285316100,
+    "stop" : 1607285371784,
+    "duration" : 55684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11fbbf0066443018",
+  "name" : "clientShouldBeAbleToProceedToCheckout",
+  "time" : {
+    "start" : 1607285278203,
+    "stop" : 1607285279686,
+    "duration" : 1483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24bab82c5b9b5089",
+  "name" : "modalShouldHaveProperLabelsForProductInformation",
+  "time" : {
+    "start" : 1607285272058,
+    "stop" : 1607285272480,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff8bc790602d8597",
+  "name" : "clientShouldBeAbleToConsentForTermsOfService",
+  "time" : {
+    "start" : 1607285291538,
+    "stop" : 1607285293098,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "faf28b6ba0ebe33e",
+  "name" : "clientShouldBeAbleToCompleteOrder",
+  "time" : {
+    "start" : 1607285296013,
+    "stop" : 1607285298067,
+    "duration" : 2054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d42e96fe7078946",
+  "name" : "clientShouldBeAbleToAddProductToCard",
+  "time" : {
+    "start" : 1607285276699,
+    "stop" : 1607285278199,
+    "duration" : 1500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a465ae5a1db5b1b",
+  "name" : "modalShouldContainProperAddedQuantityOfProduct",
+  "time" : {
+    "start" : 1607285271585,
+    "stop" : 1607285271636,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12ef402480c797e1",
+  "name" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+  "time" : {
+    "start" : 1607285290274,
+    "stop" : 1607285291534,
+    "duration" : 1260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7b68058c9f5bd52",
+  "name" : "assureThatShoppingModalAppearsOnHomePage",
+  "time" : {
+    "start" : 1607285269373,
+    "stop" : 1607285271518,
+    "duration" : 2145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee3f5603b2cca4e",
+  "name" : "clientShouldBeAbleToContinueShopping",
+  "time" : {
+    "start" : 1607285274128,
+    "stop" : 1607285274591,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e99b992deb8af4dd",
+  "name" : "clientShouldBeAbleToCreateAccount",
+  "time" : {
+    "start" : 1607285281567,
+    "stop" : 1607285290239,
+    "duration" : 8672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bf9377ef028ce24",
+  "name" : "modalShouldHaveVisibleProductInformation",
+  "time" : {
+    "start" : 1607285273352,
+    "stop" : 1607285274125,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddaff68ddf10f794",
+  "name" : "unsignedClientShouldProceedToLoginPage",
+  "time" : {
+    "start" : 1607285279965,
+    "stop" : 1607285281565,
+    "duration" : 1600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eab462d26f685702",
+  "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+  "time" : {
+    "start" : 1607285293104,
+    "stop" : 1607285296008,
+    "duration" : 2904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dbbe6254b197c29",
+  "name" : "modalShouldHaveVisibleCurrentCartInformation",
+  "time" : {
+    "start" : 1607285272483,
+    "stop" : 1607285273347,
+    "duration" : 864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ea5e4d60a9dc60f",
+  "name" : "modalShouldContainProperProductAttributes",
+  "time" : {
+    "start" : 1607285271643,
+    "stop" : 1607285271692,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
