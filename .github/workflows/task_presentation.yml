@@ -18,7 +18,11 @@ on:
 
 jobs:
   build:
-
+    env:
+      UI_TASK_RESULTS_PATH: ui-task/target/allure-results
+      LOAD_TASK_RESULTS_PATH: load-task/target/allure-results
+      ZEROCODE_RESULTS_FILE: load-task/target/zerocode-junit-granular-report.csv
+      TEST_RESULTS_FOLDER: test-results
     runs-on: ubuntu-latest
 
     steps:
@@ -45,6 +49,17 @@ jobs:
       run: mvn clean test -DisHeadless=true --file ui-task/pom.xml
       continue-on-error: true
 
+    - name: Run Load Task with zero code
+      if: always()
+      run: mvn clean test --file load-task/pom.xml
+      continue-on-error: true
+    - name: Merge allure test results to one folder
+      if: always()
+      run: |
+        sudo mkdir $TEST_RESULTS_FOLDER
+        sudo cp -a ./$UI_TASK_RESULTS_PATH/. ./$TEST_RESULTS_FOLDER
+        sudo cp -a ./$LOAD_TASK_RESULTS_PATH/. ./$TEST_RESULTS_FOLDER
+
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
@@ -57,7 +72,7 @@ jobs:
       uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        allure_results: ui-task/target/allure-results
+        allure_results: $TEST_RESULTS_FOLDER
         allure_history: allure-history
 
     - name: Deploy report to Github Pages

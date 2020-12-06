@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ui-task</module>
+        <module>load-task</module>
     </modules>
     <name>bitpanda-tasks-solution</name>
 
@@ -27,6 +28,10 @@
         <lombok.version>1.18.16</lombok.version>
         <java.faker.version>1.0.2</java.faker.version>
         <jackson.version>2.11.3</jackson.version>
+        <junit.jupiter.version>5.7.0</junit.jupiter.version>
+        <junit.version>4.12</junit.version>
+        <zero.code.version>1.3.26</zero.code.version>
+        <rest.assured.version>4.3.2</rest.assured.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -85,6 +90,57 @@
                 <artifactId>jackson-core</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-api</artifactId>
+                <version>${junit.jupiter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter-engine</artifactId>
+                <version>${junit.jupiter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-junit5</artifactId>
+                <version>${allure.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jsmart</groupId>
+                <artifactId>zerocode-tdd-jupiter</artifactId>
+                <version>${zero.code.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.junit.vintage</groupId>
+                <artifactId>junit-vintage-engine</artifactId>
+                <version>${junit.jupiter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jsmart</groupId>
+                <artifactId>zerocode-tdd</artifactId>
+                <version>${zero.code.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>${rest.assured.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-junit4</artifactId>
+                <version>${allure.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-rest-assured</artifactId>
+                <version>${allure.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
