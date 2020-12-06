@@ -21,7 +21,7 @@ jobs:
     env:
       UI_TASK_RESULTS_PATH: ui-task/target/allure-results
       LOAD_TASK_RESULTS_PATH: load-task/target/allure-results
-      JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/
+      JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/load_task.jmx
       ZEROCODE_RESULTS_FILE: load-task/target/zerocode-junit-granular-report.csv
       TEST_RESULTS_FOLDER: test-results
     runs-on: ubuntu-latest
@@ -58,7 +58,7 @@ jobs:
     - name: Run Load Task with JMeter
       uses: rbhadti94/apache-jmeter-action@v0.3.1
       with:
-        testFilePath: load_task.jmx
+        testFilePath: ${{ env.JMETER_TEST_PLAN_PATH }}
         outputReportsFolder: jmeter-reports/
       continue-on-error: true
 
