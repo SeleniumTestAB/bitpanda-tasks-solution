@@ -55,20 +55,12 @@ jobs:
       run: mvn clean test --file load-task/pom.xml
       continue-on-error: true
 
-    - name: Move to Jmeter test plan folder
-      if: always()
-      run: cd $JMETER_TEST_PLAN_PATH
-
     - name: Run Load Task with JMeter
-      uses: rbhadti94/apache-jmeter-action@v0.3.0
+      uses: rbhadti94/apache-jmeter-action@v0.3.1
       with:
         testFilePath: load_task.jmx
         outputReportsFolder: jmeter-reports/
       continue-on-error: true
-
-    - name: Return to workspace root folder
-      if: always()
-      run: cd $GITHUB_WORKSPACE
 
     - name: Merge allure test results to one folder
       if: always()
