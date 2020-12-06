@@ -57,7 +57,7 @@ jobs:
 
     - name: Move to Jmeter test plan folder
       if: always()
-      run: sudo cd $JMETER_TEST_PLAN_PATH
+      run: cd $JMETER_TEST_PLAN_PATH
 
     - name: Run Load Task with JMeter
       uses: rbhadti94/apache-jmeter-action@v0.3.0
@@ -68,7 +68,7 @@ jobs:
 
     - name: Return to workspace root folder
       if: always()
-      run: sudo cd $GITHUB_WORKSPACE
+      run: cd $GITHUB_WORKSPACE
 
     - name: Merge allure test results to one folder
       if: always()
