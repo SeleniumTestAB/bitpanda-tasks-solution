@@ -1,0 +1,218 @@
+{
+  "uid" : "68fc2bcb9c3d5d9f",
+  "name" : "clientShouldBeAbleToContinueShopping",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.clientShouldBeAbleToContinueShopping",
+  "historyId" : "a6564e8b69753b7f3ea02720db3a7770",
+  "time" : {
+    "start" : 1607280829088,
+    "stop" : 1607280829536,
+    "duration" : 448
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicking on continue shopping button",
+      "time" : {
+        "start" : 1607280829088,
+        "stop" : 1607280829526,
+        "duration" : 438
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding continue shopping button",
+        "time" : {
+          "start" : 1607280829088,
+          "stop" : 1607280829152,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Continue shopping\"]\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607280829088,
+            "stop" : 1607280829152,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607280829255,
+          "stop" : 1607280829526,
+          "duration" : 271
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Continue shopping\"]\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607280829255,
+            "stop" : 1607280829281,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[title=\"Continue shopping\"]\") click()",
+          "time" : {
+            "start" : 1607280829281,
+            "stop" : 1607280829526,
+            "duration" : 245
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<span class=\"continue btn btn-default button exclusive-medium\" title=\"Continue shopping\">Continue shopping</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "$(\"By.xpath: //body[@id='order']\") should not(exist)",
+      "time" : {
+        "start" : 1607280829526,
+        "stop" : 1607280829536,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToContinueShopping"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10382@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "8bbe9c039fd83483",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/8bbe9c039fd83483",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280223790,
+          "stop" : 1607280224392,
+          "duration" : 602
+        }
+      }, {
+        "uid" : "d7b58c40da7b8370",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/d7b58c40da7b8370",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279305151,
+          "stop" : 1607279305741,
+          "duration" : 590
+        }
+      }, {
+        "uid" : "5b31c20e7760a880",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/5b31c20e7760a880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277567452,
+          "stop" : 1607277567852,
+          "duration" : 400
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "68fc2bcb9c3d5d9f.json",
+  "parameterValues" : [ ]
+}

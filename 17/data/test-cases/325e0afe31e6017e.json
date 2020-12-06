@@ -1,0 +1,248 @@
+{
+  "uid" : "325e0afe31e6017e",
+  "name" : "unsignedClientShouldProceedToLoginPage",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.unsignedClientShouldProceedToLoginPage",
+  "historyId" : "7847e9fc9e9ea4341d55ef198dfee8f1",
+  "time" : {
+    "start" : 1607280834387,
+    "stop" : 1607280836516,
+    "duration" : 2129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Processing further in checkout process",
+      "time" : {
+        "start" : 1607280834387,
+        "stop" : 1607280836463,
+        "duration" : 2076
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding process to checkout button",
+        "time" : {
+          "start" : 1607280834387,
+          "stop" : 1607280834414,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //p[@class='cart_navigation clearfix']/child::a[@title='Proceed to checkout']\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607280834387,
+            "stop" : 1607280834414,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607280834482,
+          "stop" : 1607280836459,
+          "duration" : 1977
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //p[@class='cart_navigation clearfix']/child::a[@title='Proceed to checkout']\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607280834482,
+            "stop" : 1607280834509,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: //p[@class='cart_navigation clearfix']/child::a[@title='Proceed to checkout']\") click()",
+          "time" : {
+            "start" : 1607280834509,
+            "stop" : 1607280836459,
+            "duration" : 1950
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"button btn btn-default standard-checkout button-medium\" href=\"http://automationpractice.com/index.php?controller=order&step=1\" title=\"Proceed to checkout\" type>Proceed to checkout</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verifying that Client is on Login Page",
+      "time" : {
+        "start" : 1607280836463,
+        "stop" : 1607280836515,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding Login Page body",
+        "time" : {
+          "start" : 1607280836463,
+          "stop" : 1607280836515,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //body[@id='authentication']\") should(exist)",
+          "time" : {
+            "start" : 1607280836463,
+            "stop" : 1607280836515,
+            "duration" : 52
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "unsignedClientShouldProceedToLoginPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10382@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e12158d760a99202",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/e12158d760a99202",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280229376,
+          "stop" : 1607280230911,
+          "duration" : 1535
+        }
+      }, {
+        "uid" : "956fc397f5f2a0df",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/956fc397f5f2a0df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279310554,
+          "stop" : 1607279312099,
+          "duration" : 1545
+        }
+      }, {
+        "uid" : "127361d4f8a7256a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/127361d4f8a7256a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277573420,
+          "stop" : 1607277574850,
+          "duration" : 1430
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "325e0afe31e6017e.json",
+  "parameterValues" : [ ]
+}

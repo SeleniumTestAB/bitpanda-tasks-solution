@@ -1,0 +1,78 @@
+{
+  "uid" : "79272c6d5850a6d2",
+  "name" : "getToHomePageTest1()",
+  "fullName" : "com.bitpanda.load.task.solution.LoadTest.getToHomePageTest1",
+  "historyId" : "757e65fcc953c8ac9732e091777f2679",
+  "time" : {
+    "start" : 1607280883430,
+    "stop" : 1607280939618,
+    "duration" : 56188
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d73045f1ab6a8536",
+      "name" : "Request",
+      "source" : "d73045f1ab6a8536.html",
+      "type" : "text/html",
+      "size" : 279
+    }, {
+      "uid" : "6921a2a6f5b53f6a",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "6921a2a6f5b53f6a.html",
+      "type" : "text/html",
+      "size" : 21469
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10974@fv-az29-450.pool-3-thread-166(178)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.bitpanda.load.task.solution.LoadTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bitpanda.load.task.solution.LoadTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getToHomePageTest1"
+  }, {
+    "name" : "suite",
+    "value" : "com.bitpanda.load.task.solution.LoadTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79272c6d5850a6d2.json",
+  "parameterValues" : [ ]
+}
