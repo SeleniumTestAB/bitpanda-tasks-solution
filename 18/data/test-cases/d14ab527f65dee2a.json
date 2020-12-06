@@ -1,0 +1,350 @@
+{
+  "uid" : "d14ab527f65dee2a",
+  "name" : "clientShouldBeAbleToConsentForTermsOfService",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToConsentForTermsOfService",
+  "historyId" : "dc279c00c2b117519fe64314f2aa6ba7",
+  "time" : {
+    "start" : 1607281426302,
+    "stop" : 1607281427899,
+    "duration" : 1597
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Proceeding further in checkout process",
+      "time" : {
+        "start" : 1607281426302,
+        "stop" : 1607281427406,
+        "duration" : 1104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding process address button",
+        "time" : {
+          "start" : 1607281426302,
+          "stop" : 1607281426429,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processAddress\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607281426303,
+            "stop" : 1607281426429,
+            "duration" : 126
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607281426482,
+          "stop" : 1607281427406,
+          "duration" : 924
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processAddress\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607281426482,
+            "stop" : 1607281426508,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.name: processAddress\") click()",
+          "time" : {
+            "start" : 1607281426508,
+            "stop" : 1607281427406,
+            "duration" : 898
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<button class=\"button btn btn-default button-medium\" name=\"processAddress\" type=\"submit\" value>Proceed to checkout</button>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Agreeing to Terms of Service",
+      "time" : {
+        "start" : 1607281427406,
+        "stop" : 1607281427899,
+        "duration" : 493
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding consent checkbox",
+        "time" : {
+          "start" : 1607281427406,
+          "stop" : 1607281427473,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //input[@id='cgv']/parent::span\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607281427406,
+            "stop" : 1607281427473,
+            "duration" : 67
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607281427582,
+          "stop" : 1607281427860,
+          "duration" : 278
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //input[@id='cgv']/parent::span\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607281427582,
+            "stop" : 1607281427609,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: //input[@id='cgv']/parent::span\") click()",
+          "time" : {
+            "start" : 1607281427609,
+            "stop" : 1607281427860,
+            "duration" : 251
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<span></span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding consent checkbox",
+        "time" : {
+          "start" : 1607281427861,
+          "stop" : 1607281427889,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //input[@id='cgv']/parent::span\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607281427861,
+            "stop" : 1607281427889,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //input[@id='cgv']/parent::span\") should have(attribute class=\"checked\")",
+        "time" : {
+          "start" : 1607281427889,
+          "stop" : 1607281427899,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToConsentForTermsOfService"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az116-186"
+  }, {
+    "name" : "thread",
+    "value" : "10605@fv-az116-186.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e01957f57bf9e2e0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/e01957f57bf9e2e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280847848,
+          "stop" : 1607280850140,
+          "duration" : 2292
+        }
+      }, {
+        "uid" : "d6c9e594bf76fb9c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/d6c9e594bf76fb9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280238706,
+          "stop" : 1607280240013,
+          "duration" : 1307
+        }
+      }, {
+        "uid" : "6d695453925bc6c3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/6d695453925bc6c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279321935,
+          "stop" : 1607279323508,
+          "duration" : 1573
+        }
+      }, {
+        "uid" : "47df368a02129382",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/47df368a02129382",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277585653,
+          "stop" : 1607277586862,
+          "duration" : 1209
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d14ab527f65dee2a.json",
+  "parameterValues" : [ ]
+}

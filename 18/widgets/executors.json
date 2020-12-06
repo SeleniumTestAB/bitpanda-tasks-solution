@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution",
+  "buildOrder" : 18,
+  "buildName" : "GitHub Actions Run #404355771",
+  "buildUrl" : "https://github.com/SeleniumTestAB/bitpanda-tasks-solution/actions/runs/404355771",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18/"
+} ]
