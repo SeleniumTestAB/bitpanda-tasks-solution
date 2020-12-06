@@ -1,0 +1,611 @@
+{
+  "uid" : "f8ac572b982741f8",
+  "name" : "modalShouldHaveVisibleCurrentCartInformation",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldHaveVisibleCurrentCartInformation",
+  "historyId" : "c52dd52e6ea834bd08823534afdca55",
+  "time" : {
+    "start" : 1607279303243,
+    "stop" : 1607279304311,
+    "duration" : 1068
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking that shopping cart status info is visible",
+      "time" : {
+        "start" : 1607279303243,
+        "stop" : 1607279303403,
+        "duration" : 160
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding shopping cart status information",
+        "time" : {
+          "start" : 1607279303243,
+          "stop" : 1607279303331,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_cart_product_txt' or contains(@class, 'ajax_cart_product_txt')]\") should(exist)",
+          "time" : {
+            "start" : 1607279303243,
+            "stop" : 1607279303331,
+            "duration" : 88
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //span[@class='ajax_cart_product_txt' or contains(@class, 'ajax_cart_product_txt')]\") should be(visible)",
+        "time" : {
+          "start" : 1607279303331,
+          "stop" : 1607279303403,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that total price/cost of products in cart is visible",
+      "time" : {
+        "start" : 1607279303403,
+        "stop" : 1607279303775,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding total cost/price of products in shopping cart",
+        "time" : {
+          "start" : 1607279303403,
+          "stop" : 1607279303475,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_products_total']\") should(exist)",
+          "time" : {
+            "start" : 1607279303403,
+            "stop" : 1607279303475,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //span[@class='ajax_block_products_total']\") should be(visible)",
+        "time" : {
+          "start" : 1607279303475,
+          "stop" : 1607279303504,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Finding total cost/price of products in shopping cart",
+        "time" : {
+          "start" : 1607279303505,
+          "stop" : 1607279303575,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_products_total']\") should(exist)",
+          "time" : {
+            "start" : 1607279303505,
+            "stop" : 1607279303575,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607279303658,
+          "stop" : 1607279303695,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_products_total']\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607279303658,
+            "stop" : 1607279303658,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607279303658,
+            "stop" : 1607279303695,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span class=\"ajax_block_products_total\">$27.00</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should be(visible)",
+        "time" : {
+          "start" : 1607279303695,
+          "stop" : 1607279303775,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that shipping cost is visible",
+      "time" : {
+        "start" : 1607279303775,
+        "stop" : 1607279304058,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding total shipping cost",
+        "time" : {
+          "start" : 1607279303775,
+          "stop" : 1607279303804,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_cart_shipping_cost']\") should(exist)",
+          "time" : {
+            "start" : 1607279303775,
+            "stop" : 1607279303804,
+            "duration" : 29
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //span[@class='ajax_cart_shipping_cost']\") should be(visible)",
+        "time" : {
+          "start" : 1607279303804,
+          "stop" : 1607279303832,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Finding total shipping cost",
+        "time" : {
+          "start" : 1607279303833,
+          "stop" : 1607279303865,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_cart_shipping_cost']\") should(exist)",
+          "time" : {
+            "start" : 1607279303833,
+            "stop" : 1607279303865,
+            "duration" : 32
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607279303939,
+          "stop" : 1607279304020,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_cart_shipping_cost']\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607279303939,
+            "stop" : 1607279303940,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607279303940,
+            "stop" : 1607279304020,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span class=\"ajax_cart_shipping_cost\">$2.00</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should be(visible)",
+        "time" : {
+          "start" : 1607279304020,
+          "stop" : 1607279304058,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that shopping cost is visible",
+      "time" : {
+        "start" : 1607279304059,
+        "stop" : 1607279304311,
+        "duration" : 252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding total shopping cost",
+        "time" : {
+          "start" : 1607279304059,
+          "stop" : 1607279304089,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_cart_total']\") should(exist)",
+          "time" : {
+            "start" : 1607279304059,
+            "stop" : 1607279304089,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //span[@class='ajax_block_cart_total']\") should be(visible)",
+        "time" : {
+          "start" : 1607279304089,
+          "stop" : 1607279304124,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Finding total shopping cost",
+        "time" : {
+          "start" : 1607279304124,
+          "stop" : 1607279304161,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_cart_total']\") should(exist)",
+          "time" : {
+            "start" : 1607279304124,
+            "stop" : 1607279304161,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607279304235,
+          "stop" : 1607279304276,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //span[@class='ajax_block_cart_total']\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607279304236,
+            "stop" : 1607279304236,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607279304236,
+            "stop" : 1607279304276,
+            "duration" : 40
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span class=\"ajax_block_cart_total\">$29.00</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should be(visible)",
+        "time" : {
+          "start" : 1607279304277,
+          "stop" : 1607279304311,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 34,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldHaveVisibleCurrentCartInformation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az116-186"
+  }, {
+    "name" : "thread",
+    "value" : "10022@fv-az116-186.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "24c952969407c7ad",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/24c952969407c7ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277566319,
+          "stop" : 1607277566931,
+          "duration" : 612
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8ac572b982741f8.json",
+  "parameterValues" : [ ]
+}
