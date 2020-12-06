@@ -58,7 +58,7 @@ jobs:
     - name: Run Load Task with JMeter
       uses: rbhadti94/apache-jmeter-action@v0.2.0
       with:
-        testFilePath: ${{ build.env.JMETER_TEST_PLAN_PATH }}
+        testFilePath: ${{ env.JMETER_TEST_PLAN_PATH }}
         outputReportsFolder: jmeter-reports/
       continue-on-error: true
 
