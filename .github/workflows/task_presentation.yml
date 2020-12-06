@@ -57,8 +57,8 @@ jobs:
       if: always()
       run: |
         sudo mkdir $TEST_RESULTS_FOLDER
-        sudo cp -a ./$UI_TASK_RESULTS_PATH/. ./$TEST_RESULTS_FOLDER
-        sudo cp -a ./$LOAD_TASK_RESULTS_PATH/. ./$TEST_RESULTS_FOLDER
+        sudo cp -a $UI_TASK_RESULTS_PATH/. $TEST_RESULTS_FOLDER
+        sudo cp -a $LOAD_TASK_RESULTS_PATH/. $TEST_RESULTS_FOLDER
 
     - name: Get Allure history
       uses: actions/checkout@v2
