@@ -1,15 +1,3 @@
 [ {
-  "buildOrder" : 7,
-  "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/7/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 27052
-  }
-}, {
-  "buildOrder" : 6,
-  "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/6/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 38071
-  }
+  "data" : { }
 } ]
