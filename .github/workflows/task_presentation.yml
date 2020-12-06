@@ -61,6 +61,8 @@ jobs:
         sudo cp -a $LOAD_TASK_RESULTS_PATH/. $TEST_RESULTS_FOLDER
         sudo ls $UI_TASK_RESULTS_PATH/
         sudo ls $LOAD_TASK_RESULTS_PATH/
+        echo "showing content of allure results"
+        echo "********************************"
         sudo ls $TEST_RESULTS_FOLDER
 
     - name: Get Allure history
