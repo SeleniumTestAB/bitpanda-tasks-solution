@@ -1,0 +1,245 @@
+{
+  "uid" : "b9f387ff3018c3c1",
+  "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "historyId" : "fd080649b9550f0407fc56789a3d4d1d",
+  "time" : {
+    "start" : 1607284364774,
+    "stop" : 1607284364896,
+    "duration" : 122
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking modal title",
+      "time" : {
+        "start" : 1607284364775,
+        "stop" : 1607284364896,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding modal title",
+        "time" : {
+          "start" : 1607284364775,
+          "stop" : 1607284364879,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding modal",
+          "time" : {
+            "start" : 1607284364775,
+            "stop" : 1607284364796,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //div[@id='layer_cart']\") should(exist)",
+            "time" : {
+              "start" : 1607284364775,
+              "stop" : 1607284364796,
+              "duration" : 21
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: //div[@id='layer_cart']\") find(By.xpath: .//descendant::i/parent::h2)",
+          "time" : {
+            "start" : 1607284364796,
+            "stop" : 1607284364796,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: .//descendant::i/parent::h2\") should be(Element is readable/visible on page)",
+          "time" : {
+            "start" : 1607284364796,
+            "stop" : 1607284364879,
+            "duration" : 83
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: .//descendant::i/parent::h2\") should have(own text 'Product successfully added to your shopping cart')",
+        "time" : {
+          "start" : 1607284364879,
+          "stop" : 1607284364896,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedTitle",
+        "value" : "Product successfully added to your shopping cart"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10505@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "e7348c48f510d74b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/e7348c48f510d74b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283099285,
+          "stop" : 1607283099470,
+          "duration" : 185
+        }
+      }, {
+        "uid" : "70e853d4a77ae60a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/70e853d4a77ae60a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281407738,
+          "stop" : 1607281407956,
+          "duration" : 218
+        }
+      }, {
+        "uid" : "ab9c9a7f0449a537",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/ab9c9a7f0449a537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280827352,
+          "stop" : 1607280827537,
+          "duration" : 185
+        }
+      }, {
+        "uid" : "8d05ae681ffd2b2a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/8d05ae681ffd2b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280221938,
+          "stop" : 1607280222079,
+          "duration" : 141
+        }
+      }, {
+        "uid" : "470ca94ccb043468",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/470ca94ccb043468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279302623,
+          "stop" : 1607279302875,
+          "duration" : 252
+        }
+      }, {
+        "uid" : "6f93396bebe063eb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/6f93396bebe063eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277565791,
+          "stop" : 1607277566000,
+          "duration" : 209
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9f387ff3018c3c1.json",
+  "parameterValues" : [ ]
+}
