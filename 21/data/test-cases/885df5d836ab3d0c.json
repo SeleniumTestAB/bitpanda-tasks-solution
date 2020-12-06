@@ -1,0 +1,269 @@
+{
+  "uid" : "885df5d836ab3d0c",
+  "name" : "clientShouldBeAbleToProceedToCheckout",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToProceedToCheckout",
+  "historyId" : "cfb372537fe45d9edf69f609d0f94d5c",
+  "time" : {
+    "start" : 1607284846958,
+    "stop" : 1607284848870,
+    "duration" : 1912
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicking on proceed to checkout button",
+      "time" : {
+        "start" : 1607284846958,
+        "stop" : 1607284848847,
+        "duration" : 1889
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding proceed to checkout button",
+        "time" : {
+          "start" : 1607284846958,
+          "stop" : 1607284847028,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607284846958,
+            "stop" : 1607284847028,
+            "duration" : 70
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607284847089,
+          "stop" : 1607284848789,
+          "duration" : 1700
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607284847089,
+            "stop" : 1607284847115,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[title=\"Proceed to checkout\"]\") click()",
+          "time" : {
+            "start" : 1607284847115,
+            "stop" : 1607284848789,
+            "duration" : 1674
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"btn btn-default button button-medium\" href=\"http://automationpractice.com/index.php?controller=order\" rel=\"nofollow\" title=\"Proceed to checkout\" type>Proceed to checkout</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verifying that Client is on Checkout Page",
+      "time" : {
+        "start" : 1607284848848,
+        "stop" : 1607284848869,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.xpath: //body[@id='order']\") should(exist)",
+        "time" : {
+          "start" : 1607284848848,
+          "stop" : 1607284848869,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToProceedToCheckout"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az116-186"
+  }, {
+    "name" : "thread",
+    "value" : "10399@fv-az116-186.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "3ceadb466a4d302b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/3ceadb466a4d302b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284369759,
+          "stop" : 1607284370858,
+          "duration" : 1099
+        }
+      }, {
+        "uid" : "41ad486ad35f1bea",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/41ad486ad35f1bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283105124,
+          "stop" : 1607283107104,
+          "duration" : 1980
+        }
+      }, {
+        "uid" : "dfd39ded98fa4ce6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/dfd39ded98fa4ce6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281413307,
+          "stop" : 1607281414621,
+          "duration" : 1314
+        }
+      }, {
+        "uid" : "a716345e072bde3e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/a716345e072bde3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280832294,
+          "stop" : 1607280834211,
+          "duration" : 1917
+        }
+      }, {
+        "uid" : "58c4ba89a7116561",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/58c4ba89a7116561",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280227589,
+          "stop" : 1607280228923,
+          "duration" : 1334
+        }
+      }, {
+        "uid" : "600ebcc9215cb5cb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/600ebcc9215cb5cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279308856,
+          "stop" : 1607279310353,
+          "duration" : 1497
+        }
+      }, {
+        "uid" : "bce144bf16af1d5b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/bce144bf16af1d5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277572122,
+          "stop" : 1607277573146,
+          "duration" : 1024
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "885df5d836ab3d0c.json",
+  "parameterValues" : [ ]
+}
