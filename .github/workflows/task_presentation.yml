@@ -59,6 +59,9 @@ jobs:
         sudo mkdir $TEST_RESULTS_FOLDER
         sudo cp -a $UI_TASK_RESULTS_PATH/. $TEST_RESULTS_FOLDER
         sudo cp -a $LOAD_TASK_RESULTS_PATH/. $TEST_RESULTS_FOLDER
+        sudo ls $UI_TASK_RESULTS_PATH/
+        sudo ls $LOAD_TASK_RESULTS_PATH/
+        sudo ls $TEST_RESULTS_FOLDER
 
     - name: Get Allure history
       uses: actions/checkout@v2
