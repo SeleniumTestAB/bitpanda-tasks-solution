@@ -75,7 +75,7 @@ jobs:
       run: |
         sudo mkdir downloads
         sudo cp $ZEROCODE_RESULTS_FILE downloads
-        sudo cp jmeter-reports/. downloads
+        sudo cp -r jmeter-reports/. downloads
       continue-on-error: true
 
     - name: Upload additional artifacts
