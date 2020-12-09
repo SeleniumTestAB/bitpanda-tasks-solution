@@ -53,13 +53,16 @@ This Project's CI/CD is made with Github Actions
 - You can pull project and run it locally with command "mvn clean test", however you need to provide specific variables
 
 ### Test Args/Variables
-- API_USER - user for api tests to authenticate
-- API_PASSWORD - password to authenticate to API to acquire token
+- API_USER - user for api tests to authenticate. In CI/CD this variables needs to be set as secret in repository
+- API_PASSWORD - password to authenticate to API to acquire token. In CI/CD this variables needs to be set as secret in repository
 - isHEADLESS - to set UI tests in headless or no-headless mode
 
 ## How to get report from test runs
 
-All the tests use Allure Framework as reporting tool. In order to generate report with it, one must first download and setup allure commandline.
+All the tests use Allure Framework as reporting tool. 
+
+### Local report generation
+In order to generate report with it, one must first download and setup allure commandline.
 Information to how setup this commandline can be found on Allure's official documentation [here](https://docs.qameta.io/allure/) 
 in section **Installing a commandline** under *2.1.4. Manual installation*.
 
@@ -75,3 +78,20 @@ $ allure serve ui-task/target/allure-results
 ```
 
 _All results are placed in target folder in each module_
+
+
+### Report generation via Github Actions
+
+Report is automatically generated and published to Github Pages. In order to use that flow in your fork
+you need to do couple of things:
+
+* Create gh-pages branch in your repo/fork
+* Generate personal access token for your github repo (you can find how to do it [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)).
+Permissions should be set like described [here](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#permissions-for-the-github_token)
+* Set newly generated token as Github Secret with name *"SECRET_ACCESS_TOKEN"* (unless you change it in your fork)
+
+
+After setting up the necessary things, run the tests and the newly generated report should be visible in "Deployments/Activity log" as new Github Pages deployment.
+In order to view the report, one simply needs to click on the "View deployment" button.
+
+[EXAMPLE OF REPORT](https://seleniumtestab.github.io/bitpanda-tasks-solution/41/)
