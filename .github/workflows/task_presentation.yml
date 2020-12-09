@@ -60,7 +60,7 @@ jobs:
 
     - name: Run Api Task
       if: always()
-      run: mvn clean test -DAPI_USER=${{ env.TEST_API_USER }} -DAPI_PASSWORD=${{ env.API_PASSWORD}} --file api-task/pom.xml
+      run: mvn clean test -DAPI_USER=${{ env.TEST_API_USER }} -DAPI_PASSWORD=${{ env.TEST_API_PASSWORD}} --file api-task/pom.xml
       continue-on-error: true
 
     - name: Run Load Task with JMeter
