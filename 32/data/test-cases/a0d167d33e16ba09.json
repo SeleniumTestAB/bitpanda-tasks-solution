@@ -1,0 +1,125 @@
+{
+  "uid" : "a0d167d33e16ba09",
+  "name" : "createdSpotsShouldHaveProperDescription",
+  "fullName" : "com.example.api.task.solution.spot.SpotCreationTest.createdSpotsShouldHaveProperDescription",
+  "historyId" : "6bf5820874a4d9414b7f6f98c349aee",
+  "time" : {
+    "start" : 1607542687410,
+    "stop" : 1607542687412,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@23b3aa8c] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@23b3aa8c] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.spot.SpotCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.spot.SpotCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createdSpotsShouldHaveProperDescription"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create spots on map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.spot.SpotCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az76-468"
+  }, {
+    "name" : "thread",
+    "value" : "12002@fv-az76-468.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 6,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "2ca20774a9d7bc8a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/2ca20774a9d7bc8a",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@100c567f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541345380,
+          "stop" : 1607541345381,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "88aedfd993b4ba2e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/88aedfd993b4ba2e",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@70331432] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540828959,
+          "stop" : 1607540828960,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5c1e799d58c2e5d5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/5c1e799d58c2e5d5",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@100c567f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536783169,
+          "stop" : 1607536783171,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "3507fb2df68440d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/3507fb2df68440d",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@70e13fa] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587699,
+          "stop" : 1607535587699,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fea60047c10a9b07",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/fea60047c10a9b07",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotCreationTest.createdSpotsShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.spot.SpotCreationTest@1de9d54] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530915665,
+          "stop" : 1607530915665,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a0d167d33e16ba09.json",
+  "parameterValues" : [ ]
+}

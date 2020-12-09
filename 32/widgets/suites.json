@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "1d4b18e2da6138a9141ae6d8b525fdb7",
+    "name" : "Api Test Suite",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 3,
+      "skipped" : 15,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 24
+    }
+  }, {
+    "uid" : "945f89cbea609fb95ce310d645221b23",
+    "name" : "Presentation Test Suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 18
+    }
+  }, {
+    "uid" : "855c92bae80ca99b29c2876b1b787248",
+    "name" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c933b6e98c70618ffb3f0c7e1612f714",
+    "name" : "com.bitpanda.load.task.solution.LoadTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
