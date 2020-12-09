@@ -1,0 +1,380 @@
+{
+  "uid" : "d6a8fa6e1f91c339",
+  "name" : "checkoutSummaryShouldHaveProperProductInfo",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.checkoutSummaryShouldHaveProperProductInfo",
+  "historyId" : "e85902b5b2777e6ee5314eaf8d226fca",
+  "time" : {
+    "start" : 1607533774434,
+    "stop" : 1607533774679,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking if product image is visible",
+      "time" : {
+        "start" : 1607533774434,
+        "stop" : 1607533774537,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding product image",
+        "time" : {
+          "start" : 1607533774434,
+          "stop" : 1607533774471,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.xpath: //td[@class='cart_product']/descendant::img[@alt='Faded Short Sleeve T-shirts']\") should(exist)",
+          "time" : {
+            "start" : 1607533774434,
+            "stop" : 1607533774471,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "productName",
+          "value" : "Faded Short Sleeve T-shirts"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: //td[@class='cart_product']/descendant::img[@alt='Faded Short Sleeve T-shirts']\") should be(visible)",
+        "time" : {
+          "start" : 1607533774471,
+          "stop" : 1607533774537,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productName",
+        "value" : "Faded Short Sleeve T-shirts"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking availability of a product",
+      "time" : {
+        "start" : 1607533774537,
+        "stop" : 1607533774679,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding product availability",
+        "time" : {
+          "start" : 1607533774537,
+          "stop" : 1607533774638,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding product description",
+          "time" : {
+            "start" : 1607533774537,
+            "stop" : 1607533774576,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "$(\"By.xpath: //td[@class='cart_description' and contains(string(), 'Faded Short Sleeve T-shirts')]\") should(exist)",
+            "time" : {
+              "start" : 1607533774538,
+              "stop" : 1607533774576,
+              "duration" : 38
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "productName",
+            "value" : "Faded Short Sleeve T-shirts"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: //td[@class='cart_description' and contains(string(), 'Faded Short Sleeve T-shirts')]\") find(By.xpath: ./following-sibling::td[@class='cart_avail']/span)",
+          "time" : {
+            "start" : 1607533774576,
+            "stop" : 1607533774576,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./following-sibling::td[@class='cart_avail']/span\") should be(Element is readable/visible on page)",
+          "time" : {
+            "start" : 1607533774576,
+            "stop" : 1607533774638,
+            "duration" : 62
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "productName",
+          "value" : "Faded Short Sleeve T-shirts"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./following-sibling::td[@class='cart_avail']/span\") should be(visible)",
+        "time" : {
+          "start" : 1607533774638,
+          "stop" : 1607533774664,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.xpath: ./following-sibling::td[@class='cart_avail']/span\") should have(own text 'In stock')",
+        "time" : {
+          "start" : 1607533774664,
+          "stop" : 1607533774679,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productName",
+        "value" : "Faded Short Sleeve T-shirts"
+      }, {
+        "name" : "expectedAvailability",
+        "value" : "In stock"
+      } ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkoutSummaryShouldHaveProperProductInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az50-198"
+  }, {
+    "name" : "thread",
+    "value" : "10329@fv-az50-198.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "207e7f7dfc24bd51",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/207e7f7dfc24bd51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530799539,
+          "stop" : 1607530799737,
+          "duration" : 198
+        }
+      }, {
+        "uid" : "cace5e4afe3a6679",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/cace5e4afe3a6679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286273090,
+          "stop" : 1607286273319,
+          "duration" : 229
+        }
+      }, {
+        "uid" : "9aed186f61a7b5ca",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/9aed186f61a7b5ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285279713,
+          "stop" : 1607285279962,
+          "duration" : 249
+        }
+      }, {
+        "uid" : "69eddb13521afb39",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/69eddb13521afb39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284848875,
+          "stop" : 1607284849086,
+          "duration" : 211
+        }
+      }, {
+        "uid" : "dc1fdcfdd86e98ed",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/dc1fdcfdd86e98ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284370860,
+          "stop" : 1607284371143,
+          "duration" : 283
+        }
+      }, {
+        "uid" : "bfeb1ee7d93b9354",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/bfeb1ee7d93b9354",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283107149,
+          "stop" : 1607283107453,
+          "duration" : 304
+        }
+      }, {
+        "uid" : "9151ee68e2773bbe",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/9151ee68e2773bbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281414623,
+          "stop" : 1607281414783,
+          "duration" : 160
+        }
+      }, {
+        "uid" : "554bb88d0b327df9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/554bb88d0b327df9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280834213,
+          "stop" : 1607280834384,
+          "duration" : 171
+        }
+      }, {
+        "uid" : "b573b92c852f046b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/b573b92c852f046b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280228925,
+          "stop" : 1607280229375,
+          "duration" : 450
+        }
+      }, {
+        "uid" : "958838115fc03cdb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/958838115fc03cdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279310356,
+          "stop" : 1607279310552,
+          "duration" : 196
+        }
+      }, {
+        "uid" : "3f83d16c0b4058b3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/3f83d16c0b4058b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277573184,
+          "stop" : 1607277573416,
+          "duration" : 232
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d6a8fa6e1f91c339.json",
+  "parameterValues" : [ ]
+}
