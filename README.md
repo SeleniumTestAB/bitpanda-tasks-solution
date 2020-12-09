@@ -50,7 +50,8 @@ This Project's CI/CD is made with Github Actions
 ## How to run this project
 
 - You can either fork this project and run your Github Actions or create pull request to trigger actions here
-- You can pull project and run it locally with command "mvn clean test", however you need to provide specific variables
+- You can pull project and run it locally with command "mvn clean test", however you need to provide specific variables. 
+Please that you must have java 11 installed and Maven configured in order to run this project locally.
 
 ### Test Args/Variables
 - API_USER - user for api tests to authenticate. In CI/CD this variables needs to be set as secret in repository
