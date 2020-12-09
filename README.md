@@ -43,7 +43,7 @@ Also Jmeter jmx file can be found in src/test/resources/jmeter path
 
 System under test link -> [here](https://orangehrm-demo-6x.orangehrmlive.com/auth/login)
 
-##Project CI/CD
+## Project CI/CD
 
 This Project's CI/CD is made with Github Actions
 
@@ -52,7 +52,7 @@ This Project's CI/CD is made with Github Actions
 - You can either fork this project and run your Github Actions or create pull request to trigger actions here
 - You can pull project and run it locally with command "mvn clean test", however you need to provide specific variables
 
-###Test Args/Variables
+### Test Args/Variables
 - API_USER - user for api tests to authenticate
 - API_PASSWORD - password to authenticate to API to acquire token
 - isHEADLESS - to set UI tests in headless or no-headless mode
