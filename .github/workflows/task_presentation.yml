@@ -25,7 +25,7 @@ jobs:
       JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/load_task.jmx
       ZEROCODE_RESULTS_FILE: load-task/target/zerocode-junit-granular-report.csv
       TEST_RESULTS_FOLDER: test-results
-      TEST_API_USER: ${{ secrects.API_USER }}
+      TEST_API_USER: ${{ secrets.API_USER }}
       TEST_API_PASSWORD: ${{ secrets.API_PASSWORD }}
     runs-on: ubuntu-latest
 
