@@ -9,7 +9,6 @@ public class AuthenticationService extends BaseService {
     private final String PASSWORD = System.getProperty("API_PASSWORD");
 
     public Response authenticate() {
-        log.info(USER);
         return getBaseSpec().auth().preemptive().basic(USER, PASSWORD).get("/authentication");
     }
 
