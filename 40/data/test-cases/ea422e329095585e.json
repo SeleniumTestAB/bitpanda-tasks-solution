@@ -1,0 +1,355 @@
+{
+  "uid" : "ea422e329095585e",
+  "name" : "userShouldBeAbleToCreateMap",
+  "fullName" : "com.example.api.task.solution.map.PositiveMapCreationTest.userShouldBeAbleToCreateMap",
+  "historyId" : "89f0179db7123b3ce4016adf24f49a78",
+  "time" : {
+    "start" : 1607549465629,
+    "stop" : 1607549466054,
+    "duration" : 425
+  },
+  "status" : "failed",
+  "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+  "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.PositiveMapCreationTest.userShouldBeAbleToCreateMap(PositiveMapCreationTest.java:21)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+    "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.PositiveMapCreationTest.userShouldBeAbleToCreateMap(PositiveMapCreationTest.java:21)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@2857310c'",
+      "time" : {
+        "start" : 1607549466052,
+        "stop" : 1607549466052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607549466052,
+        "stop" : 1607549466052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607549466052,
+          "stop" : 1607549466052,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607549466052,
+        "stop" : 1607549466052,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '403'",
+      "time" : {
+        "start" : 1607549466053,
+        "stop" : 1607549466053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607549466053,
+        "stop" : 1607549466053,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607549466053,
+          "stop" : 1607549466053,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607549466053,
+        "stop" : 1607549466054,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+      "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.PositiveMapCreationTest.userShouldBeAbleToCreateMap(PositiveMapCreationTest.java:21)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "489321464ccd92c3",
+      "name" : "Request",
+      "source" : "489321464ccd92c3.html",
+      "type" : "text/html",
+      "size" : 1253
+    }, {
+      "uid" : "e983c9dc4b045f86",
+      "name" : "HTTP/1.1 403 Forbidden",
+      "source" : "e983c9dc4b045f86.html",
+      "type" : "text/html",
+      "size" : 1024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldBeAbleToCreateMap"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create map positive path"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12122@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 14,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "a6e037404c189d4b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/a6e037404c189d4b",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607548867364,
+          "stop" : 1607548870585,
+          "duration" : 3221
+        }
+      }, {
+        "uid" : "e8328cd8d91fa58",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/e8328cd8d91fa58",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607547592477,
+          "stop" : 1607547592916,
+          "duration" : 439
+        }
+      }, {
+        "uid" : "dea1d188d7305c4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/dea1d188d7305c4",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546847669,
+          "stop" : 1607546848183,
+          "duration" : 514
+        }
+      }, {
+        "uid" : "47327eb97f6382da",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/47327eb97f6382da",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546327507,
+          "stop" : 1607546328283,
+          "duration" : 776
+        }
+      }, {
+        "uid" : "f8cfae1884a460fd",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/f8cfae1884a460fd",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607545236705,
+          "stop" : 1607545237281,
+          "duration" : 576
+        }
+      }, {
+        "uid" : "72b9808feaebce2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/72b9808feaebce2",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543730290,
+          "stop" : 1607543730730,
+          "duration" : 440
+        }
+      }, {
+        "uid" : "c836635192a29506",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/c836635192a29506",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543161156,
+          "stop" : 1607543161925,
+          "duration" : 769
+        }
+      }, {
+        "uid" : "f00fca7231cad1b2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/f00fca7231cad1b2",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607542685495,
+          "stop" : 1607542686252,
+          "duration" : 757
+        }
+      }, {
+        "uid" : "26cd9bb0fae210a0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/26cd9bb0fae210a0",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607541344538,
+          "stop" : 1607541344930,
+          "duration" : 392
+        }
+      }, {
+        "uid" : "1687f5b66bf6e2fa",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/1687f5b66bf6e2fa",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607540827070,
+          "stop" : 1607540827840,
+          "duration" : 770
+        }
+      }, {
+        "uid" : "5cfbb5e2713e73ca",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/5cfbb5e2713e73ca",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607536781840,
+          "stop" : 1607536782403,
+          "duration" : 563
+        }
+      }, {
+        "uid" : "69a059d6adcb039e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/69a059d6adcb039e",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607535586913,
+          "stop" : 1607535587292,
+          "duration" : 379
+        }
+      }, {
+        "uid" : "599d1da4cd08089f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/599d1da4cd08089f",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607530913670,
+          "stop" : 1607530914545,
+          "duration" : 875
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea422e329095585e.json",
+  "parameterValues" : [ ]
+}

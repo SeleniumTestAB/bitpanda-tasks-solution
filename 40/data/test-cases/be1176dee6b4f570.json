@@ -1,0 +1,205 @@
+{
+  "uid" : "be1176dee6b4f570",
+  "name" : "userShouldReceiveAuthenticationToken",
+  "fullName" : "com.example.api.task.solution.authenticate.AuthenticationTest.userShouldReceiveAuthenticationToken",
+  "historyId" : "9f451db0ab0bd58d3b89a87916ab9dc2",
+  "time" : {
+    "start" : 1607549465569,
+    "stop" : 1607549465569,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@267517e4] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@267517e4] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldReceiveAuthenticationToken"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12122@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "6627e8eca6a11838",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/6627e8eca6a11838",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@4bb8855f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548867285,
+          "stop" : 1607548867286,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "763317ecfd670955",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/763317ecfd670955",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@1763992e] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547592382,
+          "stop" : 1607547592384,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "bf5e56b973fa5e5a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/bf5e56b973fa5e5a",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@57fae983] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546847619,
+          "stop" : 1607546847619,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8749dc6c6502e7b1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/8749dc6c6502e7b1",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@b9dfc5a] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546327431,
+          "stop" : 1607546327432,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ae07d75cbdaa6bb2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/ae07d75cbdaa6bb2",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@4cbd03e7] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545236611,
+          "stop" : 1607545236612,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "604145eab301c893",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/604145eab301c893",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@659925f4] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543730179,
+          "stop" : 1607543730181,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "bd211cc487d97c1c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/bd211cc487d97c1c",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@4bb8855f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543161092,
+          "stop" : 1607543161093,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f4901112be33bd9f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/f4901112be33bd9f",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@4bee18dc] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542685455,
+          "stop" : 1607542685456,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "11f39a6b47980db0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/11f39a6b47980db0",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@8a62297] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541344478,
+          "stop" : 1607541344478,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8bd4e2e2ed34cb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/8bd4e2e2ed34cb",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@267517e4] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540827003,
+          "stop" : 1607540827004,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2647e1750808e021",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/2647e1750808e021",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@5c92166b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536781784,
+          "stop" : 1607536781784,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2d85808a8773de7e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/2d85808a8773de7e",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@5116ac09] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535586848,
+          "stop" : 1607535586849,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7c720adf88ae6d9c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/7c720adf88ae6d9c",
+        "status" : "skipped",
+        "statusDetails" : "Method AuthenticationTest.userShouldReceiveAuthenticationToken()[pri:0, instance:com.example.api.task.solution.authenticate.AuthenticationTest@3df978b9] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530913596,
+          "stop" : 1607530913597,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "be1176dee6b4f570.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,205 @@
+{
+  "uid" : "806b8500d21cd240",
+  "name" : "spotShouldHaveUpdatedCoordinates",
+  "fullName" : "com.example.api.task.solution.spot.SpotUpdateTest.spotShouldHaveUpdatedCoordinates",
+  "historyId" : "918d762018eb92032dc301cc87968171",
+  "time" : {
+    "start" : 1607549466753,
+    "stop" : 1607549466753,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@7275c74b] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@7275c74b] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "spotShouldHaveUpdatedCoordinates"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Update spot on map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12122@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "22454ba2c9eb96db",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/22454ba2c9eb96db",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@629adce] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548871885,
+          "stop" : 1607548871886,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3c95592ff8102c8d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/3c95592ff8102c8d",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@5d1b9c3d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547594459,
+          "stop" : 1607547594459,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1c981ab1ff5b59fb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/1c981ab1ff5b59fb",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@70331432] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546849475,
+          "stop" : 1607546849476,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "454c071d942a531e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/454c071d942a531e",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@71f96dfb] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546330055,
+          "stop" : 1607546330055,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f365dc38177b9b09",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/f365dc38177b9b09",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@47ad69f7] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545238718,
+          "stop" : 1607545238718,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "74a920164f79dff4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/74a920164f79dff4",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@504e1599] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543731505,
+          "stop" : 1607543731506,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "464232c815e068ec",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/464232c815e068ec",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@629adce] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543163683,
+          "stop" : 1607543163683,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2ee35c1f8cbc5af5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/2ee35c1f8cbc5af5",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@10c2064a] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542688068,
+          "stop" : 1607542688068,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5779eb44f136b8b3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/5779eb44f136b8b3",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@f446158] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541345651,
+          "stop" : 1607541345652,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "cce05292127be03d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/cce05292127be03d",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@7275c74b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540829548,
+          "stop" : 1607540829548,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "759edfa57149bd91",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/759edfa57149bd91",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@bdd2027] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536783651,
+          "stop" : 1607536783651,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8938072c4fd78a35",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/8938072c4fd78a35",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@42210be1] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587966,
+          "stop" : 1607535587966,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "319e51c81e2d08da",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/319e51c81e2d08da",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedCoordinates()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@6bf13698] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530916331,
+          "stop" : 1607530916331,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "806b8500d21cd240.json",
+  "parameterValues" : [ ]
+}

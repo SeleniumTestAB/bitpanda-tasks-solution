@@ -1,0 +1,205 @@
+{
+  "uid" : "6a7b2f42af5161f5",
+  "name" : "createMapShouldHaveProperDescription",
+  "fullName" : "com.example.api.task.solution.map.PositiveMapCreationTest.createMapShouldHaveProperDescription",
+  "historyId" : "d3fc4ce25ca53c5704affd78d26b0028",
+  "time" : {
+    "start" : 1607549466065,
+    "stop" : 1607549466066,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@26a262d6] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@26a262d6] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createMapShouldHaveProperDescription"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create map positive path"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12122@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "8347bbc4a609a739",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/8347bbc4a609a739",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@ab20d7c] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548870599,
+          "stop" : 1607548870599,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2e35cb5df80cfcc8",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/2e35cb5df80cfcc8",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@f1a45f8] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547592925,
+          "stop" : 1607547592925,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f33e438d07cd080a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/f33e438d07cd080a",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@13f9ad9] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546848189,
+          "stop" : 1607546848189,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eb83ccf4f2ead68d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/eb83ccf4f2ead68d",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@37191ef0] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546328290,
+          "stop" : 1607546328292,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "a6cfbe43569f628f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/a6cfbe43569f628f",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@7de843ef] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545237289,
+          "stop" : 1607545237294,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "5f01e568be99ebe4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/5f01e568be99ebe4",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@2f1ea80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543730737,
+          "stop" : 1607543730738,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "64d09a88fc330212",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/64d09a88fc330212",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@ab20d7c] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543161931,
+          "stop" : 1607543161934,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "1b1139d462f9c933",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/1b1139d462f9c933",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@21f8e55f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542686258,
+          "stop" : 1607542686259,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "99fe0f8985ba8028",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/99fe0f8985ba8028",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@604b1e1d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541344939,
+          "stop" : 1607541344940,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "36e8b322faf3177d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/36e8b322faf3177d",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@26a262d6] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540827844,
+          "stop" : 1607540827844,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d91fa1ca0781a294",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/d91fa1ca0781a294",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@604b1e1d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536782410,
+          "stop" : 1607536782412,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "39e51d5eab5b74ba",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/39e51d5eab5b74ba",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@75798d03] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587299,
+          "stop" : 1607535587302,
+          "duration" : 3
+        }
+      }, {
+        "uid" : "9f19e02976aaef1f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/9f19e02976aaef1f",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createMapShouldHaveProperDescription()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@418c020b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530914574,
+          "stop" : 1607530914574,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a7b2f42af5161f5.json",
+  "parameterValues" : [ ]
+}

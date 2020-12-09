@@ -1,0 +1,577 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "assureThatShoppingModalAppearsOnHomePage",
+    "uid" : "979eddcb6ac1620f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549350168,
+      "stop" : 1607549352848,
+      "duration" : 2680
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperAddedQuantityOfProduct",
+    "uid" : "985a26c5d60038f2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549352943,
+      "stop" : 1607549353046,
+      "duration" : 103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperProductAttributes",
+    "uid" : "cce4bca0aa50ed2a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549353052,
+      "stop" : 1607549353142,
+      "duration" : 90
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldContainProperProductName",
+    "uid" : "54d285fff58b919d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549353144,
+      "stop" : 1607549353212,
+      "duration" : 68
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+    "uid" : "f8ebe43be12b1aeb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549353215,
+      "stop" : 1607549353357,
+      "duration" : 142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveProperLabelsForProductInformation",
+    "uid" : "8718c19e2af71f95",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549353360,
+      "stop" : 1607549353706,
+      "duration" : 346
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveVisibleCurrentCartInformation",
+    "uid" : "79ed05775abf10d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549353710,
+      "stop" : 1607549354538,
+      "duration" : 828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "modalShouldHaveVisibleProductInformation",
+    "uid" : "5b7a786d48222436",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549354540,
+      "stop" : 1607549355276,
+      "duration" : 736
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToContinueShopping",
+    "uid" : "b788581d5f8000b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549355279,
+      "stop" : 1607549355760,
+      "duration" : 481
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToAddProductToCard",
+    "uid" : "41fa8c17891a0899",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549357098,
+      "stop" : 1607549358467,
+      "duration" : 1369
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToProceedToCheckout",
+    "uid" : "b493b79f919b126",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549358473,
+      "stop" : 1607549359837,
+      "duration" : 1364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "checkoutSummaryShouldHaveProperProductInfo",
+    "uid" : "9ce18ec86a477c53",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549359839,
+      "stop" : 1607549360206,
+      "duration" : 367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "unsignedClientShouldProceedToLoginPage",
+    "uid" : "8d3a9870a90397b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549360208,
+      "stop" : 1607549361836,
+      "duration" : 1628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToCreateAccount",
+    "uid" : "44bda46c5cd7f0bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549361909,
+      "stop" : 1607549369826,
+      "duration" : 7917
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+    "uid" : "f1f20b04fabccc27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549369834,
+      "stop" : 1607549370992,
+      "duration" : 1158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToConsentForTermsOfService",
+    "uid" : "e12d92fde9fc4fb6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549370995,
+      "stop" : 1607549372462,
+      "duration" : 1467
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+    "uid" : "8b71e5f6a92f2926",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549372467,
+      "stop" : 1607549374495,
+      "duration" : 2028
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "clientShouldBeAbleToCompleteOrder",
+    "uid" : "d6a2f3822a0d8024",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549374497,
+      "stop" : 1607549376740,
+      "duration" : 2243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testTheLoad()",
+    "uid" : "3e8c98a5b868e083",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549393591,
+      "stop" : 1607549450372,
+      "duration" : 56781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "getToHomePageTest1()",
+    "uid" : "b65795ef0f35463e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549433345,
+      "stop" : 1607549445315,
+      "duration" : 11970
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldAuthenticate",
+    "uid" : "c8babbc9b1645ac4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607549460564,
+      "stop" : 1607549465509,
+      "duration" : 4945
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldReceiveAuthenticationToken",
+    "uid" : "be1176dee6b4f570",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549465569,
+      "stop" : 1607549465569,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "assignAuthTokenToGlobalVariables",
+    "uid" : "6f404864d7117a3c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1607549465574,
+      "stop" : 1607549465575,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToCreateMap",
+    "uid" : "ea422e329095585e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607549465629,
+      "stop" : 1607549466054,
+      "duration" : 425
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createMapShouldHaveProperDescription",
+    "uid" : "6a7b2f42af5161f5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466065,
+      "stop" : 1607549466066,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createMapShouldHaveProperTitle",
+    "uid" : "133133b539b14c12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466072,
+      "stop" : 1607549466073,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createdMapShouldHaveId",
+    "uid" : "ed1ebc31bae84be1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466077,
+      "stop" : 1607549466078,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "assignCreatedMapIdToGlobalVariables",
+    "uid" : "fcfff5e1c053078d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1607549466086,
+      "stop" : 1607549466086,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToCreateMap",
+    "uid" : "bec7839e4a605795",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607549466121,
+      "stop" : 1607549466259,
+      "duration" : 138
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "responseShouldHaveErrorMessage",
+    "uid" : "4c35c5f73efb905f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466279,
+      "stop" : 1607549466279,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "responseShouldHaveStatusCode400",
+    "uid" : "ffaa868db17a6586",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466280,
+      "stop" : 1607549466280,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verificationOfErrorMessageContent",
+    "uid" : "cad4276815ba6c48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466281,
+      "stop" : 1607549466282,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToCreateSpotsOnMap",
+    "uid" : "5421cb5f147fca10",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607549466305,
+      "stop" : 1607549466481,
+      "duration" : 176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createdSpotsShouldHaveProperCoordinates",
+    "uid" : "4504bde8610dfdc0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466487,
+      "stop" : 1607549466487,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createdSpotsShouldHaveProperDescription",
+    "uid" : "e0b58f3de34ae45b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466490,
+      "stop" : 1607549466491,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "createdSpotsShouldHaveProperTitle",
+    "uid" : "9244f9e545e58f54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466495,
+      "stop" : 1607549466495,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "findSpotForUpdate",
+    "uid" : "92cbf4fa1c25bf36",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1607549466747,
+      "stop" : 1607549466747,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToUpdateSpot",
+    "uid" : "9d57a40ad352a79d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466751,
+      "stop" : 1607549466752,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "spotShouldHaveUpdatedCoordinates",
+    "uid" : "806b8500d21cd240",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466753,
+      "stop" : 1607549466753,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "spotShouldHaveUpdatedTitle",
+    "uid" : "41c124a261962a0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466755,
+      "stop" : 1607549466755,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "spotShouldNotHaveUpdatedDescription",
+    "uid" : "2782484171ce0aa9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549466760,
+      "stop" : 1607549466760,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+    "uid" : "73d57aa7bb6c5120",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607549466827,
+      "stop" : 1607549467626,
+      "duration" : 799
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userShouldBeAbleToDeleteMap",
+    "uid" : "173496ba1e6b3273",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1607549467643,
+      "stop" : 1607549467892,
+      "duration" : 249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "userMapListShouldNotContainDeletedMap",
+    "uid" : "e9c9eb670356a43c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1607549467895,
+      "stop" : 1607549467896,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
