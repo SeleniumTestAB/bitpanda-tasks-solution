@@ -32,6 +32,9 @@ public class SpotService extends BaseService {
                 .patch("/spots/{id}");
     }
 
+    public Response getSpotsFromAllMaps() {
+        return getBaseSpec().get("/spots");
+    }
 
     public Response getSpotsOnGivenMap(int mapId) {
         return getBaseSpec().pathParam("id", mapId)

@@ -61,6 +61,16 @@
             </class>
         </classes>
     </test>
+
+    <test name="Get every spot from every owned map">
+        <classes>
+            <class name="com.example.api.task.solution.spot.GetSpotsFromAllMapsTest">
+                <methods>
+                    <include name="userShouldBeAbleToGetSpotsFromAllOwnedMaps"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
     <test name="Delete map">
         <groups>
             <run>
