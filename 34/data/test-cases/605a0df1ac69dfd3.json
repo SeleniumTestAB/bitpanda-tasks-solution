@@ -1,0 +1,680 @@
+{
+  "uid" : "605a0df1ac69dfd3",
+  "name" : "modalShouldHaveVisibleProductInformation",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldHaveVisibleProductInformation",
+  "historyId" : "f7fd8975379aa2ebd121e6f3c8ad02e5",
+  "time" : {
+    "start" : 1607543616819,
+    "stop" : 1607543617602,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking that added product name is visible",
+      "time" : {
+        "start" : 1607543616819,
+        "stop" : 1607543616930,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product name",
+        "time" : {
+          "start" : 1607543616819,
+          "stop" : 1607543616899,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_title\") should(exist)",
+          "time" : {
+            "start" : 1607543616819,
+            "stop" : 1607543616899,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_title\") should be(visible)",
+        "time" : {
+          "start" : 1607543616900,
+          "stop" : 1607543616930,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that added product attributes are visible",
+      "time" : {
+        "start" : 1607543616931,
+        "stop" : 1607543617002,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product attributes",
+        "time" : {
+          "start" : 1607543616931,
+          "stop" : 1607543616965,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_attributes\") should(exist)",
+          "time" : {
+            "start" : 1607543616931,
+            "stop" : 1607543616965,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_attributes\") should be(visible)",
+        "time" : {
+          "start" : 1607543616966,
+          "stop" : 1607543617002,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that added product quantity is visible",
+      "time" : {
+        "start" : 1607543617002,
+        "stop" : 1607543617342,
+        "duration" : 340
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product quantity",
+        "time" : {
+          "start" : 1607543617003,
+          "stop" : 1607543617077,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") should(exist)",
+          "time" : {
+            "start" : 1607543617003,
+            "stop" : 1607543617077,
+            "duration" : 74
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_quantity\") should be(visible)",
+        "time" : {
+          "start" : 1607543617077,
+          "stop" : 1607543617168,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Finding added product quantity",
+        "time" : {
+          "start" : 1607543617168,
+          "stop" : 1607543617201,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") should(exist)",
+          "time" : {
+            "start" : 1607543617168,
+            "stop" : 1607543617201,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607543617274,
+          "stop" : 1607543617308,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_quantity\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607543617274,
+            "stop" : 1607543617274,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607543617274,
+            "stop" : 1607543617308,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span id=\"layer_cart_product_quantity\">1</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should be(visible)",
+        "time" : {
+          "start" : 1607543617308,
+          "stop" : 1607543617342,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Checking that added product price is visible",
+      "time" : {
+        "start" : 1607543617342,
+        "stop" : 1607543617602,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product price",
+        "time" : {
+          "start" : 1607543617342,
+          "stop" : 1607543617369,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_price\") should(exist)",
+          "time" : {
+            "start" : 1607543617342,
+            "stop" : 1607543617369,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_price\") should be(visible)",
+        "time" : {
+          "start" : 1607543617369,
+          "stop" : 1607543617399,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Finding added product price",
+        "time" : {
+          "start" : 1607543617399,
+          "stop" : 1607543617427,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_price\") should(exist)",
+          "time" : {
+            "start" : 1607543617399,
+            "stop" : 1607543617427,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Finding field's label",
+        "time" : {
+          "start" : 1607543617536,
+          "stop" : 1607543617568,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_price\") find(By.xpath: ./preceding-sibling::strong[@class='dark'])",
+          "time" : {
+            "start" : 1607543617536,
+            "stop" : 1607543617536,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should(exist)",
+          "time" : {
+            "start" : 1607543617536,
+            "stop" : 1607543617568,
+            "duration" : 32
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenField",
+          "value" : "<span id=\"layer_cart_product_price\">$27.00</span>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.xpath: ./preceding-sibling::strong[@class='dark']\") should be(visible)",
+        "time" : {
+          "start" : 1607543617568,
+          "stop" : 1607543617602,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldHaveVisibleProductInformation"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "10427@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "85dc7f80e943c6a2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/85dc7f80e943c6a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543050717,
+          "stop" : 1607543051219,
+          "duration" : 502
+        }
+      }, {
+        "uid" : "778737993d007be0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/778737993d007be0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607542582143,
+          "stop" : 1607542582860,
+          "duration" : 717
+        }
+      }, {
+        "uid" : "83745ae6b0faeecc",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/83745ae6b0faeecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607541230405,
+          "stop" : 1607541231051,
+          "duration" : 646
+        }
+      }, {
+        "uid" : "ab0bfad3073f8d7c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/ab0bfad3073f8d7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607540723044,
+          "stop" : 1607540723486,
+          "duration" : 442
+        }
+      }, {
+        "uid" : "6601b0b7ed2610ba",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/6601b0b7ed2610ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607536673373,
+          "stop" : 1607536673920,
+          "duration" : 547
+        }
+      }, {
+        "uid" : "918e6b3ffa3d548c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/918e6b3ffa3d548c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535479675,
+          "stop" : 1607535480202,
+          "duration" : 527
+        }
+      }, {
+        "uid" : "ce83438285506831",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/26//#testresult/ce83438285506831",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607534586805,
+          "stop" : 1607534587469,
+          "duration" : 664
+        }
+      }, {
+        "uid" : "b376d36dc9a69517",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/25//#testresult/b376d36dc9a69517",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607533769471,
+          "stop" : 1607533770009,
+          "duration" : 538
+        }
+      }, {
+        "uid" : "623c6974db76ada6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/623c6974db76ada6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530792314,
+          "stop" : 1607530793075,
+          "duration" : 761
+        }
+      }, {
+        "uid" : "7502006fff8b461c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/7502006fff8b461c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286266868,
+          "stop" : 1607286267516,
+          "duration" : 648
+        }
+      }, {
+        "uid" : "2bf9377ef028ce24",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/2bf9377ef028ce24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285273352,
+          "stop" : 1607285274125,
+          "duration" : 773
+        }
+      }, {
+        "uid" : "bf1dc13a7d2d936d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/bf1dc13a7d2d936d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284841719,
+          "stop" : 1607284842139,
+          "duration" : 420
+        }
+      }, {
+        "uid" : "6f39ac85eaf12eb2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/6f39ac85eaf12eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284365933,
+          "stop" : 1607284366428,
+          "duration" : 495
+        }
+      }, {
+        "uid" : "5f4d8007572da414",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/5f4d8007572da414",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283100425,
+          "stop" : 1607283101111,
+          "duration" : 686
+        }
+      }, {
+        "uid" : "2856a5ad277f7b39",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/2856a5ad277f7b39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281409015,
+          "stop" : 1607281409699,
+          "duration" : 684
+        }
+      }, {
+        "uid" : "f2df2fc2ec06c31f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/f2df2fc2ec06c31f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280828623,
+          "stop" : 1607280829085,
+          "duration" : 462
+        }
+      }, {
+        "uid" : "2de086f1cbc3f3b3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/2de086f1cbc3f3b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280223203,
+          "stop" : 1607280223788,
+          "duration" : 585
+        }
+      }, {
+        "uid" : "e97b1c6d2e5f75fa",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/e97b1c6d2e5f75fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279304316,
+          "stop" : 1607279305124,
+          "duration" : 808
+        }
+      }, {
+        "uid" : "30c0b2a513d86a2a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/30c0b2a513d86a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277566937,
+          "stop" : 1607277567449,
+          "duration" : 512
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "605a0df1ac69dfd3.json",
+  "parameterValues" : [ ]
+}
