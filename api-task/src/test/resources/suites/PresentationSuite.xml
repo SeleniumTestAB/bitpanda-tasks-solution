@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Api Test Suite">
+
+
+
+    <test name="Authentication">
+        <groups>
+            <run>
+                <include name="authentication"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.authenticate.AuthenticationTest">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Create map positive path">
+        <groups>
+            <run>
+                <include name="map_creation_positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.map.PositiveMapCreationTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Create map negative path">
+        <groups>
+            <run>
+                <include name="map_creation_negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.map.NegativeMapCreationTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Create spots on map">
+        <groups>
+            <run>
+                <include name="spots_creation"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.spot.SpotCreationTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Update spot on map">
+        <groups>
+            <run>
+                <include name="spot_update"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.spot.SpotUpdateTest">
+            </class>
+        </classes>
+    </test>
+    <test name="Delete map">
+        <groups>
+            <run>
+                <include name="map_delete"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.api.task.solution.map.MapDeleteTest">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

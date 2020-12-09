@@ -1,0 +1,25 @@
+{
+  "title": "Test Map",
+  "description": "Test Description",
+  "visibility": "public",
+  "picture": "",
+  "map_settings": {
+    "editor_access": [
+      "can_administer.map",
+      "can_administer.spots",
+      "can_administer.events",
+      "can_administer.comments",
+      "can_administer.attachments",
+      "can_administer.collaborators"
+    ],
+    "visitor_access": [
+      "can_administer.map",
+      "can_administer.spots",
+      "can_administer.events",
+      "can_administer.comments",
+      "can_administer.attachments",
+      "can_administer.collaborators"
+    ],
+    "respotting_to_this_map": true
+  }
+}

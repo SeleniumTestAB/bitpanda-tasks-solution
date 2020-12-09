@@ -1,0 +1,18 @@
+ 
+[
+	{
+		"title": "first_spot",
+		"description": "first spot desc",
+		"lat": 47.06512147344556,
+		"lon": 15.440637767314911,
+		"picture": ""
+	},
+	{
+		"title": "second_spot",
+		"description": "second spot desc",
+		"lat": 47.79885791906709,
+		"lon": 15.039939880371092,
+		"picture": ""
+	}
+]
+       

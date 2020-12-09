@@ -1,0 +1,720 @@
+{
+	"info": {
+		"_postman_id": "d2256cff-b241-48d4-be95-42e21432fa6f",
+		"name": "uebermaps",
+		"description": "API for adding map and spots",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "authorization",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b3defbef-b772-4065-9255-b8cb6daa04d3",
+								"exec": [
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"var respJson = pm.response.json();\r",
+									"pm.collectionVariables.set(\"auth_token\", respJson.data.auth_token);\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "{{user}}",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/authentication",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"authentication"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Maps",
+			"item": [
+				{
+					"name": "create_map",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "72a0170e-53a2-47f0-a676-69cb4ee6d468",
+								"exec": [
+									"var responseBody = pm.response.json();\r",
+									"var requestBody = JSON.parse(pm.request.body.raw);\r",
+									"\r",
+									"pm.test(\"Response should contain data of created map\", function(){\r",
+									"    pm.expect(responseBody).to.have.property(\"data\")\r",
+									"}); \r",
+									"\r",
+									"pm.test(\"Response should contain map ID\", function(){\r",
+									"    pm.expect(responseBody.data).to.have.property(\"id\")\r",
+									"   pm.expect(responseBody.data.id).is.not.oneOf([null, undefined]);\r",
+									"}); \r",
+									"\r",
+									"pm.environment.set(\"map_id\", responseBody.data.id);\r",
+									"\r",
+									"pm.test(\"Created map description and title should match with provided ones\", function(){\r",
+									"    pm.expect(responseBody.data.title).to.be.eq(requestBody.title);\r",
+									"    pm.expect(responseBody.data.description).to.be.eql(requestBody.description);\r",
+									"\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Test Map\",\r\n  \"description\": \"Test Description\",\r\n  \"visibility\": \"public\",\r\n  \"picture\": \"\",\r\n  \"map_settings\": {\r\n    \"editor_access\": [\r\n      \"can_administer.map\",\r\n      \"can_administer.spots\",\r\n      \"can_administer.events\",\r\n      \"can_administer.comments\",\r\n      \"can_administer.attachments\",\r\n      \"can_administer.collaborators\"\r\n    ],\r\n    \"visitor_access\": [\r\n      \"can_administer.map\",\r\n      \"can_administer.spots\",\r\n      \"can_administer.events\",\r\n      \"can_administer.comments\",\r\n      \"can_administer.attachments\",\r\n      \"can_administer.collaborators\"\r\n    ],\r\n    \"respotting_to_this_map\": true\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/maps",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_map",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "2b1a34f4-4eb2-4609-bd71-5753d8480ba4",
+								"exec": [
+									"const getMaps = {\r",
+									"  \"url\": pm.collectionVariables.get('base_url') + \"/maps\",\r",
+									"  \"method\": \"GET\",\r",
+									"  \"header\": {\r",
+									"    \"X-AUTH-TOKEN\": pm.collectionVariables.get('auth_token')\r",
+									"  },\r",
+									"};\r",
+									"\r",
+									"\r",
+									"pm.sendRequest(getMaps, function (err, response) {\r",
+									"    pm.variables.set(\"current_map_count\", response.json().meta.count)\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "895ed6fc-be29-48f4-9a6f-577fa86729ad",
+								"exec": [
+									"var currentMapCount = pm.variables.get(\"current_map_count\");\r",
+									"\r",
+									"const getMaps = {\r",
+									"  \"url\": pm.collectionVariables.get('base_url') + \"/maps\",\r",
+									"  \"method\": \"GET\",\r",
+									"  \"header\": {\r",
+									"    \"X-AUTH-TOKEN\": pm.collectionVariables.get('auth_token')\r",
+									"  },\r",
+									"};\r",
+									"\r",
+									"\r",
+									"pm.test(\"Map should be properly deleted\", function () {\r",
+									"    pm.sendRequest(getMaps, function (err, response) {\r",
+									"     pm.expect(response.json().meta.count).is.lessThan(currentMapCount)\r",
+									"    }); \r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "{{base_url}}/maps/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{map_id}}",
+									"description": "id of map to delete"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_maps",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b9929e83-6bfe-4640-b0cc-8caa5828855e",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/maps",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create_map_without_title",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "dbab6f8d-3780-48de-96bd-66e733a48504",
+								"exec": [
+									"var responseBody = pm.response.json();\r",
+									"var requestBody = JSON.parse(pm.request.body.raw);\r",
+									"pm.test(\"Error code should be 400\", function () {\r",
+									"    pm.expect(responseBody.meta.code).to.be.eq(400);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response should contain error message\", function () {\r",
+									"    pm.expect(responseBody.meta).to.have.property(\"error_message\");\r",
+									"    pm.expect(responseBody.meta.error_message).is.not.oneOf([null, undefined]);\r",
+									"    pm.expect(responseBody.meta.error_message).to.be.a('string')\r",
+									"    pm.expect(responseBody.meta.error_message).to.not.eq('');\r",
+									"    pm.expect(responseBody.meta.error_message).to.be.eq(\"[\\\"Title is too short (minimum is 2 characters)\\\", \\\"Title is too long (maximum is 256 characters)\\\"]\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"description\": \"Test Description\",\r\n  \"visibility\": \"public\",\r\n  \"picture\": \"\",\r\n  \"map_settings\": {\r\n    \"editor_access\": [\r\n      \"can_administer.map\",\r\n      \"can_administer.spots\",\r\n      \"can_administer.events\",\r\n      \"can_administer.comments\",\r\n      \"can_administer.attachments\",\r\n      \"can_administer.collaborators\"\r\n    ],\r\n    \"visitor_access\": [\r\n      \"can_administer.map\",\r\n      \"can_administer.spots\",\r\n      \"can_administer.events\",\r\n      \"can_administer.comments\",\r\n      \"can_administer.attachments\",\r\n      \"can_administer.collaborators\"\r\n    ],\r\n    \"respotting_to_this_map\": true\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/maps",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Spots",
+			"item": [
+				{
+					"name": "get_spots_from_map",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c1a5641e-5906-4fcc-8da4-f93f6357aeb4",
+								"exec": [
+									"var responseBody = pm.response.json();\r",
+									"\r",
+									"pm.environment.set(\"spot_to_update_id\", responseBody.data[0].id);\r",
+									"pm.environment.set(\"spot_to_update\", responseBody.data[0]);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/maps/:id/spots",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps",
+								":id",
+								"spots"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{map_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create_spot_on_map",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "14aa5363-aae3-4452-9a3c-a7576ce6b872",
+								"exec": [
+									"var spots = pm.environment.get(\"spots\");\r",
+									"\r",
+									"if(!spots || environment.spots == null || spots >= 0) {\r",
+									"spots =  \r",
+									"[\r",
+									"\t{\r",
+									"\t\t\"title\": \"first_spot\",\r",
+									"\t\t\"description\": \"first spot desc\",\r",
+									"\t\t\"lat\": 47.06512147344556,\r",
+									"\t\t\"lon\": 15.440637767314911,\r",
+									"\t\t\"picture\": \"\"\r",
+									"\t},\r",
+									"\t{\r",
+									"\t\t\"title\": \"second_spot\",\r",
+									"\t\t\"description\": \"second spot desc\",\r",
+									"\t\t\"lat\": 47.79885791906709,\r",
+									"\t\t\"lon\": 15.039939880371092,\r",
+									"\t\t\"picture\": \"\"\r",
+									"\t}\r",
+									"];\r",
+									"\r",
+									"}\r",
+									"\r",
+									"var currentSpot = spots.shift();\r",
+									"\r",
+									"pm.environment.set(\"current_spot_title\",currentSpot.title);\r",
+									"pm.environment.set(\"current_spot_desc\", currentSpot.description);\r",
+									"pm.environment.set(\"current_spot_lat\", currentSpot.lat);\r",
+									"pm.environment.set(\"current_spot_lon\", currentSpot.lon);\r",
+									"pm.environment.set(\"current_spot_picture\", currentSpot.picture);\r",
+									"pm.environment.set(\"spots\", spots)\r",
+									"\r",
+									"\r",
+									"\r",
+									"       "
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "89b82f2b-2fb7-45ab-87f5-9e8b1b8d902e",
+								"exec": [
+									"var spots = pm.environment.get(\"spots\");\r",
+									"var currentResponse = pm.response.json();\r",
+									"\r",
+									"pm.test(\"created spot title matches the one from request\", function () {\r",
+									"    pm.expect(currentResponse.data.title).to.be.eql(pm.environment.get(\"current_spot_title\"));\r",
+									"});\r",
+									"\r",
+									"pm.test(\"created spot description matches the one from request\", function () {\r",
+									"    pm.expect(currentResponse.data.description).to.be.eql(pm.environment.get(\"current_spot_desc\"));\r",
+									"});\r",
+									"\r",
+									"pm.test(\"created spot lat matches the one from request\", function () {\r",
+									"    pm.expect(currentResponse.data.lat).to.be.eql(pm.environment.get(\"current_spot_lat\"));\r",
+									"});\r",
+									"\r",
+									"pm.test(\"created spot lon matches the one from request\", function () {\r",
+									"    pm.expect(currentResponse.data.lon).to.be.eql(pm.environment.get(\"current_spot_lon\"));\r",
+									"});\r",
+									"\r",
+									"if(spots && spots.length > 0) {\r",
+									"    postman.setNextRequest(\"create_spot_on_map\");\r",
+									"} else {\r",
+									"    postman.setNextRequest(null);\r",
+									"    pm.environment.unset(\"current_spot_title\");\r",
+									"    pm.environment.unset(\"current_spot_desc\");\r",
+									"    pm.environment.unset(\"current_spot_lat\");\r",
+									"    pm.environment.unset(\"current_spot_lon\");\r",
+									"    pm.environment.unset(\"current_spot_picture\");\r",
+									"}\r",
+									"console.log(spots)\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "spot[title]",
+									"value": "{{current_spot_title}}",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "spot[lat]",
+									"value": "{{current_spot_lat}}",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "spot[lon]",
+									"value": "{{current_spot_lon}}",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "spot[description]",
+									"value": "{{current_spot_desc}}",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "spot[[picture]",
+									"value": "{{current_spot_picture}}",
+									"contentType": "application/json",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/maps/:id/spots",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"maps",
+								":id",
+								"spots"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{map_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_spot_on_map",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "dd889053-7365-4c25-a06d-456d68360225",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "5dc0ea07-c4a9-4ef0-94e7-f84536bc620a",
+								"exec": [
+									"var spotToUpdateData = pm.environment.get(\"spot_to_update\");\r",
+									"var responseBody = pm.response.json();\r",
+									"console.log(spotToUpdateData);\r",
+									"\r",
+									"pm.test(\"Spot should have updated title\", function(){\r",
+									"    pm.expect(responseBody.data.title).to.not.be.eq(spotToUpdateData.title);\r",
+									"    pm.expect(responseBody.data.title).to.be.eq(\"spot_updated\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Rest of spot data should not be updated\", function(){\r",
+									"    pm.expect(responseBody.data.description).to.be.eq(spotToUpdateData.description);\r",
+									"    pm.expect(responseBody.data.id).to.be.eq(spotToUpdateData.id);\r",
+									"    pm.expect(responseBody.data.lat).to.be.eq(spotToUpdateData.lat);\r",
+									"    pm.expect(responseBody.data.lon).to.be.eq(spotToUpdateData.lon);\r",
+									"    pm.expect(responseBody.data.status).to.be.eq(spotToUpdateData.status);\r",
+									"    pm.expect(responseBody.data.map_id).to.be.eq(spotToUpdateData.map_id);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "spot[title]",
+									"value": "spot_updated",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/spots/:id",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"spots",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "{{spot_to_update_id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "101e8336-b635-44a9-a0e9-1e46cc9f32d8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "40c44150-3412-4c51-922c-36484d386ad9",
+				"type": "text/javascript",
+				"exec": [
+					"if(pm.info.requestName !== \"create_map_without_title\") {",
+					"    pm.test(\"Status code is 200\", function () {",
+					"        pm.response.to.have.status(200);",
+					"    });",
+					"}"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "95cfb7ca-3d16-4c80-97ae-141c351c9230",
+			"key": "auth_token",
+			"value": ""
+		},
+		{
+			"id": "0df96ec4-5a98-4772-a2cf-35d4aa20e013",
+			"key": "base_url",
+			"value": "https://uebermaps.com/api/v2"
+		},
+		{
+			"id": "4a308327-d477-4dac-b109-413aa61ee7cd",
+			"key": "user",
+			"value": ""
+		},
+		{
+			"id": "731da9a7-11f1-47d1-b41b-7e70427ad08e",
+			"key": "createSpotBody",
+			"value": ""
+		},
+		{
+			"id": "d79be5f0-7f88-4aab-9c17-64b964a766d3",
+			"key": "current_spot_title",
+			"value": ""
+		}
+	],
+	"protocolProfileBehavior": {}
+}
