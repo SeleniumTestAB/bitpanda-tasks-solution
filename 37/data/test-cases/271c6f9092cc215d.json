@@ -1,0 +1,517 @@
+{
+  "uid" : "271c6f9092cc215d",
+  "name" : "userShouldBeAbleToDeleteMap",
+  "fullName" : "com.example.api.task.solution.map.MapDeleteTest.userShouldBeAbleToDeleteMap",
+  "historyId" : "deb3d4be18edc56c8cac1d21c25a9309",
+  "time" : {
+    "start" : 1607546850581,
+    "stop" : 1607546851199,
+    "duration" : 618
+  },
+  "status" : "failed",
+  "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+  "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.MapDeleteTest.userShouldBeAbleToDeleteMap(MapDeleteTest.java:26)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+    "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.MapDeleteTest.userShouldBeAbleToDeleteMap(MapDeleteTest.java:26)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@1bbcebe9'",
+      "time" : {
+        "start" : 1607546850868,
+        "stop" : 1607546850869,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607546850869,
+          "stop" : 1607546850869,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607546850869,
+          "stop" : 1607546850869,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@1bbcebe9'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607546850869,
+          "stop" : 1607546850869,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607546850869,
+        "stop" : 1607546850869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@4057fa5f'",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607546851194,
+          "stop" : 1607546851194,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '403'",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607546851194,
+          "stop" : 1607546851194,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607546851194,
+        "stop" : 1607546851195,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+      "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.map.MapDeleteTest.userShouldBeAbleToDeleteMap(MapDeleteTest.java:26)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "496041ddac5e9281",
+      "name" : "Request",
+      "source" : "496041ddac5e9281.html",
+      "type" : "text/html",
+      "size" : 202
+    }, {
+      "uid" : "97a1fe63d659cb16",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "97a1fe63d659cb16.html",
+      "type" : "text/html",
+      "size" : 913
+    }, {
+      "uid" : "d279ceddf2073540",
+      "name" : "Request",
+      "source" : "d279ceddf2073540.html",
+      "type" : "text/html",
+      "size" : 207
+    }, {
+      "uid" : "6c6feb8adbbda738",
+      "name" : "HTTP/1.1 403 Forbidden",
+      "source" : "6c6feb8adbbda738.html",
+      "type" : "text/html",
+      "size" : 1024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 20,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldBeAbleToDeleteMap"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Delete map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "11982@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "524af11385ddcccf",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/524af11385ddcccf",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546331299,
+          "stop" : 1607546332282,
+          "duration" : 983
+        }
+      }, {
+        "uid" : "8605b57ec7c07f0a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/8605b57ec7c07f0a",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607545239834,
+          "stop" : 1607545240441,
+          "duration" : 607
+        }
+      }, {
+        "uid" : "ba8509648bac0587",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/ba8509648bac0587",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543732536,
+          "stop" : 1607543732824,
+          "duration" : 288
+        }
+      }, {
+        "uid" : "fe97b92fa6c64a5c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/fe97b92fa6c64a5c",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543164954,
+          "stop" : 1607543166061,
+          "duration" : 1107
+        }
+      }, {
+        "uid" : "b4e3dda0c4d9f9ea",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/b4e3dda0c4d9f9ea",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607542689190,
+          "stop" : 1607542690133,
+          "duration" : 943
+        }
+      }, {
+        "uid" : "76418aa24903942e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/76418aa24903942e",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607541346480,
+          "stop" : 1607541346750,
+          "duration" : 270
+        }
+      }, {
+        "uid" : "a231eb0f3c272abb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/a231eb0f3c272abb",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607540830737,
+          "stop" : 1607540831735,
+          "duration" : 998
+        }
+      }, {
+        "uid" : "2fd2c1a9238f64aa",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/2fd2c1a9238f64aa",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607536784599,
+          "stop" : 1607536785227,
+          "duration" : 628
+        }
+      }, {
+        "uid" : "949e2051613bc2ec",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/949e2051613bc2ec",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607535588803,
+          "stop" : 1607535589064,
+          "duration" : 261
+        }
+      }, {
+        "uid" : "77329f25c6d10309",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/77329f25c6d10309",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607530916386,
+          "stop" : 1607530918162,
+          "duration" : 1776
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "271c6f9092cc215d.json",
+  "parameterValues" : [ ]
+}

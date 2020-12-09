@@ -1,0 +1,665 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Presentation Test Suite",
+    "children" : [ {
+      "name" : "Shopping cart modal Tests",
+      "children" : [ {
+        "name" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests",
+        "children" : [ {
+          "name" : "assureThatShoppingModalAppearsOnHomePage",
+          "uid" : "947217fd5d58563a",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546723777,
+            "stop" : 1607546726070,
+            "duration" : 2293
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldContainProperAddedQuantityOfProduct",
+          "uid" : "3ea4128984b45ae2",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546726194,
+            "stop" : 1607546726290,
+            "duration" : 96
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldContainProperProductAttributes",
+          "uid" : "ade19faecc2d25eb",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546726293,
+            "stop" : 1607546726378,
+            "duration" : 85
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldContainProperProductName",
+          "uid" : "3890254cf51329ad",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546726380,
+            "stop" : 1607546726466,
+            "duration" : 86
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+          "uid" : "e313594410541a82",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546726472,
+            "stop" : 1607546726624,
+            "duration" : 152
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldHaveProperLabelsForProductInformation",
+          "uid" : "afcdcf365bae5cbf",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546726626,
+            "stop" : 1607546727060,
+            "duration" : 434
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldHaveVisibleCurrentCartInformation",
+          "uid" : "178e816bbe606ee5",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546727070,
+            "stop" : 1607546727978,
+            "duration" : 908
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "modalShouldHaveVisibleProductInformation",
+          "uid" : "dd76152a9100fade",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546727986,
+            "stop" : 1607546728599,
+            "duration" : 613
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToContinueShopping",
+          "uid" : "d454faea7ab19fb1",
+          "parentUid" : "96e695f0eb5573f5791ce69d6279fa9e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546728601,
+            "stop" : 1607546729112,
+            "duration" : 511
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96e695f0eb5573f5791ce69d6279fa9e"
+      } ],
+      "uid" : "6dd46edc4f35c719b79cc58c215e3e57"
+    }, {
+      "name" : "Checkout process works correctly",
+      "children" : [ {
+        "name" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest",
+        "children" : [ {
+          "name" : "clientShouldBeAbleToAddProductToCard",
+          "uid" : "1eb6bcb87a723541",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546732426,
+            "stop" : 1607546734066,
+            "duration" : 1640
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToProceedToCheckout",
+          "uid" : "117348f5822a0c61",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546734070,
+            "stop" : 1607546735522,
+            "duration" : 1452
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "checkoutSummaryShouldHaveProperProductInfo",
+          "uid" : "25b5bdf451e0de6d",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546735557,
+            "stop" : 1607546735775,
+            "duration" : 218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "unsignedClientShouldProceedToLoginPage",
+          "uid" : "b6d7332966c78bf8",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546735777,
+            "stop" : 1607546737545,
+            "duration" : 1768
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToCreateAccount",
+          "uid" : "54d0cd21bb72200c",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546737547,
+            "stop" : 1607546746321,
+            "duration" : 8774
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+          "uid" : "3f2faa1883b874ff",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546746374,
+            "stop" : 1607546747317,
+            "duration" : 943
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToConsentForTermsOfService",
+          "uid" : "7513f149a711dee4",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546747325,
+            "stop" : 1607546749833,
+            "duration" : 2508
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+          "uid" : "51202794a080ae66",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546749838,
+            "stop" : 1607546751795,
+            "duration" : 1957
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "clientShouldBeAbleToCompleteOrder",
+          "uid" : "b8e6889720ee61cc",
+          "parentUid" : "49b0349d38e7ef1eba4b22d6c742fba6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546751798,
+            "stop" : 1607546753867,
+            "duration" : 2069
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "49b0349d38e7ef1eba4b22d6c742fba6"
+      } ],
+      "uid" : "b8bfbf3e788ef874567ed11f2a09091e"
+    } ],
+    "uid" : "945f89cbea609fb95ce310d645221b23"
+  }, {
+    "name" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest",
+    "children" : [ {
+      "name" : "testTheLoad()",
+      "uid" : "8606807d06a61878",
+      "parentUid" : "855c92bae80ca99b29c2876b1b787248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607546774556,
+        "stop" : 1607546831174,
+        "duration" : 56618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "855c92bae80ca99b29c2876b1b787248"
+  }, {
+    "name" : "com.bitpanda.load.task.solution.LoadTest",
+    "children" : [ {
+      "name" : "getToHomePageTest1()",
+      "uid" : "dd024127624e31ef",
+      "parentUid" : "c933b6e98c70618ffb3f0c7e1612f714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607546816633,
+        "stop" : 1607546827300,
+        "duration" : 10667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c933b6e98c70618ffb3f0c7e1612f714"
+  }, {
+    "name" : "Api Test Suite",
+    "children" : [ {
+      "name" : "Authentication",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.authenticate.AuthenticationTest",
+        "children" : [ {
+          "name" : "userShouldAuthenticate",
+          "uid" : "5e7f4335253f42c1",
+          "parentUid" : "699486f981106e700595667812839b78",
+          "status" : "failed",
+          "time" : {
+            "start" : 1607546842055,
+            "stop" : 1607546847577,
+            "duration" : 5522
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userShouldReceiveAuthenticationToken",
+          "uid" : "bf5e56b973fa5e5a",
+          "parentUid" : "699486f981106e700595667812839b78",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546847619,
+            "stop" : 1607546847619,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "assignAuthTokenToGlobalVariables",
+          "uid" : "a3445ca71f7f0240",
+          "parentUid" : "699486f981106e700595667812839b78",
+          "status" : "broken",
+          "time" : {
+            "start" : 1607546847625,
+            "stop" : 1607546847625,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "699486f981106e700595667812839b78"
+      } ],
+      "uid" : "c879bc191a5ead942505f8ff0819627d"
+    }, {
+      "name" : "Create map positive path",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.map.PositiveMapCreationTest",
+        "children" : [ {
+          "name" : "userShouldBeAbleToCreateMap",
+          "uid" : "dea1d188d7305c4",
+          "parentUid" : "23888026261d913b1147f60e76b82d83",
+          "status" : "failed",
+          "time" : {
+            "start" : 1607546847669,
+            "stop" : 1607546848183,
+            "duration" : 514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createMapShouldHaveProperDescription",
+          "uid" : "f33e438d07cd080a",
+          "parentUid" : "23888026261d913b1147f60e76b82d83",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848189,
+            "stop" : 1607546848189,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createMapShouldHaveProperTitle",
+          "uid" : "42c1cb80801842de",
+          "parentUid" : "23888026261d913b1147f60e76b82d83",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848191,
+            "stop" : 1607546848191,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createdMapShouldHaveId",
+          "uid" : "1c7d0808fefa18fc",
+          "parentUid" : "23888026261d913b1147f60e76b82d83",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848193,
+            "stop" : 1607546848193,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "assignCreatedMapIdToGlobalVariables",
+          "uid" : "c401a0e16eb254c8",
+          "parentUid" : "23888026261d913b1147f60e76b82d83",
+          "status" : "broken",
+          "time" : {
+            "start" : 1607546848197,
+            "stop" : 1607546848197,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "23888026261d913b1147f60e76b82d83"
+      } ],
+      "uid" : "e62d5cb9a30af1797a7aa9e7af81c9b9"
+    }, {
+      "name" : "Create map negative path",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.map.NegativeMapCreationTest",
+        "children" : [ {
+          "name" : "userShouldBeAbleToCreateMap",
+          "uid" : "103f4bdfaa8ae20f",
+          "parentUid" : "9f2ca3feef9e00b19d0a0acbc464186d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1607546848228,
+            "stop" : 1607546848545,
+            "duration" : 317
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "responseShouldHaveErrorMessage",
+          "uid" : "de412270a3e3cb10",
+          "parentUid" : "9f2ca3feef9e00b19d0a0acbc464186d",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848558,
+            "stop" : 1607546848559,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "responseShouldHaveStatusCode400",
+          "uid" : "a987b346f2230faf",
+          "parentUid" : "9f2ca3feef9e00b19d0a0acbc464186d",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848567,
+            "stop" : 1607546848568,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verificationOfErrorMessageContent",
+          "uid" : "196b8845aa94679a",
+          "parentUid" : "9f2ca3feef9e00b19d0a0acbc464186d",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546848571,
+            "stop" : 1607546848572,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9f2ca3feef9e00b19d0a0acbc464186d"
+      } ],
+      "uid" : "bd23f36c7c3e82ba4d0c1a8f8dfd6670"
+    }, {
+      "name" : "Create spots on map",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.spot.SpotCreationTest",
+        "children" : [ {
+          "name" : "userShouldBeAbleToCreateSpotsOnMap",
+          "uid" : "92c5aa7e57608e9e",
+          "parentUid" : "af6e6193690f9db03ceb2b9edf9af492",
+          "status" : "failed",
+          "time" : {
+            "start" : 1607546848627,
+            "stop" : 1607546849003,
+            "duration" : 376
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createdSpotsShouldHaveProperCoordinates",
+          "uid" : "66664cc97e2bd020",
+          "parentUid" : "af6e6193690f9db03ceb2b9edf9af492",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849012,
+            "stop" : 1607546849013,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createdSpotsShouldHaveProperDescription",
+          "uid" : "85c55fe4367d3e75",
+          "parentUid" : "af6e6193690f9db03ceb2b9edf9af492",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849016,
+            "stop" : 1607546849018,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createdSpotsShouldHaveProperTitle",
+          "uid" : "a1dc938f020fe34d",
+          "parentUid" : "af6e6193690f9db03ceb2b9edf9af492",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849021,
+            "stop" : 1607546849022,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "af6e6193690f9db03ceb2b9edf9af492"
+      } ],
+      "uid" : "c9f43fd3e23df0a7a863d9d96bd6756f"
+    }, {
+      "name" : "Update spot on map",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.spot.SpotUpdateTest",
+        "children" : [ {
+          "name" : "findSpotForUpdate",
+          "uid" : "452e77f07dd9905c",
+          "parentUid" : "9f8bdae06fb631ba65579b8f76c97bb2",
+          "status" : "broken",
+          "time" : {
+            "start" : 1607546849463,
+            "stop" : 1607546849463,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userShouldBeAbleToUpdateSpot",
+          "uid" : "f3cb521445d8184f",
+          "parentUid" : "9f8bdae06fb631ba65579b8f76c97bb2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849473,
+            "stop" : 1607546849473,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "spotShouldHaveUpdatedCoordinates",
+          "uid" : "1c981ab1ff5b59fb",
+          "parentUid" : "9f8bdae06fb631ba65579b8f76c97bb2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849475,
+            "stop" : 1607546849476,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "spotShouldHaveUpdatedTitle",
+          "uid" : "3356e231a962c501",
+          "parentUid" : "9f8bdae06fb631ba65579b8f76c97bb2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849477,
+            "stop" : 1607546849478,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "spotShouldNotHaveUpdatedDescription",
+          "uid" : "cc78bf2c430415f4",
+          "parentUid" : "9f8bdae06fb631ba65579b8f76c97bb2",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546849483,
+            "stop" : 1607546849484,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9f8bdae06fb631ba65579b8f76c97bb2"
+      } ],
+      "uid" : "2ded300b1b8ea036abc27eb867ed9021"
+    }, {
+      "name" : "Get every spot from every owned map",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest",
+        "children" : [ {
+          "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+          "uid" : "f008f260f508fe53",
+          "parentUid" : "ca06f88c5aa357ef33683f794b03e447",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607546849506,
+            "stop" : 1607546850557,
+            "duration" : 1051
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ca06f88c5aa357ef33683f794b03e447"
+      } ],
+      "uid" : "2c1312193be4bacbba5e2100f372b21b"
+    }, {
+      "name" : "Delete map",
+      "children" : [ {
+        "name" : "com.example.api.task.solution.map.MapDeleteTest",
+        "children" : [ {
+          "name" : "userShouldBeAbleToDeleteMap",
+          "uid" : "271c6f9092cc215d",
+          "parentUid" : "9ce2c352d1df6e154aa95af2c291a559",
+          "status" : "failed",
+          "time" : {
+            "start" : 1607546850581,
+            "stop" : 1607546851199,
+            "duration" : 618
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "userMapListShouldNotContainDeletedMap",
+          "uid" : "7949f8ef9e339cb2",
+          "parentUid" : "9ce2c352d1df6e154aa95af2c291a559",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1607546851201,
+            "stop" : 1607546851201,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9ce2c352d1df6e154aa95af2c291a559"
+      } ],
+      "uid" : "fdabfa29f1a23c348ddfa20acb60bc34"
+    } ],
+    "uid" : "1d4b18e2da6138a9141ae6d8b525fdb7"
+  } ],
+  "name" : "suites"
+}

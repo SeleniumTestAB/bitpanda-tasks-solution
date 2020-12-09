@@ -1,0 +1,39 @@
+<div>POST to https://uebermaps.com/api/v2/maps</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+    {
+    &quot;description&quot;: &quot;Test Description&quot;,
+    &quot;visibility&quot;: &quot;public&quot;,
+    &quot;picture&quot;: &quot;&quot;,
+    &quot;map_settings&quot;: {
+        &quot;editor_access&quot;: [
+            &quot;can_administer.map&quot;,
+            &quot;can_administer.spots&quot;,
+            &quot;can_administer.events&quot;,
+            &quot;can_administer.comments&quot;,
+            &quot;can_administer.attachments&quot;,
+            &quot;can_administer.collaborators&quot;
+        ],
+        &quot;visitor_access&quot;: [
+            &quot;can_administer.map&quot;,
+            &quot;can_administer.spots&quot;,
+            &quot;can_administer.events&quot;,
+            &quot;can_administer.comments&quot;,
+            &quot;can_administer.attachments&quot;,
+            &quot;can_administer.collaborators&quot;
+        ],
+        &quot;respotting_to_this_map&quot;: true
+    }
+}
+    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json; charset=UTF-8</div>
+    </div>
+
+

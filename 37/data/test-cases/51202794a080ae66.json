@@ -1,0 +1,449 @@
+{
+  "uid" : "51202794a080ae66",
+  "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToChoosePaymentByBankWire",
+  "historyId" : "8c2d4dff6b55461258bad6cabdf66c47",
+  "time" : {
+    "start" : 1607546749838,
+    "stop" : 1607546751795,
+    "duration" : 1957
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Processing further to payment tab",
+      "time" : {
+        "start" : 1607546749838,
+        "stop" : 1607546750809,
+        "duration" : 971
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding button to navigate to payment tab",
+        "time" : {
+          "start" : 1607546749838,
+          "stop" : 1607546749991,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processCarrier\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607546749838,
+            "stop" : 1607546749991,
+            "duration" : 153
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607546750042,
+          "stop" : 1607546750809,
+          "duration" : 767
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.name: processCarrier\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607546750042,
+            "stop" : 1607546750076,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"By.name: processCarrier\") click()",
+          "time" : {
+            "start" : 1607546750076,
+            "stop" : 1607546750809,
+            "duration" : 733
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<button class=\"button btn btn-default standard-checkout button-medium\" name=\"processCarrier\" type=\"submit\" value>Proceed to checkout</button>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Choosing payment by bank wire option",
+      "time" : {
+        "start" : 1607546750810,
+        "stop" : 1607546751795,
+        "duration" : 985
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding pay by bank wire option",
+        "time" : {
+          "start" : 1607546750810,
+          "stop" : 1607546750953,
+          "duration" : 143
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") should be(Element is interactable on page)",
+          "time" : {
+            "start" : 1607546750810,
+            "stop" : 1607546750953,
+            "duration" : 143
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on a clickable element",
+        "time" : {
+          "start" : 1607546751059,
+          "stop" : 1607546751795,
+          "duration" : 736
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") should be(Element is active on page)",
+          "time" : {
+            "start" : 1607546751059,
+            "stop" : 1607546751136,
+            "duration" : 77
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "$(\"[title=\"Pay by bank wire\"]\") click()",
+          "time" : {
+            "start" : 1607546751136,
+            "stop" : 1607546751795,
+            "duration" : 659
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "<a class=\"bankwire\" href=\"http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment\" title=\"Pay by bank wire\" type>Pay by bank wire (order processing will be longer)</a>"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToChoosePaymentByBankWire"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "10299@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 23,
+        "unknown" : 0,
+        "total" : 23
+      },
+      "items" : [ {
+        "uid" : "c722908fcf256dec",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/c722908fcf256dec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607546226035,
+          "stop" : 1607546228974,
+          "duration" : 2939
+        }
+      }, {
+        "uid" : "eac57799bf9415bd",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/eac57799bf9415bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607545132508,
+          "stop" : 1607545135404,
+          "duration" : 2896
+        }
+      }, {
+        "uid" : "1021a3953628e81a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/1021a3953628e81a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543636451,
+          "stop" : 1607543638358,
+          "duration" : 1907
+        }
+      }, {
+        "uid" : "90258eb8dcc99dd6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/90258eb8dcc99dd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543070019,
+          "stop" : 1607543072478,
+          "duration" : 2459
+        }
+      }, {
+        "uid" : "438d7e7d4b4bf11d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/438d7e7d4b4bf11d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607542602134,
+          "stop" : 1607542604840,
+          "duration" : 2706
+        }
+      }, {
+        "uid" : "bd230212a6d65b7",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/bd230212a6d65b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607541250236,
+          "stop" : 1607541252182,
+          "duration" : 1946
+        }
+      }, {
+        "uid" : "eb4ce704cb08f7c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/eb4ce704cb08f7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607540741651,
+          "stop" : 1607540743555,
+          "duration" : 1904
+        }
+      }, {
+        "uid" : "694237f5fb360432",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/694237f5fb360432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607536691979,
+          "stop" : 1607536693801,
+          "duration" : 1822
+        }
+      }, {
+        "uid" : "7ff7105457aa9bc2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/7ff7105457aa9bc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535499255,
+          "stop" : 1607535502490,
+          "duration" : 3235
+        }
+      }, {
+        "uid" : "eabf1715b88ccb23",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/26//#testresult/eabf1715b88ccb23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607534606372,
+          "stop" : 1607534608233,
+          "duration" : 1861
+        }
+      }, {
+        "uid" : "dff5f355a59966ab",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/25//#testresult/dff5f355a59966ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607533788127,
+          "stop" : 1607533789872,
+          "duration" : 1745
+        }
+      }, {
+        "uid" : "a0e8db900f32e7f6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/a0e8db900f32e7f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530813504,
+          "stop" : 1607530815984,
+          "duration" : 2480
+        }
+      }, {
+        "uid" : "62a9252e1266f5f5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/62a9252e1266f5f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286285441,
+          "stop" : 1607286287778,
+          "duration" : 2337
+        }
+      }, {
+        "uid" : "eab462d26f685702",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/eab462d26f685702",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285293104,
+          "stop" : 1607285296008,
+          "duration" : 2904
+        }
+      }, {
+        "uid" : "8fe9f91ff2e1812c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/8fe9f91ff2e1812c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284861405,
+          "stop" : 1607284863666,
+          "duration" : 2261
+        }
+      }, {
+        "uid" : "644e4fbe59f42341",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/644e4fbe59f42341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284384188,
+          "stop" : 1607284386028,
+          "duration" : 1840
+        }
+      }, {
+        "uid" : "6c8fa9dc528a68b2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/6c8fa9dc528a68b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283120937,
+          "stop" : 1607283123096,
+          "duration" : 2159
+        }
+      }, {
+        "uid" : "edd5f69d0ffcaaf3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/edd5f69d0ffcaaf3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281427905,
+          "stop" : 1607281429676,
+          "duration" : 1771
+        }
+      }, {
+        "uid" : "b62c73e4707f34bf",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/b62c73e4707f34bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280850144,
+          "stop" : 1607280853406,
+          "duration" : 3262
+        }
+      }, {
+        "uid" : "2b01b3bebeae3d55",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/2b01b3bebeae3d55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280240017,
+          "stop" : 1607280243769,
+          "duration" : 3752
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "51202794a080ae66.json",
+  "parameterValues" : [ ]
+}
