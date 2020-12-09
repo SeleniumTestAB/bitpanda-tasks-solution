@@ -25,6 +25,8 @@ jobs:
       JMETER_TEST_PLAN_PATH: load-task/src/test/resources/jmeter/load_task.jmx
       ZEROCODE_RESULTS_FILE: load-task/target/zerocode-junit-granular-report.csv
       TEST_RESULTS_FOLDER: test-results
+      TEST_API_USER: ${{ secrets.API_USER }}
+      TEST_API_PASSWORD: ${{ secrets.API_PASSWORD }}
     runs-on: ubuntu-latest
 
     steps:
@@ -58,10 +60,7 @@ jobs:
 
     - name: Run Api Task
       if: always()
-      run: mvn clean test --file api-task/pom.xml
-      env:
-        API_USER: ${{ secrets.API_USER }}
-        API_PASSWORD: ${{ secrets.API_PASSWORD }}
+      run: mvn clean test -DAPI_USER=${{ env.TEST_API_USER }} -DAPI_PASSWORD=${{ env.TEST_API_PASSWORD}} --file api-task/pom.xml
       continue-on-error: true
 
     - name: Run Load Task with JMeter
