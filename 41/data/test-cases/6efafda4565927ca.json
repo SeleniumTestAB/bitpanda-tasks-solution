@@ -1,0 +1,248 @@
+{
+  "uid" : "6efafda4565927ca",
+  "name" : "testTheLoad()",
+  "fullName" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest.testTheLoad",
+  "historyId" : "df4d613ffcf8763700f19ac2ffa8475c",
+  "time" : {
+    "start" : 1607551194099,
+    "stop" : 1607551248896,
+    "duration" : 54797
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "11093@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTheLoad"
+  }, {
+    "name" : "suite",
+    "value" : "com.bitpanda.load.task.solution.load.runner.LoadRunnerTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 27,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "3e8c98a5b868e083",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/3e8c98a5b868e083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607549393591,
+          "stop" : 1607549450372,
+          "duration" : 56781
+        }
+      }, {
+        "uid" : "569d5f0619417b71",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/569d5f0619417b71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607548807119,
+          "stop" : 1607548856829,
+          "duration" : 49710
+        }
+      }, {
+        "uid" : "c591f46f408b5324",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/c591f46f408b5324",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607547515190,
+          "stop" : 1607547573493,
+          "duration" : 58303
+        }
+      }, {
+        "uid" : "8606807d06a61878",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/8606807d06a61878",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607546774556,
+          "stop" : 1607546831174,
+          "duration" : 56618
+        }
+      }, {
+        "uid" : "a8225120b11eb67e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/a8225120b11eb67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607546248137,
+          "stop" : 1607546306269,
+          "duration" : 58132
+        }
+      }, {
+        "uid" : "4faff2dd46c866df",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/4faff2dd46c866df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607545161133,
+          "stop" : 1607545219621,
+          "duration" : 58488
+        }
+      }, {
+        "uid" : "e796316cd81ce2cb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/e796316cd81ce2cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543658693,
+          "stop" : 1607543711913,
+          "duration" : 53220
+        }
+      }, {
+        "uid" : "a16ae30b8e2c5185",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/a16ae30b8e2c5185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543089788,
+          "stop" : 1607543145581,
+          "duration" : 55793
+        }
+      }, {
+        "uid" : "5235b2e742ffd1b3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/5235b2e742ffd1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607542621511,
+          "stop" : 1607542672003,
+          "duration" : 50492
+        }
+      }, {
+        "uid" : "bfd3919aaf4f2b66",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/bfd3919aaf4f2b66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607541270082,
+          "stop" : 1607541330859,
+          "duration" : 60777
+        }
+      }, {
+        "uid" : "7f342ce74351f568",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/7f342ce74351f568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607540760026,
+          "stop" : 1607540812376,
+          "duration" : 52350
+        }
+      }, {
+        "uid" : "a07ba6aba0ee50fd",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/a07ba6aba0ee50fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607536714616,
+          "stop" : 1607536768349,
+          "duration" : 53733
+        }
+      }, {
+        "uid" : "d093e9d75936504a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/d093e9d75936504a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535519960,
+          "stop" : 1607535572856,
+          "duration" : 52896
+        }
+      }, {
+        "uid" : "8c69a469b1892a90",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/26//#testresult/8c69a469b1892a90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607534625735,
+          "stop" : 1607534678950,
+          "duration" : 53215
+        }
+      }, {
+        "uid" : "b74b2064239904f3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/25//#testresult/b74b2064239904f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607533807204,
+          "stop" : 1607533856326,
+          "duration" : 49122
+        }
+      }, {
+        "uid" : "e8744a683dea832d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/e8744a683dea832d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530836089,
+          "stop" : 1607530896554,
+          "duration" : 60465
+        }
+      }, {
+        "uid" : "97bb6d7796b6b187",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/97bb6d7796b6b187",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286309839,
+          "stop" : 1607286359469,
+          "duration" : 49630
+        }
+      }, {
+        "uid" : "dda5541dfdff21b2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/dda5541dfdff21b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285316100,
+          "stop" : 1607285371784,
+          "duration" : 55684
+        }
+      }, {
+        "uid" : "e749ea73841d2a90",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/e749ea73841d2a90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284881626,
+          "stop" : 1607284933056,
+          "duration" : 51430
+        }
+      }, {
+        "uid" : "5c4f9674e2486649",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/5c4f9674e2486649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284407458,
+          "stop" : 1607284458252,
+          "duration" : 50794
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6efafda4565927ca.json",
+  "parameterValues" : [ ]
+}

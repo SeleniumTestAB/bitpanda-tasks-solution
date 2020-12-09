@@ -1,0 +1,342 @@
+{
+  "uid" : "f07ab6ded4c0b0c5",
+  "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+  "fullName" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest.userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+  "historyId" : "d40fadc6af8d4c30e4817b5c3cd8e41",
+  "time" : {
+    "start" : 1607551266153,
+    "stop" : 1607551266420,
+    "duration" : 267
+  },
+  "status" : "failed",
+  "statusMessage" : "[Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.",
+  "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.spot.GetSpotsFromAllMapsTest.userShouldBeAbleToGetSpotsFromAllOwnedMaps(GetSpotsFromAllMapsTest.java:14)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "[Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.",
+    "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.spot.GetSpotsFromAllMapsTest.userShouldBeAbleToGetSpotsFromAllOwnedMaps(GetSpotsFromAllMapsTest.java:14)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@58905e25'",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266419,
+          "stop" : 1607551266419,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '500'",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266419,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607551266419,
+          "stop" : 1607551266419,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607551266419,
+        "stop" : 1607551266420,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "[Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.",
+      "statusTrace" : "java.lang.AssertionError: [Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertStatusCode(BaseEndpoint.java:35)\n\tat com.example.api.task.solution.endpoints.BaseEndpoint.assertRequestSuccess(BaseEndpoint.java:30)\n\tat com.example.api.task.solution.spot.GetSpotsFromAllMapsTest.userShouldBeAbleToGetSpotsFromAllOwnedMaps(GetSpotsFromAllMapsTest.java:14)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6a47532986fc0818",
+      "name" : "Request",
+      "source" : "6a47532986fc0818.html",
+      "type" : "text/html",
+      "size" : 203
+    }, {
+      "uid" : "c2aed8e86dcb597",
+      "name" : "HTTP/1.1 500 Internal Server Error",
+      "source" : "c2aed8e86dcb597.html",
+      "type" : "text/html",
+      "size" : 714
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Get every spot from every owned map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "73d57aa7bb6c5120",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/73d57aa7bb6c5120",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607549466827,
+          "stop" : 1607549467626,
+          "duration" : 799
+        }
+      }, {
+        "uid" : "685775d34a71471e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/685775d34a71471e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607548871945,
+          "stop" : 1607548872835,
+          "duration" : 890
+        }
+      }, {
+        "uid" : "3028372d8a67b59d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/3028372d8a67b59d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607547594494,
+          "stop" : 1607547595536,
+          "duration" : 1042
+        }
+      }, {
+        "uid" : "f008f260f508fe53",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/f008f260f508fe53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607546849506,
+          "stop" : 1607546850557,
+          "duration" : 1051
+        }
+      }, {
+        "uid" : "df5e16cc26dad613",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/df5e16cc26dad613",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607546330095,
+          "stop" : 1607546331285,
+          "duration" : 1190
+        }
+      }, {
+        "uid" : "ef8ac18250809220",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/ef8ac18250809220",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607545238744,
+          "stop" : 1607545239820,
+          "duration" : 1076
+        }
+      }, {
+        "uid" : "5f454ce4d0c02152",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/5f454ce4d0c02152",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543731545,
+          "stop" : 1607543732519,
+          "duration" : 974
+        }
+      }, {
+        "uid" : "66bec01770e0b973",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/66bec01770e0b973",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607543163723,
+          "stop" : 1607543164935,
+          "duration" : 1212
+        }
+      }, {
+        "uid" : "ed1e8fd1da86729f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/ed1e8fd1da86729f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607542688105,
+          "stop" : 1607542689177,
+          "duration" : 1072
+        }
+      }, {
+        "uid" : "226f7e54cf88e739",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/226f7e54cf88e739",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607541345703,
+          "stop" : 1607541346472,
+          "duration" : 769
+        }
+      }, {
+        "uid" : "b911972c014538d6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/b911972c014538d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607540829589,
+          "stop" : 1607540830725,
+          "duration" : 1136
+        }
+      }, {
+        "uid" : "dd89478a55f303f0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/dd89478a55f303f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607536783679,
+          "stop" : 1607536784587,
+          "duration" : 908
+        }
+      }, {
+        "uid" : "8876a73ed468abf5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/8876a73ed468abf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535588009,
+          "stop" : 1607535588786,
+          "duration" : 777
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f07ab6ded4c0b0c5.json",
+  "parameterValues" : [ ]
+}

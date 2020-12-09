@@ -1,0 +1,283 @@
+{
+  "uid" : "d58536c86e64c1cd",
+  "name" : "responseShouldHaveStatusCode400",
+  "fullName" : "com.example.api.task.solution.map.NegativeMapCreationTest.responseShouldHaveStatusCode400",
+  "historyId" : "7b34bff8989a3b1fa4c5f2f78ab9c072",
+  "time" : {
+    "start" : 1607551264879,
+    "stop" : 1607551264880,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat '400'",
+      "time" : {
+        "start" : 1607551264879,
+        "stop" : 1607551264879,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551264879,
+        "stop" : 1607551264879,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '400'",
+      "time" : {
+        "start" : 1607551264879,
+        "stop" : 1607551264879,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isEqualTo '400'",
+      "time" : {
+        "start" : 1607551264879,
+        "stop" : 1607551264879,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "responseShouldHaveStatusCode400"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create map negative path"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "ffaa868db17a6586",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/ffaa868db17a6586",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@5c9ac4cc] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607549466280,
+          "stop" : 1607549466280,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ee98f9fa3dec5ae8",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/ee98f9fa3dec5ae8",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@1ffcf674] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548871002,
+          "stop" : 1607548871002,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5a56ccccc11fcaf2",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/5a56ccccc11fcaf2",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@58e85c6f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547593782,
+          "stop" : 1607547593782,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a987b346f2230faf",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/a987b346f2230faf",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@7a55f148] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546848567,
+          "stop" : 1607546848568,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a667df16af8634ec",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/a667df16af8634ec",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3cd206b5] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546328817,
+          "stop" : 1607546328818,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "dfe82700e95e8902",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/dfe82700e95e8902",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@4dbad37] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545237719,
+          "stop" : 1607545237719,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b6ae9338e45a13aa",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/b6ae9338e45a13aa",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@4ab550d5] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543730964,
+          "stop" : 1607543730965,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ee6f54da3ebfa5fd",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/ee6f54da3ebfa5fd",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@1ffcf674] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543162494,
+          "stop" : 1607543162495,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e66d81e6a2d08f9e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/e66d81e6a2d08f9e",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3ae2ed38] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542686830,
+          "stop" : 1607542686830,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2c121138fbe2235e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/2c121138fbe2235e",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@44841b43] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541345146,
+          "stop" : 1607541345147,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d1c958b5777c3582",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/d1c958b5777c3582",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@5c9ac4cc] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540828382,
+          "stop" : 1607540828383,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "7996adfb23beced8",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/7996adfb23beced8",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@44841b43] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536782770,
+          "stop" : 1607536782771,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d50d3892c71c53e9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/d50d3892c71c53e9",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3bec2275] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587497,
+          "stop" : 1607535587498,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b44a7cd0956100ee",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/b44a7cd0956100ee",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.responseShouldHaveStatusCode400()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@6a0cbc6f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530915141,
+          "stop" : 1607530915141,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d58536c86e64c1cd.json",
+  "parameterValues" : [ ]
+}

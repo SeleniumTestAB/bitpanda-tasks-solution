@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\nExpecting:\n <47.06512147344556>\nto be equal to:\n <47.06512>\nbut was not.",
+      "children" : [ {
+        "name" : "createdSpotsShouldHaveProperCoordinates",
+        "uid" : "57de4748a2d0945b",
+        "parentUid" : "635507e20ae3d283dc550040a32710d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607551265630,
+          "stop" : 1607551265645,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "635507e20ae3d283dc550040a32710d2"
+    }, {
+      "name" : "\nExpecting:\n <14.326975999999986>\nto be equal to:\n <14.326976>\nbut was not.",
+      "children" : [ {
+        "name" : "spotShouldHaveUpdatedCoordinates",
+        "uid" : "cc325168a3c3475b",
+        "parentUid" : "97b8603a26f47b59e8b19082d46e4ad2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607551266125,
+          "stop" : 1607551266128,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97b8603a26f47b59e8b19082d46e4ad2"
+    }, {
+      "name" : "[Status code] \nExpecting:\n <500>\nto be equal to:\n <200>\nbut was not.",
+      "children" : [ {
+        "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+        "uid" : "f07ab6ded4c0b0c5",
+        "parentUid" : "ffd74196125474ef2db796bb9319f33f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607551266153,
+          "stop" : 1607551266420,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ffd74196125474ef2db796bb9319f33f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

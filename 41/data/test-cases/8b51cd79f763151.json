@@ -1,0 +1,268 @@
+{
+  "uid" : "8b51cd79f763151",
+  "name" : "verificationOfErrorMessageContent",
+  "fullName" : "com.example.api.task.solution.map.NegativeMapCreationTest.verificationOfErrorMessageContent",
+  "historyId" : "7c3c603e7280d1f988ea40383afbe80c",
+  "time" : {
+    "start" : 1607551264884,
+    "stop" : 1607551264885,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat '[\"Title is too short (minimum is 2 characters)\", \"Title is too long (maximum is 256 characters)\"]'",
+      "time" : {
+        "start" : 1607551264884,
+        "stop" : 1607551264884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isEqualTo '[\"Title is too short (minimum is 2 characters)\", \"Title is too long (maximum is 256 characters)\"]'",
+      "time" : {
+        "start" : 1607551264884,
+        "stop" : 1607551264885,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo '[\"Title is too short (minimum is 2 characters)\", \"Title is too long (maximum is 256 characters)\"]'",
+        "time" : {
+          "start" : 1607551264884,
+          "stop" : 1607551264885,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verificationOfErrorMessageContent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create map negative path"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.NegativeMapCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "cad4276815ba6c48",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/cad4276815ba6c48",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@5c9ac4cc] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607549466281,
+          "stop" : 1607549466282,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "289cb5f038419970",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/289cb5f038419970",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@1ffcf674] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548871004,
+          "stop" : 1607548871005,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a0182bc6f68e71ed",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/a0182bc6f68e71ed",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@58e85c6f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547593795,
+          "stop" : 1607547593795,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "196b8845aa94679a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/196b8845aa94679a",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@7a55f148] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546848571,
+          "stop" : 1607546848572,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "543c04b654af3862",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/543c04b654af3862",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3cd206b5] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546328819,
+          "stop" : 1607546328819,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "34b5f06f448b459d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/34b5f06f448b459d",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@4dbad37] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545237721,
+          "stop" : 1607545237722,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2cb7b8bd6d94533f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/2cb7b8bd6d94533f",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@4ab550d5] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543730970,
+          "stop" : 1607543730971,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "eae7db53a5fba622",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/eae7db53a5fba622",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@1ffcf674] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543162498,
+          "stop" : 1607543162499,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ad471c67d3710f36",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/ad471c67d3710f36",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3ae2ed38] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542686833,
+          "stop" : 1607542686834,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ada302af7580c29e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/ada302af7580c29e",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@44841b43] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541345149,
+          "stop" : 1607541345150,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "300b53a393563c9d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/300b53a393563c9d",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@5c9ac4cc] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540828385,
+          "stop" : 1607540828385,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bb743d6c07d9a6ef",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/bb743d6c07d9a6ef",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@44841b43] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536782776,
+          "stop" : 1607536782777,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "99b1186591f8e828",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/99b1186591f8e828",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@3bec2275] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587504,
+          "stop" : 1607535587504,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "534515bd1dd6c83c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/534515bd1dd6c83c",
+        "status" : "skipped",
+        "statusDetails" : "Method NegativeMapCreationTest.verificationOfErrorMessageContent()[pri:0, instance:com.example.api.task.solution.map.NegativeMapCreationTest@6a0cbc6f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530915143,
+          "stop" : 1607530915143,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8b51cd79f763151.json",
+  "parameterValues" : [ ]
+}

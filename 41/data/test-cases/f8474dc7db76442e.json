@@ -1,0 +1,859 @@
+{
+  "uid" : "f8474dc7db76442e",
+  "name" : "userShouldBeAbleToDeleteMap",
+  "fullName" : "com.example.api.task.solution.map.MapDeleteTest.userShouldBeAbleToDeleteMap",
+  "historyId" : "deb3d4be18edc56c8cac1d21c25a9309",
+  "time" : {
+    "start" : 1607551266438,
+    "stop" : 1607551266987,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@4514546d'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266597,
+          "stop" : 1607551266597,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607551266597,
+          "stop" : 1607551266597,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@4514546d'",
+      "time" : {
+        "start" : 1607551266597,
+        "stop" : 1607551266597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266598,
+        "stop" : 1607551266598,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266598,
+          "stop" : 1607551266598,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266598,
+        "stop" : 1607551266598,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@72d99216'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266749,
+          "stop" : 1607551266749,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607551266749,
+          "stop" : 1607551266749,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@72d99216'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266749,
+          "stop" : 1607551266749,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266749,
+        "stop" : 1607551266749,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@56576db2'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266928,
+          "stop" : 1607551266928,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607551266928,
+          "stop" : 1607551266928,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@56576db2'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551266928,
+          "stop" : 1607551266928,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551266928,
+        "stop" : 1607551266928,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '3'",
+      "time" : {
+        "start" : 1607551266956,
+        "stop" : 1607551266956,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isGreaterThan '2'",
+      "time" : {
+        "start" : 1607551266956,
+        "stop" : 1607551266960,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '2'",
+      "time" : {
+        "start" : 1607551266960,
+        "stop" : 1607551266960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isEqualTo '2'",
+      "time" : {
+        "start" : 1607551266960,
+        "stop" : 1607551266960,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2282f33d23dc9358",
+      "name" : "Request",
+      "source" : "2282f33d23dc9358.html",
+      "type" : "text/html",
+      "size" : 202
+    }, {
+      "uid" : "d28b90b23cdef81f",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "d28b90b23cdef81f.html",
+      "type" : "text/html",
+      "size" : 5080
+    }, {
+      "uid" : "80c3310e954b4b59",
+      "name" : "Request",
+      "source" : "80c3310e954b4b59.html",
+      "type" : "text/html",
+      "size" : 211
+    }, {
+      "uid" : "25311da6565c56a4",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "25311da6565c56a4.html",
+      "type" : "text/html",
+      "size" : 1623
+    }, {
+      "uid" : "b1f2fb5520d3f72a",
+      "name" : "Request",
+      "source" : "b1f2fb5520d3f72a.html",
+      "type" : "text/html",
+      "size" : 202
+    }, {
+      "uid" : "f104af812b328953",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "f104af812b328953.html",
+      "type" : "text/html",
+      "size" : 3693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 40,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldBeAbleToDeleteMap"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Delete map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 14,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "173496ba1e6b3273",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/173496ba1e6b3273",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607549467643,
+          "stop" : 1607549467892,
+          "duration" : 249
+        }
+      }, {
+        "uid" : "f042e6afdd910e55",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/f042e6afdd910e55",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607548872847,
+          "stop" : 1607548873422,
+          "duration" : 575
+        }
+      }, {
+        "uid" : "31a3971ae85a710a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/31a3971ae85a710a",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607547595551,
+          "stop" : 1607547595849,
+          "duration" : 298
+        }
+      }, {
+        "uid" : "271c6f9092cc215d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/271c6f9092cc215d",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546850581,
+          "stop" : 1607546851199,
+          "duration" : 618
+        }
+      }, {
+        "uid" : "524af11385ddcccf",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/524af11385ddcccf",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546331299,
+          "stop" : 1607546332282,
+          "duration" : 983
+        }
+      }, {
+        "uid" : "8605b57ec7c07f0a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/8605b57ec7c07f0a",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607545239834,
+          "stop" : 1607545240441,
+          "duration" : 607
+        }
+      }, {
+        "uid" : "ba8509648bac0587",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/ba8509648bac0587",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543732536,
+          "stop" : 1607543732824,
+          "duration" : 288
+        }
+      }, {
+        "uid" : "fe97b92fa6c64a5c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/fe97b92fa6c64a5c",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543164954,
+          "stop" : 1607543166061,
+          "duration" : 1107
+        }
+      }, {
+        "uid" : "b4e3dda0c4d9f9ea",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/b4e3dda0c4d9f9ea",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607542689190,
+          "stop" : 1607542690133,
+          "duration" : 943
+        }
+      }, {
+        "uid" : "76418aa24903942e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/76418aa24903942e",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607541346480,
+          "stop" : 1607541346750,
+          "duration" : 270
+        }
+      }, {
+        "uid" : "a231eb0f3c272abb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/a231eb0f3c272abb",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607540830737,
+          "stop" : 1607540831735,
+          "duration" : 998
+        }
+      }, {
+        "uid" : "2fd2c1a9238f64aa",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/2fd2c1a9238f64aa",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607536784599,
+          "stop" : 1607536785227,
+          "duration" : 628
+        }
+      }, {
+        "uid" : "949e2051613bc2ec",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/949e2051613bc2ec",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607535588803,
+          "stop" : 1607535589064,
+          "duration" : 261
+        }
+      }, {
+        "uid" : "77329f25c6d10309",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/77329f25c6d10309",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607530916386,
+          "stop" : 1607530918162,
+          "duration" : 1776
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8474dc7db76442e.json",
+  "parameterValues" : [ ]
+}

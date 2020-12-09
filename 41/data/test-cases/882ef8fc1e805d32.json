@@ -1,0 +1,298 @@
+{
+  "uid" : "882ef8fc1e805d32",
+  "name" : "spotShouldHaveUpdatedTitle",
+  "fullName" : "com.example.api.task.solution.spot.SpotUpdateTest.spotShouldHaveUpdatedTitle",
+  "historyId" : "256eb602a325bb4ac31ad08d41526445",
+  "time" : {
+    "start" : 1607551266134,
+    "stop" : 1607551266135,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat 'second_spot'",
+      "time" : {
+        "start" : 1607551266134,
+        "stop" : 1607551266134,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isNotEqualTo 'spot_for_update'",
+      "time" : {
+        "start" : 1607551266134,
+        "stop" : 1607551266134,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'spot_for_update'",
+      "time" : {
+        "start" : 1607551266134,
+        "stop" : 1607551266134,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isEqualTo 'spot_for_update'",
+      "time" : {
+        "start" : 1607551266134,
+        "stop" : 1607551266134,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "isEqualTo 'spot_for_update'",
+        "time" : {
+          "start" : 1607551266134,
+          "stop" : 1607551266134,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "spotShouldHaveUpdatedTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Update spot on map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.spot.SpotUpdateTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "41c124a261962a0a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/41c124a261962a0a",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@7275c74b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607549466755,
+          "stop" : 1607549466755,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6a1b03a6b22f7a9c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/6a1b03a6b22f7a9c",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@629adce] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548871888,
+          "stop" : 1607548871889,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6a7a70ec3b2d7145",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/6a7a70ec3b2d7145",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@5d1b9c3d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547594462,
+          "stop" : 1607547594462,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3356e231a962c501",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/3356e231a962c501",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@70331432] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546849477,
+          "stop" : 1607546849478,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ce00f5e6a57f689d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/ce00f5e6a57f689d",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@71f96dfb] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546330058,
+          "stop" : 1607546330059,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e4ad7687d8d9b944",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/e4ad7687d8d9b944",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@47ad69f7] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545238720,
+          "stop" : 1607545238721,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "a20745e1d1c7da4a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/a20745e1d1c7da4a",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@504e1599] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543731507,
+          "stop" : 1607543731508,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "5e5e5b1735412ff5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/5e5e5b1735412ff5",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@629adce] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543163685,
+          "stop" : 1607543163686,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e23b553911a2aee9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/e23b553911a2aee9",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@10c2064a] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542688070,
+          "stop" : 1607542688070,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1f729c1096cdfefb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/1f729c1096cdfefb",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@f446158] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541345654,
+          "stop" : 1607541345654,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "cfe711651bb5fab6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/cfe711651bb5fab6",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@7275c74b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540829550,
+          "stop" : 1607540829550,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "302844f8e5003c5b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/302844f8e5003c5b",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@bdd2027] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536783653,
+          "stop" : 1607536783653,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7fb957239af593e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/7fb957239af593e",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@42210be1] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587967,
+          "stop" : 1607535587968,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "4aa1f6d90640a1dc",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/4aa1f6d90640a1dc",
+        "status" : "skipped",
+        "statusDetails" : "Method SpotUpdateTest.spotShouldHaveUpdatedTitle()[pri:0, instance:com.example.api.task.solution.spot.SpotUpdateTest@6bf13698] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530916336,
+          "stop" : 1607530916337,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "882ef8fc1e805d32.json",
+  "parameterValues" : [ ]
+}

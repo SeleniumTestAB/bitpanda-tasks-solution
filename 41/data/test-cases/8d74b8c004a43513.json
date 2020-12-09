@@ -1,0 +1,253 @@
+{
+  "uid" : "8d74b8c004a43513",
+  "name" : "createdMapShouldHaveId",
+  "fullName" : "com.example.api.task.solution.map.PositiveMapCreationTest.createdMapShouldHaveId",
+  "historyId" : "e510b9f5d3c5c52de8cd76c5d706e656",
+  "time" : {
+    "start" : 1607551264672,
+    "stop" : 1607551264672,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat '26312'",
+      "time" : {
+        "start" : 1607551264672,
+        "stop" : 1607551264672,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551264672,
+        "stop" : 1607551264672,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createdMapShouldHaveId"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Create map positive path"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.PositiveMapCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 14,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "ed1ebc31bae84be1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/ed1ebc31bae84be1",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@26a262d6] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607549466077,
+          "stop" : 1607549466078,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d10716489fe80c90",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/d10716489fe80c90",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@ab20d7c] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607548870603,
+          "stop" : 1607548870603,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9ce2899510bb896c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/9ce2899510bb896c",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@f1a45f8] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607547592936,
+          "stop" : 1607547592937,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "1c7d0808fefa18fc",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/1c7d0808fefa18fc",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@13f9ad9] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546848193,
+          "stop" : 1607546848193,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c41f510a7813c8af",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/c41f510a7813c8af",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@37191ef0] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607546328295,
+          "stop" : 1607546328295,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3bce688d5c7e4137",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/3bce688d5c7e4137",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@7de843ef] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545237300,
+          "stop" : 1607545237301,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "67480cec38b0cd48",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/67480cec38b0cd48",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@2f1ea80d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543730741,
+          "stop" : 1607543730741,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3f4e3a7f7c1ff252",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/3f4e3a7f7c1ff252",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@ab20d7c] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543161937,
+          "stop" : 1607543161938,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "edf17486c8b4a48f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/edf17486c8b4a48f",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@21f8e55f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542686263,
+          "stop" : 1607542686264,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "47bd27d0e7f5d24f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/47bd27d0e7f5d24f",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@604b1e1d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541344947,
+          "stop" : 1607541344947,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "599c5de1eae17955",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/599c5de1eae17955",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@26a262d6] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540827848,
+          "stop" : 1607540827848,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fd4c8fd22598c99e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/fd4c8fd22598c99e",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@604b1e1d] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536782415,
+          "stop" : 1607536782416,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "509ce71cbd9926b4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/509ce71cbd9926b4",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@75798d03] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535587310,
+          "stop" : 1607535587311,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9d691d3db330543b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/9d691d3db330543b",
+        "status" : "skipped",
+        "statusDetails" : "Method PositiveMapCreationTest.createdMapShouldHaveId()[pri:0, instance:com.example.api.task.solution.map.PositiveMapCreationTest@418c020b] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530914579,
+          "stop" : 1607530914580,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8d74b8c004a43513.json",
+  "parameterValues" : [ ]
+}

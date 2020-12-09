@@ -1,0 +1,415 @@
+{
+  "uid" : "49e9a004d8958ce",
+  "name" : "userShouldAuthenticate",
+  "fullName" : "com.example.api.task.solution.authenticate.AuthenticationTest.userShouldAuthenticate",
+  "historyId" : "b8e827e06b80e3e723970c83e6140366",
+  "time" : {
+    "start" : 1607551258748,
+    "stop" : 1607551264179,
+    "duration" : 5431
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@264f8c71'",
+      "time" : {
+        "start" : 1607551263239,
+        "stop" : 1607551263245,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551263247,
+        "stop" : 1607551263249,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551263249,
+          "stop" : 1607551263249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551263249,
+        "stop" : 1607551263249,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607551263252,
+        "stop" : 1607551263252,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607551263255,
+        "stop" : 1607551263258,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607551263256,
+          "stop" : 1607551263257,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607551263258,
+        "stop" : 1607551263258,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@264f8c71'",
+      "time" : {
+        "start" : 1607551263259,
+        "stop" : 1607551263259,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607551263259,
+        "stop" : 1607551263259,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607551263259,
+          "stop" : 1607551263259,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607551263259,
+        "stop" : 1607551263259,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5a84c2a567d190b3",
+      "name" : "Request",
+      "source" : "5a84c2a567d190b3.html",
+      "type" : "text/html",
+      "size" : 212
+    }, {
+      "uid" : "c450395a97289984",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c450395a97289984.html",
+      "type" : "text/html",
+      "size" : 1479
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldAuthenticate"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Authentication"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.authenticate.AuthenticationTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az21-257"
+  }, {
+    "name" : "thread",
+    "value" : "12224@fv-az21-257.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "c8babbc9b1645ac4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/40//#testresult/c8babbc9b1645ac4",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607549460564,
+          "stop" : 1607549465509,
+          "duration" : 4945
+        }
+      }, {
+        "uid" : "704311a6507daf8f",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/39//#testresult/704311a6507daf8f",
+        "status" : "broken",
+        "statusDetails" : "userName cannot be null",
+        "time" : {
+          "start" : 1607548865945,
+          "stop" : 1607548867218,
+          "duration" : 1273
+        }
+      }, {
+        "uid" : "9941b871f096cdf8",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/38//#testresult/9941b871f096cdf8",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607547586354,
+          "stop" : 1607547592306,
+          "duration" : 5952
+        }
+      }, {
+        "uid" : "5e7f4335253f42c1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/37//#testresult/5e7f4335253f42c1",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546842055,
+          "stop" : 1607546847577,
+          "duration" : 5522
+        }
+      }, {
+        "uid" : "1845559fef85499c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/36//#testresult/1845559fef85499c",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607546317634,
+          "stop" : 1607546327364,
+          "duration" : 9730
+        }
+      }, {
+        "uid" : "53ec26554aa66651",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/53ec26554aa66651",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607545231220,
+          "stop" : 1607545236525,
+          "duration" : 5305
+        }
+      }, {
+        "uid" : "ce28be768d403819",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/ce28be768d403819",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543724373,
+          "stop" : 1607543730102,
+          "duration" : 5729
+        }
+      }, {
+        "uid" : "d88e3720dfa63deb",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/d88e3720dfa63deb",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607543155935,
+          "stop" : 1607543161002,
+          "duration" : 5067
+        }
+      }, {
+        "uid" : "a4cf11c0ffdb4a0c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/a4cf11c0ffdb4a0c",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607542681014,
+          "stop" : 1607542685413,
+          "duration" : 4399
+        }
+      }, {
+        "uid" : "9481ab46cdbc83e4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/9481ab46cdbc83e4",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607541339959,
+          "stop" : 1607541344420,
+          "duration" : 4461
+        }
+      }, {
+        "uid" : "6bc8f100a381462d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/6bc8f100a381462d",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607540822096,
+          "stop" : 1607540826924,
+          "duration" : 4828
+        }
+      }, {
+        "uid" : "9d4cb196178ccbc6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/9d4cb196178ccbc6",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607536777199,
+          "stop" : 1607536781727,
+          "duration" : 4528
+        }
+      }, {
+        "uid" : "76cbacd727269a20",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/76cbacd727269a20",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607535582475,
+          "stop" : 1607535586781,
+          "duration" : 4306
+        }
+      }, {
+        "uid" : "53502d1631b6c2c8",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/53502d1631b6c2c8",
+        "status" : "failed",
+        "statusDetails" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+        "time" : {
+          "start" : 1607530907796,
+          "stop" : 1607530913530,
+          "duration" : 5734
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "49e9a004d8958ce.json",
+  "parameterValues" : [ ]
+}
