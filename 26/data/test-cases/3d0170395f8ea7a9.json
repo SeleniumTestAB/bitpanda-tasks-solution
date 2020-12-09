@@ -1,0 +1,1313 @@
+{
+  "uid" : "3d0170395f8ea7a9",
+  "name" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+  "fullName" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest.clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+  "historyId" : "7ebbf188e0d9a47dcf107cb30328d9b9",
+  "time" : {
+    "start" : 1607534603478,
+    "stop" : 1607534604845,
+    "duration" : 1367
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verifying delivery address information",
+      "time" : {
+        "start" : 1607534603479,
+        "stop" : 1607534604234,
+        "duration" : 755
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verifying full name",
+        "time" : {
+          "start" : 1607534603479,
+          "stop" : 1607534603721,
+          "duration" : 242
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding full name",
+          "time" : {
+            "start" : 1607534603479,
+            "stop" : 1607534603680,
+            "duration" : 201
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534603479,
+              "stop" : 1607534603566,
+              "duration" : 87
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") should(exist)",
+              "time" : {
+                "start" : 1607534603480,
+                "stop" : 1607534603566,
+                "duration" : 86
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") find(By.xpath: ./descendant::li[@class='address_firstname address_lastname'])",
+            "time" : {
+              "start" : 1607534603566,
+              "stop" : 1607534603566,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_firstname address_lastname']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534603566,
+              "stop" : 1607534603680,
+              "duration" : 114
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_firstname address_lastname']\") should have(own text 'Asa Ankunding')",
+          "time" : {
+            "start" : 1607534603681,
+            "stop" : 1607534603721,
+            "duration" : 40
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying full address",
+        "time" : {
+          "start" : 1607534603721,
+          "stop" : 1607534603818,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding full address",
+          "time" : {
+            "start" : 1607534603721,
+            "stop" : 1607534603801,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534603721,
+              "stop" : 1607534603750,
+              "duration" : 29
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") should(exist)",
+              "time" : {
+                "start" : 1607534603721,
+                "stop" : 1607534603750,
+                "duration" : 29
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") find(By.xpath: ./descendant::li[@class='address_address1 address_address2'])",
+            "time" : {
+              "start" : 1607534603750,
+              "stop" : 1607534603750,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_address1 address_address2']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534603750,
+              "stop" : 1607534603801,
+              "duration" : 51
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_address1 address_address2']\") should have(own text '24747 Sandy Lakes, West Hollisbury, MT 16046')",
+          "time" : {
+            "start" : 1607534603801,
+            "stop" : 1607534603818,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying mail information",
+        "time" : {
+          "start" : 1607534603818,
+          "stop" : 1607534603973,
+          "duration" : 155
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding mail information",
+          "time" : {
+            "start" : 1607534603818,
+            "stop" : 1607534603948,
+            "duration" : 130
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534603818,
+              "stop" : 1607534603845,
+              "duration" : 27
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") should(exist)",
+              "time" : {
+                "start" : 1607534603818,
+                "stop" : 1607534603845,
+                "duration" : 27
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") find(By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode'])",
+            "time" : {
+              "start" : 1607534603845,
+              "stop" : 1607534603845,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534603845,
+              "stop" : 1607534603948,
+              "duration" : 103
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode']\") should have(own text 'Bayerborough, Minnesota 29797')",
+          "time" : {
+            "start" : 1607534603955,
+            "stop" : 1607534603973,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying country",
+        "time" : {
+          "start" : 1607534603973,
+          "stop" : 1607534604135,
+          "duration" : 162
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding country",
+          "time" : {
+            "start" : 1607534603973,
+            "stop" : 1607534604122,
+            "duration" : 149
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534603973,
+              "stop" : 1607534604054,
+              "duration" : 81
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") should(exist)",
+              "time" : {
+                "start" : 1607534603974,
+                "stop" : 1607534604053,
+                "duration" : 79
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") find(By.xpath: ./descendant::li[@class='address_country_name'])",
+            "time" : {
+              "start" : 1607534604054,
+              "stop" : 1607534604054,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_country_name']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604054,
+              "stop" : 1607534604122,
+              "duration" : 68
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_country_name']\") should have(own text 'United States')",
+          "time" : {
+            "start" : 1607534604122,
+            "stop" : 1607534604135,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenCountry",
+          "value" : "United States"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying mobile phone",
+        "time" : {
+          "start" : 1607534604135,
+          "stop" : 1607534604234,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding mobile phone",
+          "time" : {
+            "start" : 1607534604135,
+            "stop" : 1607534604220,
+            "duration" : 85
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604135,
+              "stop" : 1607534604167,
+              "duration" : 32
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") should(exist)",
+              "time" : {
+                "start" : 1607534604135,
+                "stop" : 1607534604167,
+                "duration" : 32
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_delivery']\") find(By.xpath: ./descendant::li[@class='address_phone_mobile'])",
+            "time" : {
+              "start" : 1607534604167,
+              "stop" : 1607534604167,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_phone_mobile']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604167,
+              "stop" : 1607534604220,
+              "duration" : 53
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_phone_mobile']\") should have(own text '857.208.2008')",
+          "time" : {
+            "start" : 1607534604220,
+            "stop" : 1607534604234,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clientAccount",
+        "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+      }, {
+        "name" : "country",
+        "value" : "United States"
+      } ],
+      "stepsCount" : 35,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verifying billing address information",
+      "time" : {
+        "start" : 1607534604235,
+        "stop" : 1607534604845,
+        "duration" : 610
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verifying full name",
+        "time" : {
+          "start" : 1607534604235,
+          "stop" : 1607534604324,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding full name",
+          "time" : {
+            "start" : 1607534604235,
+            "stop" : 1607534604312,
+            "duration" : 77
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604235,
+              "stop" : 1607534604261,
+              "duration" : 26
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") should(exist)",
+              "time" : {
+                "start" : 1607534604235,
+                "stop" : 1607534604261,
+                "duration" : 26
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") find(By.xpath: ./descendant::li[@class='address_firstname address_lastname'])",
+            "time" : {
+              "start" : 1607534604261,
+              "stop" : 1607534604261,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_firstname address_lastname']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604261,
+              "stop" : 1607534604311,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_firstname address_lastname']\") should have(own text 'Asa Ankunding')",
+          "time" : {
+            "start" : 1607534604312,
+            "stop" : 1607534604324,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying full address",
+        "time" : {
+          "start" : 1607534604325,
+          "stop" : 1607534604418,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding full address",
+          "time" : {
+            "start" : 1607534604325,
+            "stop" : 1607534604397,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604325,
+              "stop" : 1607534604348,
+              "duration" : 23
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") should(exist)",
+              "time" : {
+                "start" : 1607534604325,
+                "stop" : 1607534604348,
+                "duration" : 23
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") find(By.xpath: ./descendant::li[@class='address_address1 address_address2'])",
+            "time" : {
+              "start" : 1607534604348,
+              "stop" : 1607534604348,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_address1 address_address2']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604348,
+              "stop" : 1607534604397,
+              "duration" : 49
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_address1 address_address2']\") should have(own text '24747 Sandy Lakes, West Hollisbury, MT 16046')",
+          "time" : {
+            "start" : 1607534604397,
+            "stop" : 1607534604418,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying mail information",
+        "time" : {
+          "start" : 1607534604418,
+          "stop" : 1607534604531,
+          "duration" : 113
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding mail information",
+          "time" : {
+            "start" : 1607534604418,
+            "stop" : 1607534604513,
+            "duration" : 95
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604418,
+              "stop" : 1607534604447,
+              "duration" : 29
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") should(exist)",
+              "time" : {
+                "start" : 1607534604419,
+                "stop" : 1607534604447,
+                "duration" : 28
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") find(By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode'])",
+            "time" : {
+              "start" : 1607534604447,
+              "stop" : 1607534604447,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604447,
+              "stop" : 1607534604513,
+              "duration" : 66
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_city address_state_name address_postcode']\") should have(own text 'Bayerborough, Minnesota 29797')",
+          "time" : {
+            "start" : 1607534604513,
+            "stop" : 1607534604531,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying country",
+        "time" : {
+          "start" : 1607534604531,
+          "stop" : 1607534604700,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding country",
+          "time" : {
+            "start" : 1607534604531,
+            "stop" : 1607534604685,
+            "duration" : 154
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604531,
+              "stop" : 1607534604555,
+              "duration" : 24
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") should(exist)",
+              "time" : {
+                "start" : 1607534604531,
+                "stop" : 1607534604555,
+                "duration" : 24
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") find(By.xpath: ./descendant::li[@class='address_country_name'])",
+            "time" : {
+              "start" : 1607534604555,
+              "stop" : 1607534604555,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_country_name']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604555,
+              "stop" : 1607534604685,
+              "duration" : 130
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_country_name']\") should have(own text 'United States')",
+          "time" : {
+            "start" : 1607534604685,
+            "stop" : 1607534604700,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "givenCountry",
+          "value" : "United States"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Verifying mobile phone",
+        "time" : {
+          "start" : 1607534604700,
+          "stop" : 1607534604845,
+          "duration" : 145
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Finding mobile phone",
+          "time" : {
+            "start" : 1607534604700,
+            "stop" : 1607534604832,
+            "duration" : 132
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Finding address box",
+            "time" : {
+              "start" : 1607534604700,
+              "stop" : 1607534604734,
+              "duration" : 34
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") should(exist)",
+              "time" : {
+                "start" : 1607534604700,
+                "stop" : 1607534604734,
+                "duration" : 34
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "$(\"By.xpath: //ul[@id='address_invoice']\") find(By.xpath: ./descendant::li[@class='address_phone_mobile'])",
+            "time" : {
+              "start" : 1607534604734,
+              "stop" : 1607534604734,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "$(\"By.xpath: ./descendant::li[@class='address_phone_mobile']\") should be(Element is readable/visible on page)",
+            "time" : {
+              "start" : 1607534604734,
+              "stop" : 1607534604832,
+              "duration" : 98
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "$(\"By.xpath: ./descendant::li[@class='address_phone_mobile']\") should have(own text '857.208.2008')",
+          "time" : {
+            "start" : 1607534604832,
+            "stop" : 1607534604845,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "clientAccount",
+          "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+        } ],
+        "stepsCount" : 6,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "clientAccount",
+        "value" : "com.example.bitpanda.ui.task.solution.data.ClientAccount@3e6bc2d"
+      }, {
+        "name" : "country",
+        "value" : "United States"
+      } ],
+      "stepsCount" : 35,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 72,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout process works correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.CheckoutProcessTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az78-415"
+  }, {
+    "name" : "thread",
+    "value" : "10388@fv-az78-415.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "620c26b8a95a0cb9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/25//#testresult/620c26b8a95a0cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607533784567,
+          "stop" : 1607533785495,
+          "duration" : 928
+        }
+      }, {
+        "uid" : "6409bb952a7f1a0e",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/6409bb952a7f1a0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530810926,
+          "stop" : 1607530811884,
+          "duration" : 958
+        }
+      }, {
+        "uid" : "e6143bc52f355d9d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/e6143bc52f355d9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286282739,
+          "stop" : 1607286283782,
+          "duration" : 1043
+        }
+      }, {
+        "uid" : "12ef402480c797e1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/12ef402480c797e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285290274,
+          "stop" : 1607285291534,
+          "duration" : 1260
+        }
+      }, {
+        "uid" : "bcb7d44ee6ec73a6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/bcb7d44ee6ec73a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284858467,
+          "stop" : 1607284859650,
+          "duration" : 1183
+        }
+      }, {
+        "uid" : "265dd51a3db5831c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/265dd51a3db5831c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284381885,
+          "stop" : 1607284382808,
+          "duration" : 923
+        }
+      }, {
+        "uid" : "a40233db0044c80d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/a40233db0044c80d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283118569,
+          "stop" : 1607283119408,
+          "duration" : 839
+        }
+      }, {
+        "uid" : "80e028641601af26",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/80e028641601af26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281425180,
+          "stop" : 1607281426300,
+          "duration" : 1120
+        }
+      }, {
+        "uid" : "21ed53ad4ccff531",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/21ed53ad4ccff531",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280846764,
+          "stop" : 1607280847845,
+          "duration" : 1081
+        }
+      }, {
+        "uid" : "bab0295cfdb03222",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/bab0295cfdb03222",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280237875,
+          "stop" : 1607280238703,
+          "duration" : 828
+        }
+      }, {
+        "uid" : "95ff97ac7ceb1a87",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/95ff97ac7ceb1a87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279320714,
+          "stop" : 1607279321932,
+          "duration" : 1218
+        }
+      }, {
+        "uid" : "44e6428fd66193e4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/44e6428fd66193e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277584698,
+          "stop" : 1607277585650,
+          "duration" : 952
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d0170395f8ea7a9.json",
+  "parameterValues" : [ ]
+}
