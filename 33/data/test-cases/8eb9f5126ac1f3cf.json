@@ -1,0 +1,308 @@
+{
+  "uid" : "8eb9f5126ac1f3cf",
+  "name" : "modalShouldContainProperProductName",
+  "fullName" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests.modalShouldContainProperProductName",
+  "historyId" : "9d094812cb944d0cfc89c250e5a05aae",
+  "time" : {
+    "start" : 1607543049433,
+    "stop" : 1607543049517,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Checking added product name",
+      "time" : {
+        "start" : 1607543049434,
+        "stop" : 1607543049517,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Finding added product name",
+        "time" : {
+          "start" : 1607543049434,
+          "stop" : 1607543049507,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"By.id: layer_cart_product_title\") should(exist)",
+          "time" : {
+            "start" : 1607543049434,
+            "stop" : 1607543049506,
+            "duration" : 72
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "$(\"By.id: layer_cart_product_title\") should have(own text 'Blouse')",
+        "time" : {
+          "start" : 1607543049507,
+          "stop" : 1607543049517,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedName",
+        "value" : "Blouse"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "modalShouldContainProperProductName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Presentation Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Shopping cart modal Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.bitpanda.ui.task.solution.ShoppingCartModalTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az78-415"
+  }, {
+    "name" : "thread",
+    "value" : "10689@fv-az78-415.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "d1b9ed17424c45ba",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/d1b9ed17424c45ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607542580731,
+          "stop" : 1607542580808,
+          "duration" : 77
+        }
+      }, {
+        "uid" : "88a38db8b34d2f4a",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/88a38db8b34d2f4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607541229103,
+          "stop" : 1607541229186,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "3742d7f9332faad4",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/3742d7f9332faad4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607540721572,
+          "stop" : 1607540721660,
+          "duration" : 88
+        }
+      }, {
+        "uid" : "518cc6796b4c93a5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/518cc6796b4c93a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607536672168,
+          "stop" : 1607536672248,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "24a5d33f606e521c",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/24a5d33f606e521c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535478503,
+          "stop" : 1607535478587,
+          "duration" : 84
+        }
+      }, {
+        "uid" : "3b2086855f9686c6",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/26//#testresult/3b2086855f9686c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607534585003,
+          "stop" : 1607534585096,
+          "duration" : 93
+        }
+      }, {
+        "uid" : "1efee0a92e94eeff",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/25//#testresult/1efee0a92e94eeff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607533768160,
+          "stop" : 1607533768200,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "f5eb4f9497a4ab32",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/f5eb4f9497a4ab32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607530790793,
+          "stop" : 1607530790843,
+          "duration" : 50
+        }
+      }, {
+        "uid" : "146f1a62f12a59f3",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/23//#testresult/146f1a62f12a59f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607286265559,
+          "stop" : 1607286265601,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "5aab974bc2387242",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/22//#testresult/5aab974bc2387242",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607285271694,
+          "stop" : 1607285271789,
+          "duration" : 95
+        }
+      }, {
+        "uid" : "c8985db5e1a3b1e1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/21//#testresult/c8985db5e1a3b1e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284840530,
+          "stop" : 1607284840619,
+          "duration" : 89
+        }
+      }, {
+        "uid" : "d7aa1a61b9454c75",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/20//#testresult/d7aa1a61b9454c75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607284364739,
+          "stop" : 1607284364773,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "e6a599af6fe9f6ee",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/19//#testresult/e6a599af6fe9f6ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607283099185,
+          "stop" : 1607283099281,
+          "duration" : 96
+        }
+      }, {
+        "uid" : "f16ce31964311e99",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/18//#testresult/f16ce31964311e99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607281407648,
+          "stop" : 1607281407736,
+          "duration" : 88
+        }
+      }, {
+        "uid" : "33477b8a5c0778a0",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/17//#testresult/33477b8a5c0778a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280827306,
+          "stop" : 1607280827348,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "ce8800ef6f35b014",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/16//#testresult/ce8800ef6f35b014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607280221903,
+          "stop" : 1607280221936,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "69e30a68c6f677c9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/13//#testresult/69e30a68c6f677c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607279302526,
+          "stop" : 1607279302621,
+          "duration" : 95
+        }
+      }, {
+        "uid" : "ccbc61ac3d0e0df9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/12//#testresult/ccbc61ac3d0e0df9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607277565711,
+          "stop" : 1607277565789,
+          "duration" : 78
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8eb9f5126ac1f3cf.json",
+  "parameterValues" : [ ]
+}
