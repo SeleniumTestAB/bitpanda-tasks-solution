@@ -1,0 +1,441 @@
+[ {
+  "uid" : "613aaf53ad8d0d68",
+  "name" : "clientShouldBeAbleToContinueShopping",
+  "time" : {
+    "start" : 1607547474661,
+    "stop" : 1607547475374,
+    "duration" : 713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "763317ecfd670955",
+  "name" : "userShouldReceiveAuthenticationToken",
+  "time" : {
+    "start" : 1607547592382,
+    "stop" : 1607547592384,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "95d2ea52d33d11",
+  "name" : "userShouldBeAbleToCreateSpotsOnMap",
+  "time" : {
+    "start" : 1607547593849,
+    "stop" : 1607547594122,
+    "duration" : 273
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "629347ef38672c49",
+  "name" : "assignAuthTokenToGlobalVariables",
+  "time" : {
+    "start" : 1607547592390,
+    "stop" : 1607547592390,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3dc9f2794de40984",
+  "name" : "findSpotForUpdate",
+  "time" : {
+    "start" : 1607547594449,
+    "stop" : 1607547594449,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a117c8763c1997d7",
+  "name" : "modalShouldContainProperProductAttributes",
+  "time" : {
+    "start" : 1607547471924,
+    "stop" : 1607547472014,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7159305af43a045",
+  "name" : "unsignedClientShouldProceedToLoginPage",
+  "time" : {
+    "start" : 1607547480050,
+    "stop" : 1607547481648,
+    "duration" : 1598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88830371c8193ed4",
+  "name" : "createdSpotsShouldHaveProperTitle",
+  "time" : {
+    "start" : 1607547594142,
+    "stop" : 1607547594143,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a0182bc6f68e71ed",
+  "name" : "verificationOfErrorMessageContent",
+  "time" : {
+    "start" : 1607547593795,
+    "stop" : 1607547593795,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e293f2dd14f05c45",
+  "name" : "clientShouldBeAbleToCreateAccount",
+  "time" : {
+    "start" : 1607547481651,
+    "stop" : 1607547490490,
+    "duration" : 8839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82e6f603d3043395",
+  "name" : "createdSpotsShouldHaveProperCoordinates",
+  "time" : {
+    "start" : 1607547594133,
+    "stop" : 1607547594133,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5a56ccccc11fcaf2",
+  "name" : "responseShouldHaveStatusCode400",
+  "time" : {
+    "start" : 1607547593782,
+    "stop" : 1607547593782,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2e35cb5df80cfcc8",
+  "name" : "createMapShouldHaveProperDescription",
+  "time" : {
+    "start" : 1607547592925,
+    "stop" : 1607547592925,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d42c07ff59b23ed5",
+  "name" : "responseShouldHaveErrorMessage",
+  "time" : {
+    "start" : 1607547593763,
+    "stop" : 1607547593763,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7ddd177ac5f477d0",
+  "name" : "modalShouldContainProperProductName",
+  "time" : {
+    "start" : 1607547472017,
+    "stop" : 1607547472114,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5568a344647f78d7",
+  "name" : "userShouldBeAbleToCreateMap",
+  "time" : {
+    "start" : 1607547592978,
+    "stop" : 1607547593760,
+    "duration" : 782
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31222effead4e7ad",
+  "name" : "modalShouldHaveMessageForSuccessfullyAddedProductToCart",
+  "time" : {
+    "start" : 1607547472117,
+    "stop" : 1607547472269,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ce2899510bb896c",
+  "name" : "createdMapShouldHaveId",
+  "time" : {
+    "start" : 1607547592936,
+    "stop" : 1607547592937,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4cdddedceac16b42",
+  "name" : "clientShouldBeAbleToCompleteOrder",
+  "time" : {
+    "start" : 1607547495989,
+    "stop" : 1607547498499,
+    "duration" : 2510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95b03c298a1f9e8",
+  "name" : "clientShouldBeAbleToAddProductToCard",
+  "time" : {
+    "start" : 1607547476942,
+    "stop" : 1607547478644,
+    "duration" : 1702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8328cd8d91fa58",
+  "name" : "userShouldBeAbleToCreateMap",
+  "time" : {
+    "start" : 1607547592477,
+    "stop" : 1607547592916,
+    "duration" : 439
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e05d9db681903fcf",
+  "name" : "clientShouldBeAbleToProceedToCheckout",
+  "time" : {
+    "start" : 1607547478649,
+    "stop" : 1607547479744,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "664cef60498d9bf0",
+  "name" : "modalShouldHaveVisibleProductInformation",
+  "time" : {
+    "start" : 1607547473766,
+    "stop" : 1607547474654,
+    "duration" : 888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31cfd5d2f8d7822",
+  "name" : "assureThatShoppingModalAppearsOnHomePage",
+  "time" : {
+    "start" : 1607547469362,
+    "stop" : 1607547471595,
+    "duration" : 2233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea15325ee32178b2",
+  "name" : "userMapListShouldNotContainDeletedMap",
+  "time" : {
+    "start" : 1607547595853,
+    "stop" : 1607547595854,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "791576306d68455e",
+  "name" : "clientShouldBeAbleToChoosePaymentByBankWire",
+  "time" : {
+    "start" : 1607547493542,
+    "stop" : 1607547495984,
+    "duration" : 2442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e30f5308b1770883",
+  "name" : "modalShouldHaveVisibleCurrentCartInformation",
+  "time" : {
+    "start" : 1607547472725,
+    "stop" : 1607547473762,
+    "duration" : 1037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a3971ae85a710a",
+  "name" : "userShouldBeAbleToDeleteMap",
+  "time" : {
+    "start" : 1607547595551,
+    "stop" : 1607547595849,
+    "duration" : 298
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "75e812547beedddd",
+  "name" : "spotShouldNotHaveUpdatedDescription",
+  "time" : {
+    "start" : 1607547594464,
+    "stop" : 1607547594464,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9ceef46bdd035ab7",
+  "name" : "modalShouldHaveProperLabelsForProductInformation",
+  "time" : {
+    "start" : 1607547472272,
+    "stop" : 1607547472723,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7f134160eacd5ff",
+  "name" : "clientShouldBeAbleToConsentForTermsOfService",
+  "time" : {
+    "start" : 1607547491934,
+    "stop" : 1607547493536,
+    "duration" : 1602
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eda12471ae024e7e",
+  "name" : "createMapShouldHaveProperTitle",
+  "time" : {
+    "start" : 1607547592931,
+    "stop" : 1607547592931,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f348078d0df7109a",
+  "name" : "userShouldBeAbleToUpdateSpot",
+  "time" : {
+    "start" : 1607547594457,
+    "stop" : 1607547594457,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3028372d8a67b59d",
+  "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+  "time" : {
+    "start" : 1607547594494,
+    "stop" : 1607547595536,
+    "duration" : 1042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c591f46f408b5324",
+  "name" : "testTheLoad()",
+  "time" : {
+    "start" : 1607547515190,
+    "stop" : 1607547573493,
+    "duration" : 58303
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fabe83230e6fea7",
+  "name" : "getToHomePageTest1()",
+  "time" : {
+    "start" : 1607547565151,
+    "stop" : 1607547572731,
+    "duration" : 7580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a7a70ec3b2d7145",
+  "name" : "spotShouldHaveUpdatedTitle",
+  "time" : {
+    "start" : 1607547594462,
+    "stop" : 1607547594462,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bcfc4313359939d",
+  "name" : "checkoutSummaryShouldHaveProperProductInfo",
+  "time" : {
+    "start" : 1607547479817,
+    "stop" : 1607547480046,
+    "duration" : 229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a02a2e7fcddc063",
+  "name" : "createdSpotsShouldHaveProperDescription",
+  "time" : {
+    "start" : 1607547594137,
+    "stop" : 1607547594138,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a50e3dc454173022",
+  "name" : "clientShouldBeAbleToVerifyDeliveryAndBillingAddress",
+  "time" : {
+    "start" : 1607547490572,
+    "stop" : 1607547491927,
+    "duration" : 1355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6972b2cf7d6f90a",
+  "name" : "assignCreatedMapIdToGlobalVariables",
+  "time" : {
+    "start" : 1607547592940,
+    "stop" : 1607547592940,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9941b871f096cdf8",
+  "name" : "userShouldAuthenticate",
+  "time" : {
+    "start" : 1607547586354,
+    "stop" : 1607547592306,
+    "duration" : 5952
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c95592ff8102c8d",
+  "name" : "spotShouldHaveUpdatedCoordinates",
+  "time" : {
+    "start" : 1607547594459,
+    "stop" : 1607547594459,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73291a791b270fb4",
+  "name" : "modalShouldContainProperAddedQuantityOfProduct",
+  "time" : {
+    "start" : 1607547471756,
+    "stop" : 1607547471913,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
