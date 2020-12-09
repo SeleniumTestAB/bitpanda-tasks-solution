@@ -1,0 +1,133 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "[Status code] \nExpecting:\n <401>\nto be equal to:\n <200>\nbut was not.",
+      "children" : [ {
+        "name" : "userShouldAuthenticate",
+        "uid" : "76cbacd727269a20",
+        "parentUid" : "56b8db96d8b2348549fe409369aca4e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607535582475,
+          "stop" : 1607535586781,
+          "duration" : 4306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56b8db96d8b2348549fe409369aca4e9"
+    }, {
+      "name" : "[Status code] \nExpecting:\n <403>\nto be equal to:\n <200>\nbut was not.",
+      "children" : [ {
+        "name" : "userShouldBeAbleToCreateMap",
+        "uid" : "69a059d6adcb039e",
+        "parentUid" : "9069f892d336de02c2c2c3cd40ddfdf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607535586913,
+          "stop" : 1607535587292,
+          "duration" : 379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userShouldBeAbleToCreateMap",
+        "uid" : "785696d01aee4028",
+        "parentUid" : "9069f892d336de02c2c2c3cd40ddfdf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607535587349,
+          "stop" : 1607535587489,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userShouldBeAbleToCreateSpotsOnMap",
+        "uid" : "f826c53e4e6b7941",
+        "parentUid" : "9069f892d336de02c2c2c3cd40ddfdf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607535587535,
+          "stop" : 1607535587690,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "userShouldBeAbleToDeleteMap",
+        "uid" : "949e2051613bc2ec",
+        "parentUid" : "9069f892d336de02c2c2c3cd40ddfdf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1607535588803,
+          "stop" : 1607535589064,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9069f892d336de02c2c2c3cd40ddfdf3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "assignAuthTokenToGlobalVariables",
+        "uid" : "e24ad5fd67bfe823",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607535586854,
+          "stop" : 1607535586854,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "assignCreatedMapIdToGlobalVariables",
+        "uid" : "625f2c195d64106d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607535587313,
+          "stop" : 1607535587314,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "Failed to parse the JSON document",
+      "children" : [ {
+        "name" : "findSpotForUpdate",
+        "uid" : "127aeac8c9ce1799",
+        "parentUid" : "fc7f07cc0ef2df35e1ee950e22ac3f8f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1607535587942,
+          "stop" : 1607535587942,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc7f07cc0ef2df35e1ee950e22ac3f8f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
