@@ -56,3 +56,22 @@ This Project's CI/CD is made with Github Actions
 - API_USER - user for api tests to authenticate
 - API_PASSWORD - password to authenticate to API to acquire token
 - isHEADLESS - to set UI tests in headless or no-headless mode
+
+## How to get report from test runs
+
+All the tests use Allure Framework as reporting tool. In order to generate report with it, one must first download and setup allure commandline.
+Information to how setup this commandline can be found on Allure's official documentation [here](https://docs.qameta.io/allure/) 
+in section **Installing a commandline** under *2.1.4. Manual installation*.
+
+Once it is setup up, one does need to be in project directory and run command
+
+```shell script
+$ allure serve [results_location]
+```
+for example
+
+```shell script
+$ allure serve ui-task/target/allure-results
+```
+
+_All results are placed in target folder in each module_

@@ -35,13 +35,13 @@
 							"type": "basic",
 							"basic": [
 								{
-									"key": "username",
-									"value": "{{user}}",
+									"key": "password",
+									"value": "{{password}}",
 									"type": "string"
 								},
 								{
-									"key": "password",
-									"value": "",
+									"key": "username",
+									"value": "{{user}}",
 									"type": "string"
 								}
 							]
@@ -658,6 +658,38 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "get_spots_from_all_maps",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{auth_token}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "X-AUTH-TOKEN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/spots",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"spots"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"protocolProfileBehavior": {}
@@ -691,28 +723,33 @@
 	],
 	"variable": [
 		{
-			"id": "95cfb7ca-3d16-4c80-97ae-141c351c9230",
+			"id": "fbd45ed2-d5cc-4a2b-ada1-c45c715d5070",
 			"key": "auth_token",
 			"value": ""
 		},
 		{
-			"id": "0df96ec4-5a98-4772-a2cf-35d4aa20e013",
+			"id": "9b8ca5dc-6461-45ce-8c6f-b5672608e812",
 			"key": "base_url",
 			"value": "https://uebermaps.com/api/v2"
 		},
 		{
-			"id": "4a308327-d477-4dac-b109-413aa61ee7cd",
+			"id": "88612e0f-498a-45c4-bd8f-f3e37cede7b6",
 			"key": "user",
 			"value": ""
 		},
 		{
-			"id": "731da9a7-11f1-47d1-b41b-7e70427ad08e",
+			"id": "9e4e09fc-afaa-4d92-970d-1a9ca643683b",
 			"key": "createSpotBody",
 			"value": ""
 		},
 		{
-			"id": "d79be5f0-7f88-4aab-9c17-64b964a766d3",
+			"id": "87e24eee-4f55-47fd-b28c-359238330beb",
 			"key": "current_spot_title",
+			"value": ""
+		},
+		{
+			"id": "ff2f68bb-26ba-4b9a-8fc1-d18e52f2b7c3",
+			"key": "password",
 			"value": ""
 		}
 	],
