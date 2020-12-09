@@ -1,0 +1,165 @@
+{
+  "uid" : "ac8c5cc60d3f5df1",
+  "name" : "userMapListShouldNotContainDeletedMap",
+  "fullName" : "com.example.api.task.solution.map.MapDeleteTest.userMapListShouldNotContainDeletedMap",
+  "historyId" : "e130ccfcecc488e1dba28737fcddee78",
+  "time" : {
+    "start" : 1607546332292,
+    "stop" : 1607546332293,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@7c853486] depends on not successfully finished methods",
+  "statusTrace" : "java.lang.Throwable: Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@7c853486] depends on not successfully finished methods\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\n\tat org.testng.TestNG.run(TestNG.java:1007)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userMapListShouldNotContainDeletedMap"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Delete map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.map.MapDeleteTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az76-468"
+  }, {
+    "name" : "thread",
+    "value" : "12106@fv-az76-468.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 10,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "629ac8e7800b5ee9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/35//#testresult/629ac8e7800b5ee9",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@5432c277] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607545240444,
+          "stop" : 1607545240444,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4d5a85e0894ee30b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/34//#testresult/4d5a85e0894ee30b",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@76f856a8] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543732830,
+          "stop" : 1607543732830,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c90ab579d315c130",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/33//#testresult/c90ab579d315c130",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@f446158] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607543166064,
+          "stop" : 1607543166064,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5a9bbd5b0ac4cda9",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/32//#testresult/5a9bbd5b0ac4cda9",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@69e05f61] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607542690135,
+          "stop" : 1607542690136,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "8f94a4e1371c6f9d",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/31//#testresult/8f94a4e1371c6f9d",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@7063686f] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607541346753,
+          "stop" : 1607541346753,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "edcbb69c7e6a16ae",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/30//#testresult/edcbb69c7e6a16ae",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@1639f93a] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607540831739,
+          "stop" : 1607540831739,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "88f1387ec0776d0b",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/28//#testresult/88f1387ec0776d0b",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@18ac53e8] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607536785232,
+          "stop" : 1607536785233,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "d83071f9e5bbc292",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/d83071f9e5bbc292",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@409986fe] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607535589066,
+          "stop" : 1607535589066,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5498dc196df82eb1",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/24//#testresult/5498dc196df82eb1",
+        "status" : "skipped",
+        "statusDetails" : "Method MapDeleteTest.userMapListShouldNotContainDeletedMap()[pri:0, instance:com.example.api.task.solution.map.MapDeleteTest@730e5763] depends on not successfully finished methods",
+        "time" : {
+          "start" : 1607530918164,
+          "stop" : 1607530918168,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ac8c5cc60d3f5df1.json",
+  "parameterValues" : [ ]
+}
