@@ -1,0 +1,284 @@
+{
+  "uid" : "dd89478a55f303f0",
+  "name" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+  "fullName" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest.userShouldBeAbleToGetSpotsFromAllOwnedMaps",
+  "historyId" : "d40fadc6af8d4c30e4817b5c3cd8e41",
+  "time" : {
+    "start" : 1607536783679,
+    "stop" : 1607536784587,
+    "duration" : 908
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@22b1807b'",
+      "time" : {
+        "start" : 1607536783982,
+        "stop" : 1607536783982,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607536783983,
+          "stop" : 1607536783983,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat '200'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Status code []'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Status code'",
+        "time" : {
+          "start" : 1607536783983,
+          "stop" : 1607536783983,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isEqualTo '200'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assertThat 'io.restassured.internal.RestAssuredResponseImpl@22b1807b'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as 'Request response []'",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "describedAs 'Request response'",
+        "time" : {
+          "start" : 1607536783983,
+          "stop" : 1607536783983,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "isNotNull",
+      "time" : {
+        "start" : 1607536783983,
+        "stop" : 1607536783983,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c845f11bc2dc8cb",
+      "name" : "Request",
+      "source" : "c845f11bc2dc8cb.html",
+      "type" : "text/html",
+      "size" : 203
+    }, {
+      "uid" : "4169ddfa2ba9043b",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "4169ddfa2ba9043b.html",
+      "type" : "text/html",
+      "size" : 913
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userShouldBeAbleToGetSpotsFromAllOwnedMaps"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Api Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Get every spot from every owned map"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.example.api.task.solution.spot.GetSpotsFromAllMapsTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az29-450"
+  }, {
+    "name" : "thread",
+    "value" : "12078@fv-az29-450.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8876a73ed468abf5",
+        "reportUrl" : "https://SeleniumTestAB.github.io/bitpanda-tasks-solution/27//#testresult/8876a73ed468abf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1607535588009,
+          "stop" : 1607535588786,
+          "duration" : 777
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dd89478a55f303f0.json",
+  "parameterValues" : [ ]
+}
